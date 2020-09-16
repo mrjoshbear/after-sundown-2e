@@ -1,5 +1,4 @@
-
-# After Sundown: An Introduction
+# What is After Sundown
 _To write a story together, everyone must be on the same page._
 
 One of the primary purposes of a cooperative storytelling game is to provide a foundation upon which stories can be told. The other is to provide a framework by which disagreements about how a story should progress can be worked out in an acceptably impartial fashion.
@@ -9,8 +8,6 @@ The setting of After Sundown is a world like our own would be if horror fiction 
 ## What is a Role Playing Game
 
 TK
-
-Not only must we make explicit what appears on the player's side, we also need to decide ahead of time what is around, supernaturally speaking in the world. Many people protest this. If they want to have unicorns show up for a storyline, why shouldn't they, as the MC, just do that? The answer is that in a cooperative storytelling game, the players need some sort of ground state to tell their own back stories and to make plans for future intrigue. Whether or not the character knows that such and such a creature exists or such and such a world spanning organization is up to its evil schemes, the player needs to at the very least have access to that information. And while it may seem like that would spoil surprises - and it does sometimes - in a much more important way it prevents narrative dissonance. Narrative dissonance appears in cooperative storytelling games much the way continuity errors appear in horror films. And while it is certainly jarring to watch the part in Leprechaun where they drive off in the second car despite the fact that they had earlier lamented being stranded when the first car wouldn't start - it is still a movie and thus the plot (such as it is) just keeps rolling along whether you notice the discrepancy or not. In a cooperative storytelling game however, such an event would just crash everything to a halt. The players and the MC would have to sit down and work something out, because they are all imagining the world together and there is no "next scene" until everyone gets their imaginations working together.
 
 ## What is Horror
 
@@ -25,7 +22,7 @@ It is important to note that you can't take everything from myth and legend and 
 
 So we're paring things down. A lot. We don't have, need, or even want a bajillion clans of vampires, or fifteen tribes of werewolves. There should be few enough flavors of things that all the players can remember what the differences between them are. Ideally, people should be able to play whatever supernatural guys they want, sort of like the [League of Extraordinary Gentlemen](https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen); but in practice you have to put explicit limitations on what is part of the story or things get all weird. Like with Martian invasions and stuff, what was up with that? A story that doesn't have specific exclusions does not truly have any specific inclusions. It's not really a story at all at that point, it's a mess.
 
-The base concept for After Sundown is that you are roleplaying a classic Universal Studios Monster and you engage in narrative driven dramatic role playing of both horror and intrigue. The Universal Horror Films were, if not documentaries, at least "dramatic reenactments" of real events in the shared world you will be telling stories in. [The Invisible Man](http://www.imdb.com/title/tt0024184/), [The Wolfman](http://www.imdb.com/title/tt0034398/), [The Creature from the Black Lagoon](http://www.imdb.com/title/tt0046876/), and of course [Dracula](http://www.imdb.com/title/tt0021814/) were all real people, and the player characters can be creatures like them. And the players in After Sundown can use monster movies old and new for inspiration. But remember that the monsters in every piece of fiction are different, and that while you are telling stories After Sundown that it is the descriptions of monsters _in this book_ that break ties. Werewolves can transform voluntarily when the moon isn't full, Golems resist fire, and Vampires do not sparkle. Not because these creatures are like this in every movie, but because that is how they are in the stories told with the After Sundown cooperative storytelling game.
+The base concept for After Sundown is that you are roleplaying a classic Universal Studios Monster and you engage in narrative driven dramatic role playing of both horror and intrigue. The Universal Horror Films were, if not documentaries, at least "dramatic reenactments" of real events in the shared world you will be telling stories in. [The Invisible Man](http://www.imdb.com/title/tt0024184/), [The Wolfman](http://www.imdb.com/title/tt0034398/), [The Creature from the Black Lagoon](http://www.imdb.com/title/tt0046876/), and of course [Dracula](http://www.imdb.com/title/tt0021814/) were all real people, and the player characters can be creatures like them. And the players in After Sundown can use monster movies old and new for inspiration. But remember that the monsters in every piece of fiction are different, and that while you are telling stories with After Sundown that it is the descriptions of monsters _in this book_ that break ties. Werewolves can transform voluntarily when the moon isn't full and Vampires do not cast fire in the sun. Not because these creatures are like this in every movie, but because that is how they are in the stories told with the After Sundown cooperative storytelling game.
 
 ## Things You Need To Play
 _"Assuming flippant things like 'food, water, and shelter' are out of the way."_
@@ -40,7 +37,7 @@ Further, character advancement normally uses draws from a deck of cards (either 
 
 Since you're going to be telling cooperative stories, you'll want some way to get diagrams across to the other players. This can be done with an erasable mat, or a dry erase board, or a pad of paper in the middle of a table. But it can also be done by sketching things on a computer, provided the screen is large enough for everyone to see.
 
-After Sundown can also be played over the Internet by players who each have a computer. You can roll real dice and report the results over Internet chat (text or video), or you can use various automatic dice rollers. You'll still want an equal number of players, but they need not be in the same city or even country as one another.
+After Sundown can also be played over the Internet by players who each have a computer. You can roll real dice and report the results over Internet chat (text or video), or you can use various automatic dice rollers. You'll still want the same number of players, but they need not be in the same city or even country as one another.
 
 ## The Role of the MC
 _"Someone has to have the last word."_

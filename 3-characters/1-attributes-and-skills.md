@@ -24,26 +24,34 @@ The primary purpose of basic attributes is to set the dicepools for actions. A c
 
 An important thing that Edge also does is that it adds to Resistance Rolls. Whenever an ability says that the target resists with their Strength or Willpower (or whatever) you can assume that it means "plus Edge if the target is a Luminary and actually has an Edge stat", sort-of as if it were a Skill for generally resisting harm and other unwanted effects.
 
-Every two points of Edge a character has increases the absolute maximum they can raise their skills to during play. While characters start with skill ratings of 6 or less, a character with an Edge of 2 or 3 can eventually raise them to 7, while a character with an Edge of 4 or 5 could raise their skills to 8. A character with an Edge of 6 can potentially get a skill of 9. Six is the maximum Edge for any character (regardless of Potency, as it is a special attribute). 
+Every two points of Edge a character has increases the absolute maximum they can raise their skills to during play. While characters start with skill ratings of 6 or less, a character with an Edge of 2 or 3 can eventually raise them to 7, while a character with an Edge of 4 or 5 could raise their skills to 8. A character with an Edge of 6 can potentially get a skill of 9. Six is the maximum Edge for any character (regardless of Potency, as it is a special attribute).
 
-**Fate** is a measure of the fluid benefit Edge provides until it runs out. You can spend it in a few ways
+**Fate** is a measure of the fluid benefit Edge provides until it runs out. You can spend it in a few ways:
 
 * You can reroll all the dice on a test that didn't get a hit.
 * You can add a number of extra dice to a test equal to your Edge score. If penalties would reduce your normal dice pool to zero or less then you can spend an Edge to try anyway with dice equal to your Edge score.
 * You can dodge out of the way of an attack or other danger without using your action, or after you've already acted in a round.
 * You can "escape" an otherwise lethal situation in a narratively appropriate way. At this point you are having fate intervene to save you in a narratively plausible fashion. This will require a negotiation of some kind with the MC to determine what is plausible under the circumstances. Maybe it's the police showing up before the Trolls have the opportunity to put the boot in, maybe it's the floor collapsing and dumping your comatose character into the basement before the flames have an opportunity to burn them to death. It is advisable that a character being saved in such a manner be inconvenienced in some fashion. It's intended as a last ditch save-your-ass moment, not something to be smugly relied upon.
 
-Fate refreshes between chronicles. You do not have to spend Fate to get bonus dice Edge provides when soaking a stab wound or resisting mental domination - the extra Edge dice for Resistance Tests are automatic and free. 
+Fate refreshes between chronicles or when you make progress on a Driving Goal. You do not have to spend Fate to get bonus dice Edge provides when soaking a stab wound or resisting mental domination - the extra Edge dice for Resistance Tests are automatic and free. 
 
 **Potency** When a character's powers increase they may get a special attribute called _Potency_. A character's Potency is added to the _maximum_ (but not necessarily the actual value) of each of their Physical, Mental, and Social attributes, and every point of Potency increases their maximum Power Points by 3. Normal humans have a Potency of zero. Some spawn and other weak supernatural creatures (such as Mirror Goblins) have a Potency of one. Starting supernatural creatures of a playable type such as Vampires or Witches have a Potency of 2. This rating gradually rises as the creature ages and grows in eldritch power, and can rise quite abruptly by slaying powerful elders [Highlander](http://www.imdb.com/title/tt0091203/) style, or by attuning to powerful artifacts, completing mighty rituals of vast power, or otherwise reaching the kinds of breakpoints in a story in which a monster might become nearly unstoppable. The most powerful named characters in the setting (such as The King with Three Shadows or Echidna) have a Potency of 10, and player characters can expect to have a Potency much, much lower than that.
 
-Potency limits the Powers that a character has access to. With potency 1 character has access to only Basic Powers. A Potency of 2 or higher grants access to Advanced powers. A with a potency of 3 or more comes access to Elder abilities, which would otherwise be limited to great and terrible ritual or myth.
+Potency limits the Powers that a character has access to. With potency 1 character has access to only Basic Powers. A Potency of 2 or higher grants access to Advanced powers. With a potency of 3 or more comes access to Elder powers, which would otherwise be limited to great and terrible ritual or myth. Most characters are limited to no more than one Elder power per additional point of Potency.
 
 Such power has its price. Any character with a Potency of 1 or greater (and some that don't) are ruled by a Master Passion, an emotional flaw that subjects them to uncontrollable frenzy. Each additional point of Potency deepens this price by requiring a Disadvantage, starting with the Distinctive Flaw of their particular type, and from there usually developing in related but individualistic ways.
 
 _Genevra is a Vampire with Potency 1. This means that her **maximum** value for raising her Agility, Willpower, and other attributes is 7. Six maximum for having started as a human, plus her Potency of 1. Her maximum Power Reserve is 13 (10 + 3*1)._
 
-**Power Points** in After Sundown are a special attribute similar to Fate. Power Points are generally spent to activate specific supernatural abilities that a character might have. Power Points by themselves do not refresh. Characters will have things to do with their Power Points and ways to refresh it if they are a supernatural creature, called their Power Schedule. Characters have a **maximum** Power at any given time of 7 points plus 3 points per point of Potency. This means that most player characters (who have a Potency of 1) will have their Power Reserve fill up at 13. Mortals and other Potency 0 creatures have a Power Point maximum of 10, but likely have no ability or reason to acquire Power Points.
+| Potency | Power Points | Attribute Max | Power Limit | Consequences |
+|--------:|-------------:|--------------:|:------------|:-------------|
+|       - |            0 |             9 | none        | none         |
+|       1 |           10 |            10 | Basic       | Master Passion |
+|       2 |           13 |            11 | Advanced    | Master Passsion and Distinctive Flaw |
+|       3 |           16 |            12 | Elder       | Master Passion, Distinctive Flaw, and 1 additional Disadvantage |
+|      +1 |           +3 |            +1 | Elder       | +1 additional Disadvantage |
+
+**Power Points** in After Sundown are a special fluid attribute similar to Fate. Power Points are generally spent to activate specific supernatural abilities that a character might have. Power Points by themselves do not refresh. Characters will have things to do with their Power Points and ways to refresh it if they are a supernatural creature, called their Power Schedule. Characters have a **maximum** Power at any given time of 7 points plus 3 points per point of Potency. This means that most player characters (who have a Potency of 1) will have their Power Reserve fill up at 13. Mortals and other Potency 0 creatures have a Power Point maximum of 10, but likely have no ability or reason to acquire Power Points.
 
 _Example: Genevra is a Vampire with the Quickness ability from the Power of Celerity. As a vampire, she has the Vigor ability from the Clout discipline, and can spend Power Points to increase her Strength for a scene. In addition, she can spend a Power Point to take extra actions during a scene with her Celerity discipline. Because she is a vampire, she can refresh her Power Points by drinking blood from other people._
 
@@ -258,6 +266,14 @@ It is frequently important for purposes of socialization whether or not characte
 
 It is up to the MC to determine what constitutes an acceptable Background for the campaign. In general however, it is better to err on the side of Backgrounds that are too useful than ones that are too narrow. While it _is_ overpowered for a character to have a Background that applies in virtually (or actually) all circumstances like "Stuff" or "Trivia", the worst thing that's going to happen under such a circumstance is that the player is going to roleplay a lot and move the plot forward. That's not fair to the other characters (unless they are doing the same), but that's still better than the players feeling powerless and having the story stagnate.
 
+### Languages
+
+Languages work much like Backgrounds and can be used just like them in many cases; if you know French you can at least practice with someone else that knows French, and at higher levels you've probably read some of the same authors, watched the same shows, or listened to the same speeches, because those are the things that are used to teach languages. A single point in a language is enough to generally get by with a dictionary, the level possessed by a skilled traveler or an academic working through scholarly articles. Two points is broad fluency, and three is near-native level. A rating of 4 or more represents broad general learning in the spoken and literary culture of a language.
+
+Effectively, the character's effective rating in other Social skills and Backgrounds is limited by the language they converse or write in: they have all of the eloquence imparted by their Persuasion and Backgrounds with their native language, and otherwise their effective rating is limited to _twice_ their rating in the language they are using, so 3 points is generally enough unless you're pushing the human limits of a skill.
+
+Language Backgrounds allow the character to know that language personally. A character does not specifically need to know a language in order to get something translated. The ability to conjure up simple phrases such as "¿Donde está el baño?" or "Lehněte a svlekněte se prosím." is free. Some time with an automated translation can get you a humorously inaccurate translation of many pieces of text (especially short text). And given some time, many Contacts or Intelligence Resources can translate specific languages on your behalf.
+
 ### Sample Backgrounds
 _Trust me, I've seen stuff like this before._
 
@@ -265,12 +281,30 @@ The completely open ended nature of Backgrounds can be paralyzing when it comes 
 
 ### Social Backgrounds
 
-TK at least 5 examples
+Support Groups: Harley did not have an easy childhood and that lead into a messy young adulthood and a lot of legally mandated treatment represented by the Support Groups Background. After hearing kids talking about an addict missing from their neighborhood, Harley's player thinks to go find the nearest church basement and check in with the group leaders to see if they know the person. After taking some time to figure out what groups the person attended (Intuition + Support Groups) she gets them to open up and break anonymity to give her some leads. When she needs a place to lay low for a while or just find new friends in a city she heads there to chat people up with Friendly Banter (Charisma + Support Groups).
+
+Truckin': Jack spends a lot of time on the road and on the radio talkin' to other truckers, and this is represented by his Truckin Background. This means that he has an encyclopedic knowledge of rest stops all up and down the 101. So when he gets a time frame for when the van presumably lightened its load, he can make a very accurate guess (Logic + Truckin) about where to start looking for the bodies. When he is listening to someone's description of their journey to Walnut Creek, he notices (Intuition + Truckin) a discrepancy in their story.
+
+Bar Scene: Dean goes out drinking frequently to attempt to forget the hole in his soul, and this justifies his Bar Scene Background. The team needs a decoy, so Dean goes off to the roadhouse to go pick up an extra woman for that purpose (Willpower + Bar Scene). Later on, they need to track down a fishy poker game, so he asks around (Charisma + Bar Scene).
+
+Kink Scene: Mr. Eaten's main social outings are to kink events, where he can easily go by an alias and cameras are carefully limited. When looking for appropriate prey he watches how people react to scenes (Intuition + Kink Scene) to see if they might be amenable to his tastes. When moving in to converse with a likely candidate (Charisma + Kink Scene) his understanding of the customs and protocols of the scene make things go smoothly.
 
 ### Academic Backgrounds
 
-TK at least 5 examples
+Psychiatry: Harley was an accomplished psychiatrist before her transformation, and thus it is reasonable for her to have the Psychiatry background. After interviewing a man that witnessed a Poltergeist attack she needs to throw the police off the trail. So Marionette throws out a plausible sounding Psychiatric explanation for the cops to eat up and spread as rumor (Willpower + Psychiatry). Later when she's trying to understand the trauma of a Wraith her (Intuition + Empathy) test has a very low Threshold.
+
+Cars and Trucks: Jack knows all about things on the roads. So when it comes time to research up the DMV registration on the kidnappers' van, Jack grabs it and gets an answer for certain, because he knows that he is looking for a 2005 Charcoal Dodge Sprinter. But later on, he reaches for something to talk to the guys at Pizza Hog about, and cars seems like as good a topic as any. And since there are some other gear heads, it works out and he uses it as a Friendly Banter (Charisma + Cars and Trucks) platform.
+
+Ballistics: Dean may not seem that bright, but he does know his way around firearms, and this interest is represented by his Ballistics Background. Not only can he talk for hours to gun enthusiasts about caliber and grains, but he can perform the kind of scientific forensic investigation that a ballistics expert might be called upon for. When he picks up the supposed murder weapon, he immediately notices (Intuition + Ballistics) that something is wrong because the armor piercing bullets in the magazine should have exit wounds on the corpse. Later he measures out the probable point of origin from the bullets and gets a fix on the shooter's location (Logic + Ballistics). And when they have the specs on the enchanted rifle and Dean wants to look up what kind of weapon they are dealing with, he just does it because his Background knowledge pushes the Research threshold down to zero.
+
+Fire Investigation: since he uses fire magic Mr. Eaten has been cramming information on how arsons and other fires are investigated, although he's only picked up a little so far. After using his powers to incinerate a target he tries to clean up the scene and his basic knowledge means that he has a standard threshold to cover up evidence (Logic + Sabotage).
 
 ### Occult Backgrounds
 
-TK at least 5 examples
+Joker Gang: Harley spent a long time as a lieutenant to a boss that terrorized Gotham which amounts to her Joker Gang background. When she needs some explosives she calls up an old friend to get them (Charisma + Joker Gang), and when reports come in of a "vault heist" come in she is able to go through the details and identify it as a feint (Logic + Joker Gang) because she knows how to break into a vault and what people are looking for in them. 
+
+Chinese Monsters: Jack has put up with a lot of bullshit from the Eastern wing of the Shattered Empire, and he knows his long haired ghosts from his thundering witches. During the investigations, he meets up with The Peach Lady, and needing something to talk about, he reaches for supernatural stuff from her homeland. This is an acceptable form of Friendly Banter (Charisma + Chinese Monsters), and seemingly gets the immortal beauty to open up to him. Later on, he comes face to face with an Asian Leviathan and identifies it as such (Logic + Chinese Monsters).
+
+Hell Mouths: Dean has been in and out of the Dark Reflection many times, and this is reflected in his Hell Mouths Background. As they are searching the house, Dean notices (Intuition + Hell Mouths) that the bathroom mirror has been used as a portal, and fairly recently by the ashen smell. When the team finds itself outside the Iron Tower, Dean falls on his knowledge of hell mouth locations to plan a route back to the mortal world (Logic + Hell Mouths).
+
+Midwest Communes Operations: Mr. Eaten 
