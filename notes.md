@@ -1,5 +1,3 @@
-Missing Places: Tokyo, Delhi, Shanghai, Sao Paulo, Dehli, Mumbai, Beijing, Los Angeles, Moscow, Toronto, Singapore, Khartoum, Lagos, Cassablanca, Sydney, Honolulu
-
 # Skills notes
 
 "I like how (according to factor analysis) the modern quadrivium is culture, medicine, international politics, and computers."
@@ -7,22 +5,10 @@ https://candleprism.tumblr.com/post/626323382551592960/multifactor-general-knowl
 
 # Rules not to miss
 
-Supernatural creatures have the same power sources, and they are inherently resistant to  sorceries with the same power source as themselves (gaining a +3 bonus to any resistance test they are allowed).
-
-# New Flaws
-
-Phobia: resist a 2-hit Repel when confronted with the object of your phobia
-
-Craven: easily cowed? Vulnerable to intimidation
-
-Sensitive: one of your senses is easily overwhelmed and always subject to Overstimulation; most commonly sensitivity to bright lights
-
-Lunacy - mood shifts with phases of the moon
 
 # Resources
 
 Arsenal
-Backup
 Lair
 
 
@@ -73,51 +59,21 @@ Many people tend to walk at about 1.4 metres per second (5.0 km/h; 3.1 mph; 4.6 
 
 The record was 44.72 km/h (27.78 mph), measured between meter 60 and meter 80 of the 100 meters sprint of the World Championships in Berlin on 16 August 2009 by Usain Bolt.[4][5] (Bolt's average speed over the course of this race was 37.58 km/h or 23.35 mph.)[6] Maximum human sprint speed is strikingly slower than that of many animals. Compared to other land animals, humans are exceptionally capable of endurance, but incapable of great speed.[7] Examples of animals with higher sprinting speeds include cheetahs which can attain short bursts of speed well over 100 km/h (62 mph),[8] the American quarter horse has topped 88 km/h (55 mph),[9] greyhounds can reach 70 km/h (43 mph), and the Mongolian wild ass has been measured at 64 km/h (40 mph).[10] Even the domestic cat may reach 48 km/h (30 mph).[10]
 
-
-
-
-Here's some highlights so far:
- * Potency is shit
- * Hiding is nonsense
- * Combat is rocket tag. I didn't even cover it at the time because Monsters hadn't been talked about yet, but two players in the same party are almost guaranteed to have wildly different Soak values, so creating encounters that are appropriate to a group is terrible.
- * The skills chapter is like 50% innuendo about what skills should do without concrete examples.
- * Backgrounds are nonsense
- * World demographics unclear
- * Needs better examples of what you'd want do to and why you'd want to do it. (yes I know there's a chapter called Character Options and Motivation that I've yet to get to. Spoilers: Estas malpli instiganta ol oni esperus.) 
-
-
-There's rules for diving into cover, parting attacks, intercepting parting attacks... When you intercept a parting attack, "The threshold to strike the new target is unchanged.", and the threshold is 0 to hit someone fleeing and "non zero" to hit someone who's defending. So, I don't know which of those it's unchanged compared to. 
-
-  Here's a fun fact, when I first used these rules, one player tried to throw a smoke grenade around another player. He got his attack off and all, and the grenade landed right where it should have. And then enemies went to shoot at that player. So, the player is in smoke "now", do they get the cover? I dunno. I mean there's no cover to dive for, they're already in cover. Does the player that threw the grenade roll the dive for cover check to see if they threw the grenade before the shots went off? Just a little gap in the rules that came up. Not even a thing you could predict would need to be in the rules ahead of time probably. 
+## Hiding
 
 There are hiding rules and I can't even parse them. "The way this works is that the seeker announces how long they are going to look in an area and makes an Intuition + Perception test. The hider makes an Intuition + Stealth test to determine how long the base time to find them would be, and that time is divided by the hits on the Seeker's Perception test to determine how long it would actually take them to find the hiding character." What? I'm not sure how you convert hider hits into a time (presumably using the time chart somehow). Then once you do that the time you get is divided into the base time based on how big the seeking zone is, which gives you the... I don't even know. Maybe it actually is a functional rule when you wargame it, but I don't know how to attempt to wargame it because there isn't a play example. There's a play example of how Potency affects your max stats, the most obvious thing in the world, but not for the most complexly written rule in the book. 
 
+## Vehicles
 
 There's some vehicle rules, but just their speeds really. Hints about how to resolve shooting at a vehicle, or smash a car into a zombie, or things like that, none of those are there. Also the speeds are once again in moon speeds so I'd have to go get a conversion chart because I'm an Imperial dummy.  
 
+## Wounds
 
 Wounds are next, even though they should really be closer to the "attacking" section. Like, immediately after the attacking section. So there's a geometric conversion chart, and the net wound level after soak determines how many boxes you fill in (0=>1, 1=>3, 2=>6, 3=>10, more=>all your boxes and you're bleeding to death). Also you always have 10 boxes. So, good enough, but kinda rocket tag. You might usually get 3 hits on soaking, but in a dice pool system you seriously might just get no hits at all, and then you're fucked cause that's all your boxes right there. Now, in an errata the thresholds were all bumped by +1, but still, you can be fine a few hits and then explode suddenly. Indomitability (one of the magic powers later) says that people with it "don't go unconscious" before you die. Incapacitated says that you might or might not be conscious... so is a heavily injured vampire Incapacitated but just always for sure still conscious? Or are they not even Incapacitated? Or what the hell is going on there? 
-
-Special ammo in shotguns can let them dispel magic from very far off, but it doesn't say if an auto-shotgun can get its +3 dice to the dispelling. Pretty cool if so. 
-
-
-There's Crossbows, but not Bows. What the hell is up with that part. 
-
-Oh, yeah, and you can get silencers, but they only work for "five shots", which probably means five attack rolls, but it's hard to know since it's not one bullet per attack roll. Either way they should probably last more like hundreds of shots at minimum. I only know what a quick googling tells me, but "five" seems pretty fake. Also they "reduce" the noise, but in a sort of vague and unspecified way. It's not like, "+2 threshold to hear the shot". In fact there are no specific rules for hearing gunshots at various ranges anyway. Which normally I wouldn't mind, if you just forgot about the issue entirely, but when you've put in a paragraph on silencers you've obviously considered the issue and then dropped half of it. 
-
-Throwing Things is easy to understand, as is Damage Over Time. Then we get to Other Hazards which means Falling, Shock, and Poison. You might expect "fires" to be in there too, but that's covered as a DOT. Really, DOT should probably have two or three times as many examples as it does. Falling is easy to remember (even the chart is easy to remember), and Electrocution is also easy to remember. Poison is... less easy. It's one of those "big random chart" types of deals. 
-
-So poison is a DOT, but it also has a Timer that will eventually run out, and then when you take extra doses you either bump up the timer or you leave it alone and cut the delay. And then poison counters can either cut the Timer value or increase the Delay value. And then once at least one box of damage has been inflicted, most poisons have a secondary effect that triggers. It's not even hard to resolve exactly, it's just a lot of fiddly numbers, and like half the monsters are immune to poisons, which means that you'll learn these rules relatively rarely probably, and then you'll probably have to look it up each time. 
-
-I'd love to see Sabotage merged with Rigging and then a Science skill added into the game. Specializations like Physics, Biology, Archeology, etc. You don't fight with a Soldier background, so you probably shouldn't do sciency things with just a science background. A science related background would be that you work at a university and have accreditation and stuff like that. And, of course, you might even be some sort of hack professor where you have a background but not enough science skill ranks to actually back it up. 
-
-I've played in a game with a Perception stat but not a "notice things" skill on top of it (Earthdawn 1e) and it's dumb feeling most of the time. If Perception becomes a stat in place of some other stat, you'll just need an Awareness skill in its place. You're just repainting a bikeshed at that point I think, unless it's part of some larger design revolution. 
-
 
 # Cut bits to reuse:
 
 ## Organization of the Damned
-
 
 The Covenant maintains a number of parallel hierarchies in addition to the primary one. Rather than being a bishop or priest (which is regional), one could be Apostolic Exarch (which governs a region that is not under Covenant Control), a Military Ordinal (which handles defense of the order regardless of location), or a Palatine (which is organizational and has personnel but no fixed territory). All of these titles carry approximately the same weight as Bishop. The Covenant also recognizes some of its members as "saints". Once a Covenant member has descended into sainthood they carry a status that _cannot be taken away_, which essentially allows them to speak and be listened to on any issue by any church conclave at any organizational level. Since the membership of the Covenant are supernatural in nature, the requirements of miraculous activities is entirely a formality and being recognized by the Anti-Pope as a Saint is entirely political. Saints are given spiffy blood red uniforms when they serve in any official capacity and are thence known as Sanguines regardless of their rank or duties.
 

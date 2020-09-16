@@ -3,16 +3,16 @@ _There are places I want to be, places I want to see, far away from here, nowher
 
 The second most defining action in combat (after attacking) is people endeavoring to not be part of the combat. And while that often involves _hiding_ the other possibility is _running_. 12 seconds is actually kind of a long time, and characters can move quite substantial distances in those periods. It's long enough for someone who is very good at that sort of thing to run a hundred meters and then change the magazine on an M-16 (seriously). But if you actually watch horror movies (or even documentaries, not that they are better source material for After Sundown), you'll note that people actually spend many 12 second periods without covering that much ground. In part, this is because the high end of speeds that people are capable of frequently take a fair amount of time to get started, and partly this is because running off at full speed without knowing where you are going is often suicidal.
 
-| Movement Type       | Meters/round | Feet/round | Penalty |
-|:--------------------|:------------:|:----------:|:-------:|
-| **S**low Search     | 4m           | 15ft       | -0      |
-| **C**areful Walk    | 10m          | 30ft       | -0      |
-| **O**rdinary Walk   | 18m          | 60ft       | -2      |
-| **R**apid Jog       | 27m          | 90ft       | -3\*    |
-| **E**xhausting Run  | 60m          | 200ft      | -4\*    |
-| **D**raining Sprint | 100m         | 330ft      | -6      |
-
-\* Close Combat attacks don't take this penalty.
+| Pace    | /Round |  /Hour | Penalty | Notes/Ref |
+|:--------|-------:|-------:|:-------:|:----------|
+| Crawl   |    4 m |   1 km |      -0 | Can move while supine |
+| Careful |   10 m |   2 km |      -0 | A slow, careful walking pace keeping alert to surroundings |
+| Walk    |   16 m |   5 km |      -1 | Ordinary walking/hiking pace |
+| Jog     |   25 m |   8 km |      -3 | Charge attack possible |
+| Run     |   50 m |  15 km |      -4 | Charge attack possible |
+| Sprint  |  120 m |  40 km |      -6 | Max human pace; only sustainable with Indomitability |
+| Gallop  |  250 m |  80 km |      -7 | Inhuman speed, comparable to an American Quarterhorse gallop, easy for a cheetah |
+| Motor   |  500 m | 160 km |      -8 | Inhuman speed, comparable to a sport motorcycle on a straight |
 
 In general, a character declares their intention to move before any actions are taken, and characters can take their actions as if they or their targets were where they were at any point during the turn. 12 seconds is a long time, so if someone is moving around a corner or into view it is reasonable that some number of bullets went towards them while they were in the open. For exceptions to this, see Taking One For the Team and Diving For Cover. Often it won't really matter, but characters with the lowest Initiative Score declare their movement first.
 

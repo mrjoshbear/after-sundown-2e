@@ -77,7 +77,7 @@
     6. Paris
     7. Prague
     8. San Francisco
-13.
+13. Exempli Gratia: A Treasury of Horrors
     1. Persona Non Grata: Sample Characters
     2. Things that Go Bump in the Night: Antagonists
     3. Places of Power

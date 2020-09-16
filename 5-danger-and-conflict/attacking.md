@@ -7,23 +7,24 @@ An attack is usually resolved by spending a Simple Action to make the Attack. Th
 
 When a character wants to attack something it is more difficult if the target is farther away. The _range_ between the target and the attacking character determines the base threshold. However, just because a character has the _accuracy_ to strike an opponent out to a specific range does not mean that their weapon is physically capable of reaching that far, or of reaching a target at that range with any accuracy. Most weapons have a maximum range beyond which they cannot be expected to work, and most weapons have a range beyond which they become inaccurate (given in parentheses). Melee attacks of course simply have an absolute limit of their reach. If you want them to go any farther than your arm will take them you have to throw them.
 
-| Range        | Meters  | Feet     | Threshold |
-|:-------------|--------:|---------:|:---------:|
-| **A**djacent | 2m      | 6ft      | Special   |
-| **N**ear     | 5m      | 16ft     | **1**     |
-| **S**hort    | 20m     | 65ft     | **2**     |
-| **W**ay out  | 100m    | 330ft    | **3**     |
-| **E**xtreme  | 1000m   | 3,280ft  | **4**     |
-| **R**emote   | 1,001m+ | 3,281ft+ | **5**     |
+| Distance | Range		  | Pace    | Threshold | Notes |
+|---------:|:-------------|:--------|:---------:|:------|
+|      2 m | Adjacent     | Crawl   | **0\***   | Effective reach of a maneuvering melee attacker |
+|     10 m | Close	 	  | Careful | **2**     | Range of police TASER wire |
+|     50 m | Short        | Run     | **3**     | Effective Range of a light pistol (9 mm Beretta M9) |
+|    100 m | Medium       | Sprint  | **4**     | Effective Range of a light carbine or SMG (Sig Sauer MPX 9 mm) |
+|    500 m | Long         | -       | **5**     | Effective Range of a general purpose or assault rifle (223/5.56 mm AR-15) |
+|   1000 m | Extreme      | -       | **6**     | Supposed Effective Range of 7.62 mm battle or sharp-shooter's rifle |
+|   2000 m | Remote       | -       | **7**     | Supposed Effective Range of .50 BMG sniper or anti-materiel rifle |
 
-The Threshold to hit something that is Adjacent to you is _zero_. Seriously, it's right next to you. However, if the target is a resisting creature that is aware of the impending attack, the threshold is increased to half the target's Agility + Combat (if any, round up). Yes, against skilled opposition it is _much_ easier to shoot an opponent from 3 meters away where they can't interfere with the shot than it is to shoot them from within arm's reach where they can.
+**\*** The Threshold to hit something that is Adjacent to you is _zero_. Seriously, it's right next to you. However, if the target is a resisting creature that is aware of the impending attack, the threshold is increased to half the target's Agility + Combat (if any, round up). Yes, against skilled opposition it is _much_ easier to shoot an opponent from 3 meters away where they can't interfere with the shot than it is to shoot them from within arm's reach where they can.
 
 The Threshold can be further modified by circumstances.
 
 * If the target has cover or its location is suspect (as in the case of illusions or intervening shower curtains), the threshold is increased by 1 or 2.
 * If you're operating beyond the accurate range of your weapon (but still within the maximum range), increase the threshold by 1.
 * If the target is moving quickly (such as from Celerity), increase the threshold by 1.
-* If the attacking character is moving faster than a **C**areful Walk, increase the threshold of a ranged attack (but not a melee attack) by 1.
+* The penalty from the attacker's movement pace
 
 ### Complications
 
@@ -39,7 +40,11 @@ When a target maintains a low profile by getting on the ground, it is hard to hi
 
 #### Aim
 
-Aiming is the act of taking extra time with a shot in order to make it more accurate. Each Aiming action reduces the effective range between the character and the target by one range category for the next shot. The actual distance does not change, and the threshold is still modified upward if the character is firing from beyond the weapon's accurate range. If the weapon is sufficiently braced that recoil is completely negated and the target does not move substantially from its original position, the character's Aiming can continue to apply on future shots. The first Aim action takes a Simple Action, and each further Aim action takes a progressively longer time frame (1 Round, 1 Minute, 5 Minutes, and finally 20 minutes of preparation to reduce a Remote target to be effectively Adjacent). These subsequent Aim actions all apply to the same attack, but a character can't actually benefit from more subsequent Aim actions than they have actual skill rating in Combat or Rigging. Aiming at targets beyond **S**hort range requires a scope.
+Aiming is the act of taking extra time with a shot in order to make it more accurate. Each Aiming action reduces the effective range between the character and the target by one range category for the next shot. The actual distance does not change, and the threshold is still modified upward if the character is firing from beyond the weapon's accurate range. If the weapon is sufficiently braced that recoil is completely negated and the target does not move substantially from its original position, the character's Aiming can continue to apply on future shots. The first Aim action takes a Simple Action, and each further Aim action takes a progressively longer time frame (1 Round, 1 Minute, 5 Minutes, and finally 20 minutes of preparation to reduce a Remote target to be effectively Adjacent). These subsequent Aim actions all apply to the same attack, but a character can't actually benefit from more subsequent Aim actions than they have actual skill rating in Combat or Rigging. Aiming at targets beyond Long range requires a scope.
+
+#### Charging
+
+If a character is rapidly moving towards their target when they strike it adds additional force to the blow. If a character deliberately charges at a target at a jogging or running pace they take no penalty to their action and add +1 to the damage to represent the extra force of the blow. However, the target can also take advantage of this velocity by planting a spear or other long weapon to impale the attacker with the force of their own movement - such a defender resolves their attack first and also gains +1 to damage. Character's that have super-human speed to their movement, whether from Celerity or a motorcycle - may do even more damage at the MC's discretion. 
 
 #### Suppressive Fire
 
@@ -47,7 +52,7 @@ Suppressive Fire is the act of firing a bunch of bullets near a piece of cover t
 
 #### Spray-n-Pray
 
-Automatic weaponry can be walked across areas, firing off bullets seemingly at random. This is neither advisable nor safe, but it _can_ totally hit people with bullets and kill them and stuff. Which for people with little skill with firearms is not necessarily a bad deal. Spray-n-Pray differs substantially from most actions in After Sundown because the character's skills and attributes don't really get used. Instead, the character nominates an arc and rolls just 4 dice total (you can think of this as having a virtual minimal Agility of 1 and the 3 dice for autofire) against each potential target in the area. Spray-n-Pray ignores threshold modifiers from target speed or poor visibility, but is otherwise a normal ranged attack. Spray-n-Pray is not compatible with Aiming, and thus it will likely not hit anyone behind heavy cover. Spray-n-Pray is a complex action, and the threshold to strike a target is 1 if range is Short or less and 3 if it is Way Out. While it is nominally possible for a bullet to impact a target more than 100m away, the chances of this happening are so remote as to be discounted. Without Edge, it just won't happen. Targets farther than Way Out are Threshold 5 to hit with Spray-n-Pray.
+Automatic weaponry can be walked across areas, firing off bullets seemingly at random. This is neither advisable nor safe, but it _can_ totally hit people with bullets and kill them and stuff. Which for people with little skill with firearms is not necessarily a bad deal. Spray-n-Pray differs substantially from most actions in After Sundown because the character's skills and attributes don't really get used. Instead, the character nominates an arc and rolls just 4 dice total (you can think of this as having a virtual minimal Agility of 1 and the 3 dice for autofire) against each potential target in the area. Spray-n-Pray ignores threshold modifiers from target speed or poor visibility, but is otherwise a normal ranged attack. Spray-n-Pray is not compatible with Aiming, and thus it will likely not hit anyone behind heavy cover. Spray-n-Pray is a complex action, and the threshold to strike a target is 1 if range is Short or less and 3 if it is Way Out. While it is nominally possible for a bullet to impact a target more than 100 m away, the chances of this happening are so remote as to be discounted. Without Edge, it just won't happen. Targets farther than Way Out are Threshold 5 to hit with Spray-n-Pray.
 
 #### Grab
 
@@ -55,7 +60,7 @@ Characters can grab people carry them off, toss them about, or strangle them. Th
 
 While grabbed a victim may attempt to escape on their next round with a Simple Action, rolling Strength + Combat or Agility + Combat against with a threshold of the attacker's net hits, and may further attempt to escape one other time. The attacker may also use another Complex Action to try to establish a better hold against a threshold 1 less than normal do to the advantage they have over the target.
 
-If the attacker's net hits _exceed_ the target's Strength, the victim is fully locked into a hold of the attacker's choosing, which may prevent them from screaming, using their limbs, strangle them to unconsiousness in 1 round.
+If the attacker's net hits _exceed_ the target's Strength, the victim is fully locked into a hold of the attacker's choosing, which may prevent them from screaming or using their limbs or to strangle them to unconsciousness in 1 round.
 
 #### Disarm
 
@@ -63,7 +68,7 @@ Characters can grab items that other characters are carrying. In melee, this can
 
 #### Locking On
 
-Characters can prepare a weapon to be deployed. Maybe they hold a knife to the target's throat, maybe they point a gun at the target's back. This takes the time of a normal attack, but no actual attack is made. At any point in the future, the character can make their attack Reactively. If the character becomes distracted, moves faster than a Slow Search or makes another attack (including another Lock On attempt), the old Lock On is lost. This is how the game handles "stick ups," fencing, hostage threatening, and patient sniping.
+Characters can prepare a weapon to be deployed. Maybe they hold a knife to the target's throat, maybe they point a gun at the target's back. This takes the time of a normal attack, but no actual attack is made. At any point in the future, the character can make their attack Reactively. If the character becomes distracted, moves faster than a crawl or makes another attack (including another Lock On attempt), the old Lock On is lost. This is how the game handles "stick ups," fencing, hostage threatening, and patient sniping.
 
 #### Feint
 
