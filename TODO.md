@@ -5,6 +5,7 @@
  * A complete overhaul of Wounds, Death, and Healing
  * A complete overhaul of Hiding
  * A complete overhaul of the Range & Speed tables, including noting range for every power
+ * A new section on Vehicles, including evasion, chases, and combat driving
  * New Astral Discipline: Sea of Stars (Water & Space powers)
  * New Infernal Discipline: Spark of Knowlege (Technomancy)
  * New Orphic Discipline: Secrets of the Earth (Underground and Alchemy)

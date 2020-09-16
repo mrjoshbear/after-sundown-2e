@@ -16,6 +16,8 @@ Lair
 
 ## Range and Distance
 
+Old Tables: 
+
 | Range        | Meters  | Feet     | Threshold |
 |:-------------|--------:|---------:|:---------:|
 | **A**djacent | 2m      | 6ft      | Special   |
@@ -36,24 +38,32 @@ Lair
 
 --------
 
-| Distance | Range		  | Move Action | Notes |
-|---------:|:-------------|:------------|:------|
-|      2 m | Adjacent     | Free        | effective reach of a manuevering melee attacker |
-|     10 m | Close	 	  | Free        | "30 ft rule", max range of police taser wire |
-|     50 m | Short        |             | Effective Range of 9 mm Beretta M9 |
-|    100 m | Medium       | Simple      | Supposed Effective Range of 9 mm carbine or SMG |
-|    500 m | Long         |             | Effective Range of .223/5.56 mm AR-15 |
-|   1000 m | Extreme      | Complex     | Supposed Effective Range of 7.62 mm sniper rifle |
-|   2000 m | Remote       |             | Supposed Effective Range of .50 BMG sniper rifle |
+New Tables:
 
-| Pace    | /Round | /Hour | Notes/Ref |
-|:--------|-------:|------:|:----------|
-| Crawl   |     4m |  1 km |
-| Careful |    10m |  2 km |
-| Walk    |    20m |  5 km |
-| Jog     |    30m |  8 km |
-| Run     |    60m | 15 km |
-| Sprint  |   100m | 40 km |
+| Distance | Range		  | Pace    | Threshold | Notes |
+|---------:|:-------------|:--------|:---------:|:------|
+|      2 m | Adjacent     | Crawl   | **0\***   | Effective reach of a maneuvering melee attacker |
+|     10 m | Close	 	  | Careful | **2**     | Range of police TASER wire |
+|     50 m | Short        | Run     | **3**     | Effective Range of a light pistol (9 mm Beretta M9) |
+|    100 m | Medium       | Sprint  | **4**     | Effective Range of a light carbine or SMG (Sig Sauer MPX 9 mm) |
+|    500 m | Long         | -       | **5**     | Effective Range of a general purpose or assault rifle (223/5.56 mm AR-15) |
+|   1000 m | Extreme      | -       | **6**     | Supposed Effective Range of 7.62 mm battle or sharp-shooter's rifle |
+|   2000 m | Remote       | -       | **7**     | Supposed Effective Range of .50 BMG sniper or anti-materiel rifle |
+
+**\*** Half of a resisting target's Agility + Combat (round up)
+
+| Pace    | /Round | /Hour | Penalty | Notes/Ref |
+|:--------|-------:|------:|:-------:|:----------|
+| Crawl   |    4 m |  1 km |      -0 | Can move while supine |
+| Careful |   10 m |  2 km |      -0 | A slow, careful walking pace keeping alert to surroundings |
+| Walk    |   16 m |  5 km |      -1 | Ordinary walking/hiking pace |
+| Jog     |   25 m |  8 km |      -3 | Charge attack possible |
+| Run     |   50 m | 15 km |      -4 | Charge attack possible |
+| Sprint  |  120 m | 40 km |      -6 | Max human pace; only sustainable with Indomitability |
+
+Movement penalties apply to attacking (except charging) and perception, in addition to anything else that might be affected by jostling or distraction.
+
+### General movement research
 
 Many people tend to walk at about 1.4 metres per second (5.0 km/h; 3.1 mph; 4.6 ft/s).[1][2][3] Although many people are capable of walking at speeds upwards of 2.5 m/
 
