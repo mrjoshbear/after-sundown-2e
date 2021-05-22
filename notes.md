@@ -51,7 +51,6 @@ Grind is the ability to keep doing things even when they don't seem to get you a
 
 **Specializations:** Meditation, Physical Endurance, Emotional Regulation
 
-
 ### Skill Examples
 
 Gambling: Edge, Agility + Larceny to cheat
@@ -64,7 +63,6 @@ Bumping a retail lock: Agility + Larceny or Agility + Rigging, threshold 1, 1 mi
 Picking a lock: Agility + Larceny or Agility + Rigging, threshold lock rating, 5 minutes (net hits to timeframe)
 Jimmying a door: Strength + Larceny or Strength + Rigging, threshold 3, Complex action
 
-
 # Rules not to miss
 
 For every point that a character's Willpower exceeds 2, they can ignore one point of wound penalty. For example, a character with a Willpower of 4 can ignore the wound penalties imposed by 2 of their boxes.
@@ -75,8 +73,9 @@ Playable Ghost
 
 Exemplar: Annie from Being Human
 Annie has telekinesis, teleportation, invisibility to muggles, walking through walls, seeing auras, sensing and transmitting thoughts and feelings through physical contact, indestructibility unless she loses her connection to her house or loved ones, and the ability to destroy other ghosts. Ghosts also can hide others in the clothes they died in, making them invisible, and she can also share her memories with others so they may be able to see them, but they exist in her place in her own memories.
- The Empath: In Series 2 she learned to feel tastes and sensations through physical contact.
- Fearless Undead: She often reminds others (and herself) that, being dead already, she has very little to fear from any physical danger. She can however be taken into the afterlife by other ghosts or mysterious otherworldly forces, and removing her emotional connections allows her to be disintegrated. She's come back from the latter once due to her friends coming back and sheer willpower, but Herrick suggests that burning down her house and killing her friends would destroy her permanently.
+
+The Empath: In Series 2 she learned to feel tastes and sensations through physical contact.
+Fearless Undead: She often reminds others (and herself) that, being dead already, she has very little to fear from any physical danger. She can however be taken into the afterlife by other ghosts or mysterious otherworldly forces, and removing her emotional connections allows her to be disintegrated. She's come back from the latter once due to her friends coming back and sheer willpower, but Herrick suggests that burning down her house and killing her friends would destroy her permanently.
 
 #### Shade Starting Powers
 
@@ -110,15 +109,13 @@ A core part of the Arsenals of most supernatural creatures and the people that h
 | 2      | A safe full of automatic and specialized weapons |
 | 3      | A shipping container of weapons normally restricted to the military |
 
-
 #### Lair
-
 
 # Fixes
 
 ## Range and Distance
 
-Old Tables: 
+Old Tables:
 
 | Range        | Meters  | Feet     | Threshold |
 |:-------------|--------:|---------:|:---------:|

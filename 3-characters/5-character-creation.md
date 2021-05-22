@@ -124,6 +124,10 @@ Mortal hunters are not likely to be members of a Syndicate, but they may be memb
 * Magical Transformation: Power Source, Power Schedule, Vulnerability, Weakness, Starting Powers, +2 Basic Powers and +1 Advanced Power
 * Place in the World: Syndicate and Cult membership (if any)
 
+> #### Staying Alive (or Undead)
+>
+> If you're the sort of player that doesn't enjoy the possibility of losing a character to death, then we recommend starting with the Fortitude Powers of Revive the Flesh and Restoration, which you can always get with your choice of Basic and Advanced powers as an In Medias Res character. With those you can quickly bounce back from any normal combat results, no matter how unlucky you are with dice rolls. It's still *possible* for you character to die, but it'll take something much more than just bad luck in a fight to make it stick.
+
 ### The Power Fantasy
 
 _I will crush you_
