@@ -1,0 +1,10 @@
+## The Shattered Empire
+_"They have learned nothing, and they have forgotten nothing."_
+
+According to the Shattered Empire there was once a mighty nation which ruled over all of humanity with magician kings. Where this kingdom actually was, when it existed, who the people were who ran it, and what the cultural traits of it were like are all lost to time. The Shattered Empire calls itself a dozen names: Ur, Atlantis, and Golgatha to name just a few. And while their stories of their glorious days of world ownership are somewhat conflicting, and quite possibly exaggerations or just plain _lies_, they are nonetheless willing to kill people over their world conquest plans. And that makes them dangerous.
+
+The very top of the Empire is called either the Rain King, the Masked Prophet, or the Once and Future Emperor. Whether these are three different people having a power struggle or one man with a variety of titles is not clear. Cells of the Shattered Empire hide in cave systems, deep in jungles, and on top of forbidding mountains. They collect powerful magics and threaten the world with them.
+
+The primary bones of contention between the Shattered Empire and the other Syndicates have to do with rulership. The Empire holds not only that they should rule all the other supernatural creatures like in the old days, but that they should rule all of the humans like in the old days too. And yes, that really does mean _like the old days_. Many of the members of the Empire believe that allowing humans to work bronze was a mistake and that such mistakes should be corrected.
+
+**Sample Encounter:** The meeting is going well enough when it is announced that a messenger has arrived. A confident and wild-eyed Troglodyte strides into the room dressed in a coarse toga and trailed by some mad looking ghosts. He points his claws accusingly at the city officials and makes the pronouncement that The Empire has uncovered "the great bell" and you all have a fortnight to surrender the city. Then he and the ghosts fade into The Gloom.

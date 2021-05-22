@@ -1,7 +1,10 @@
+# Table of Contents
+
 1. Front Matter
     1. ReadMe
     2. License
     3. Contents
+    4. Foreword
 2. Introductions
     1. What is After Sundown
     2. Terrible Places
@@ -18,6 +21,8 @@
     1. Getting What You Need
     2. Montages
     3. Social Interaction
+    4. Influencing People
+    5. Tradecraft
 5. Danger and Conflict
     1. Danger Overview
     2. Moving, Evading, and Escaping
@@ -27,7 +32,7 @@
     6. Wounds, Death, and Dying
     7. Temporary Conditions
 6. Monsters
-    1. Monster Overview
+    1. Monsters Overview
     2. Lycanthropes
     3. Vampires
     4. Witches
@@ -45,11 +50,12 @@
     5. Orphic Powers
     6. Mighty Rituals of Vast Power
 8. Monstrous Society
-    1. The Cauchemar
-    2. The Covenant
-    3. The Makhzen
+    1. Monstrous Society Overview
+    2. The Makhzen 
+    3. The Covenant
     4. The League
-    5. Cults
+    5. The Communes
+    6. Cults
 9. Maya: The Dreamlands
     1. A Tour of Nightmare
     2. The Marduk Society
@@ -81,7 +87,7 @@
     1. Persona Non Grata: Sample Characters
     2. Things that Go Bump in the Night: Antagonists
     3. Places of Power
-    4. Precious Things
+    4. Precious Things: Treasures and Secrets
     5. Bad Seeds: Scenario Ideas
 14. Back Matter
     1. Afterword

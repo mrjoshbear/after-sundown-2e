@@ -6,22 +6,22 @@ The lands of Maya are filled with strange foliage. But strangest of all is the f
 ### Creepers
 _"It waits till we’re weak before it reveals its strength."_
 
-Creepers are the weakest of the Evil Plants, but are subtle and insidious nonetheless. The real body of the creeper is a system of interlocking rhizomatic roots that lie underground or parasitically buried into other plants that emerge only to creep their way into weakened prey. From these roots spring a myriad of possible forms, most commonly brightly colored flowering vines or apparent patches of beautiful wild flowers. Disturbing these flowers subjects the area to clouds of sticky poison that (most commonly) drives everyone in the area to hallucinatory madness as the vines and roots begin their slow emergence to trap them in place.
+Creepers are the weakest of the Evil Plants, but are subtle and insidious nonetheless. The real body of the creeper is a system of interlocking rhizomatic roots that lie underground or parasitically buried into other plants that emerge only to creep their way into weakened prey. From these roots spring myriad possible forms, most commonly brightly colored flowering vines or apparent patches of beautiful wild flowers. Disturbing these flowers subjects the area to clouds of sticky poison that (most commonly) drives everyone in the area to hallucinatory madness as the vines and roots begin their slow emergence to trap them in place.
 
-Creepers are obviously quite dangerous to cultivate, but sometimes people try anyway as they can be coaxed into producing particular poisons (instead of a ready supply of hallucinogens) or reagents useful in Bitter Fruit recipes.
+Creepers are obviously quite dangerous to cultivate, but people sometimes try anyway as they can be coaxed or bred into producing particular poisons or reagents useful in Bitter Fruit recipes.
 
 Creepers have a nonstandard attribute array because they were never humans. Creepers have no Agility or ability to move outside of using Grass Rope to extend parts of themselves or the plants that they exist alongside and have no personalities to exercise Charisma, but very old and well-fed Creepers could resemble a forest of mangroves or aspens more than a cluster of vines. Before their Potency modifier their attribute ranges are:
 
-S: 1/12 A: 0/0 I: 5/10 L: 1/1 W: 1/6 C: 0/0
+S: 1/12 A: 0/0 I: 5/10 L: 1/1 W: 1/6 C: 0/0 E: 0/0 P: 1
 
-A Creeper has an Astral power source and a Feeding power schedule - any lost power points are restored by consuming bodies. As with other Evil Plants they are vulnerable to iron and weakened by alcohol - spraying an area down can prevent them from extending their roots until it evaporates.
+A Creeper has an Astral power source and a Feeding power schedule - any lost Magic Points are restored by consuming bodies. As with other Evil Plants they are vulnerable to iron and weakened by alcohol - spraying an area down can prevent them from extending their roots until it evaporates.
 
 #### Creeper Starting Powers
 
 Basic Powers
 
  * Grass Rope (Basic Coil of Thorns)
- * Bite of the Serpent (Basic Descent of Entropy) _Native_ - Hallucinogenic
+ * Bite of the Serpent (Basic Lure of Destruction) _Native_ - Hallucinogenic or Soporific
 
 **Story Inspiration:** [The Ruins](https://www.imdb.com/title/tt0963794/), [Annihilation](https://www.imdb.com/title/tt2798920/), [Little Joe](https://www.imdb.com/title/tt9204204/)
 
@@ -34,7 +34,7 @@ Mantraps can't readily transport themselves across the land, let alone the borde
 
 The huge woody maw of a Mantrap is a damage 3 weapon, and, yes, it does count as wood for the purpose of supernatural vulnerabilities. Mantraps have a nonstandard attribute array because they were never humans. Before their Potency modifier their attribute ranges are:
 
-S: 3/8 A: 4/7 I: 4/10 L: 4/6 W: 5/11 C: 4/7
+S: 3/8 A: 4/7 I: 4/10 L: 4/6 W: 5/11 C: 4/7 E:0/6 P:1
 
 A Mantrap has an Astral power source and a Feeding power schedule. As Evil Plants they are vulnerable to iron and weakened by alcohol.
 
@@ -57,7 +57,7 @@ A Triffid has a poison barb on the end of each meter long tendril that extends f
 
 The vicious barbed tendrils of a Triffid constitute a damage 3 weapon that can deliver the poison of the Triffid's "bite". Triffids have a nonstandard attribute array because they were never humans. Before their Potency modifier their attribute ranges are:
 
-S: 7/12 A: 4/7 I: 6/10 L: 4/6 W: 5/11 C: 4/7
+S: 7/12 A: 4/7 I: 6/10 L: 4/6 W: 5/11 C: 4/7 E: 0/6 P: 2
 
 A Triffid has an Astral power source and a Lunar power schedule. As Evil Plants they are vulnerable to iron and weakened by alcohol.
 
@@ -74,7 +74,7 @@ Advanced Powers
 
 * Puppetry (Advanced Coil of Thorns)
 
-**Story Inspiration:** [The Thing](http://www.imdb.com/title/tt0084787/), [The Night of the Triffids](https://en.wikipedia.org/wiki/The_Night_of_the_Triffids), [The Creeping Terror](http://www.imdb.com/title/tt0057970/)
+**Story Inspiration:** [The Thing](https://www.imdb.com/title/tt0044121/), [The Night of the Triffids](https://en.wikipedia.org/wiki/The_Night_of_the_Triffids), [The Creeping Terror](http://www.imdb.com/title/tt0057970/)
 
 ### Pods
 _"There are others... they'll stop you!"<br >
@@ -84,7 +84,7 @@ The Pods are psychic hazards that take over people and use them to make more pod
 
 Each pod is roughly the size of a large watermelon and appears to be a massive green potato. Most pods have some milk white tendrils growing out of what is most probably the bottom. These look similar to the rootlets that grow out of a potato if you leave it in water for a long period of time. There are slight depressions all over the Pod that appear to be its "eyes" - they are able to see things through them and use Authority on victims who look at them. The tendrils of a Pod can only move by growing over the course of minutes and hours, so for any practical purposes they are essentially immobile. Pods have a nonstandard attribute array because they were never humans. Before their Potency modifier their attribute ranges are:
 
-S: 1/1 A: 0/0 I: 5/12 L: 5/12 W: 5/12 C: 4/10
+S: 1/1 A: 0/0 I: 5/12 L: 5/12 W: 5/12 C: 4/10 E:1/6 P: 3
 
 A Pod has an Astral power source and a Lunar power schedule. As Evil Plants they are vulnerable to iron and weakened by alcohol.
 

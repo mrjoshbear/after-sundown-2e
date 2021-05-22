@@ -1,11 +1,12 @@
 ## Wind and Water
-_It was a dark and stormy night..._
+
+_"It was a dark and stormy night..."_
 
 It is important to note that weather in the realm of horror is a fair bit worse than the weather of our own world. Just as nearly every horror movie begins with some driving rain and a crash of thunder to set the mood, the night sky of the stories you tell with After Sundown will pelt the earth with lightning and rain all the time. It's atmospheric, and it helps to enforce the feeling of isolation that so many variations of scary stories require.
 
 ### Rain
 
-Water falls from the sky. It's dreary, it's uncomfortable, and it makes it hard to see things that are far away. It also makes things very wet, which is why witches wear wide brimmed hats. But the important things from the standpoint of _game mechanics_ is the fact that it makes things wet and makes it hard to see.
+Water falls from the sky. It's dreary, it's uncomfortable, and it makes it hard to see things that are far away. It also makes things very wet, which is why witches wear wide-brimmed hats. But the important thing from the standpoint of _game mechanics_ is the fact that it makes things wet and makes it hard to see.
 
 | Type of Rain          | Impeded Visibility | You get wet unless... |
 |:----------------------|:-------------------|:----------------------|
@@ -17,11 +18,15 @@ Water falls from the sky. It's dreary, it's uncomfortable, and it makes it hard 
 
 Tumultuous Rain and Uncompromising Deluge effectively block out the sun.
 
+### Ice & Snow
+
+While falling sleet or freezing rain isn't much different than regular rain, falling snow obscures as one category worse and has a tendency to dampen sound as well. There is also the consideration that frozen water tends to accumulate in ways that rain usually doesn't. A thin coating of ice or a thick blanket of snow create difficult terrain, which affects not only a character's normal movement but also any driving they may attempt.
+
 ### Fog and Dust
 
-When there's fog in the air it reduces contrast and obscures. It scatters light sources and can paradoxically cause people to be blinded by glare if they shine lights trying to see better. But mostly it saves us money on sets, because far away things become indistinct and altogether invisible. As fog becomes thicker, the distance one can see things clearly is reduced (increasing the threshold on Perception tests and attacks by 1), and the distance one can see anything at all is reduced as well. Bright lights get scattered in fog and produce glare. It is entirely possible for a fog to have reduced visibility _and_ overstimulation at the same time.
+When there's fog in the air it reduces contrast and obscures. It scatters light sources and can paradoxically cause people to be blinded by glare if they shine lights trying to see better. But mostly it saves us money on sets because far away things become indistinct and altogether invisible. As fog becomes thicker, the distance one can see is reduced (increasing the threshold on Perception tests and attacks by 1), and the distance one can see anything at all is reduced as well. Bright lights get scattered in fog and produce glare. Fog can cause reduced visibility _and_ overstimulation at the same time.
 
-Great clouds or storms of ash, dust or smoke have much the same effect (and levels of thickness) as fog, but also represent a breathing hazzard to those without protection or even an independent air supply (or that just don't have to breathe at all). On the other had, their light-absorbing particles do not create a glare when light is shed within them.
+Great clouds or storms of ash, dust, or smoke have much the same effect (and levels of thickness) as fog, but also represent a breathing hazard to those without protection or even an independent air supply (or that just don't have to breathe at all). On the other hand, their light-absorbing particles do not create a glare when light is shed within them.
 
 | Fog Thickness | Impeded Visibility | Limit of Vision      | 
 |:--------------|:-------------------|:---------------------|
@@ -35,7 +40,7 @@ Thick and Pea Soup fog effectively block out the sun.
 
 ### Wind
 
-Air blows around. It carries one's words away before they have had a chance to impart their intended convictions, ruining apologies and love confessions both. As in the real world, the relative strength of wind in After Sundown is represented on the [Beaufort Windforce Scale](https://en.wikipedia.org/wiki/Beaufort_scale). 
+Air blows around. It carries one's words away before they have had a chance to impart their intended convictions, ruining apologies and love confessions both. As in the real world, wind strength in After Sundown is represented on the [Beaufort Windforce Scale](https://en.wikipedia.org/wiki/Beaufort_scale). 
 
 | Force | It's Called...  | You see...                               | Game Effects |
 |------:|:----------------|:-----------------------------------------|:-------------|
@@ -53,14 +58,22 @@ Air blows around. It carries one's words away before they have had a chance to i
 | 11    | Violent Storm   | ...roof tiles fly off of buildings.      | Characters can't make themselves heard if they try. |
 | 12    | Hurricane       | ...some windows breaking.                | Visibility reduced due to dust or spray as thick fog | 
 | 13    | Hurricane (2)   | ...a mobile home rolled over and over.   | Staying upright out of cover is a Crazy Extreme stunt. (Strength + Athletics or Survival, Threshold 5) |
-| 14    | Hurricane (3)   | ...a dog flying away                     | 
+| 14    | Hurricane (3)   | ...a dog flying away                     |
 | 15    | Hurricane (4)   | ...a twig embed itself into a tree lengthwise. | |
 | 16    | Hurricane (5)   | ...Dorothy's house fly away.             | Characters out of cover resist a Strength d6 of Normal Damage. |
 
-### Underwater
+### Being Underwater
 
-TK
+TK swimming and action penalties
+
+TK flooded, partial penalties to movement & action
+
+TK problems with guns and other weapons
 
 Things that let you breathe
 
-Problems for people that have water as a weakness
+Character's with a supernatural weakness to being wet have to actually, personally be wet to trigger that weakness. A "wet suit" doesn't do anything to protect them from immersion; however, a properly sealed "dry" diving suit does work and renders them pretty much immune to drenching, until it's pierced, that is. A single point of Lethal damage will cause them to be pretty well instantly soaked and therefore weakened, besides the fact that they are now likely to start drowning.
+
+### Freefall
+
+TK

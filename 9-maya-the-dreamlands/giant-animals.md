@@ -14,7 +14,7 @@ Magically enhanced monstrous beasts prowl the wilds of the astral plane, and som
 
 A Behemoth's Giant Size is always on, and it is important to note that sometimes they are of a type of creature which is itself _normally_ 3.5 meters or more such as giant anacondas and the like. Giant Size in this case represents a proportional increase for such creatures, meaning a rough doubling in all dimensions and an increase in mass by approximately 10 times. A Behemoth was never human, but it is a real creature, and before considering its Giant Size and Potency, it uses the normal stats of an animal of its type.
 
-A Behemoth has an Astral power source and a Continuous power schedule.
+A Behemoth has an Astral power source and a Lunar power schedule. As Giant Animals they are vulnerable to silver and weakened by alcohol.
 
 #### Behemoth Starting Powers
 
@@ -27,7 +27,7 @@ Advanced Powers
 
 * Giant Size (Advanced Clout)
 
-**Story Inspiration:** [Mighty Joe Young](http://www.imdb.com/title/tt0041650/), [Lake Placid](http://www.imdb.com/title/tt0139414/), [Boa vs. Python](http://www.imdb.com/title/tt0412523/), [Brotherhood of the Wolf](http://www.imdb.com/title/tt0237534/), [Them!](http://www.imdb.com/title/tt0047573/)
+**Story Inspiration:** [Jaws](https://www.imdb.com/title/tt0073195/), [Mighty Joe Young](http://www.imdb.com/title/tt0041650/), [Lake Placid](http://www.imdb.com/title/tt0139414/), [Boa vs. Python](http://www.imdb.com/title/tt0412523/), [Brotherhood of the Wolf](http://www.imdb.com/title/tt0237534/), [Them!](http://www.imdb.com/title/tt0047573/)
 
 ### Swarms
 _"Do you happen to have a pair of birds that are... just friendly?"_
@@ -36,7 +36,7 @@ Whether it's the birds in [The Birds](http://www.imdb.com/title/tt0056869/) or a
 
 Unfortunately, Swarms have a tendency to respawn within a few days unless something drastic is done.
 
-A Swarm has an Astral power source and a Lunar power schedule.
+A Swarm has an Astral power source and a Lunar power schedule. As Giant Animals they are vulnerable to silver and weakened by alcohol.
 
 #### Swarm Starting Powers
 
@@ -66,18 +66,15 @@ S: 8 A: 3 I: 3 L: 1 W: 5 C: 1
 
 Skills: Artisan 1; Athletics 5; Combat 3; Perception 2; Rigging 3 (Water); Stealth 2; Survival 4
 
-A Chimera has an Astral power source and a Continuous power schedule.
+A Chimera has an Astral power source and a Lunar power schedule. As Giant Animals they are vulnerable to silver and weakened by alcohol.
 
 #### Chimera Starting Powers
 
-Core Discipline: Trail of Tears
-
-* Curse of Failure (Trail of Tears)
-* Pain Drops (Trail of Tears)
-
 Basic Powers
 
-* Light of Ennui (Basic Descent of Entropy)
+* Curse of Failure (Basic Depths of Despair)
+* Pain Drops (Basic Depths of Despair)
+* Light of Ennui (Basic Wages of Damnation)
 * Revive the Flesh (Basic Fortitude)
 * Hide from Notice (Basic Veil)
 * Tongue of Beasts (Basic Call of the Wild)
@@ -85,7 +82,7 @@ Basic Powers
 Advanced Powers
 
 * Water Prison (Advanced Trail of Tears)
-* Aura of Decay (Advanced Descent of Entropy)
+* Aura of Decay (Advanced Lure of Destruction)
 * Hide in Plain Sight (Advanced Veil)
 
 **Story Inspiration:** [Basilisk](https://en.wikipedia.org/wiki/Basilisk), [Orangopoid](http://flashgordon.wikia.com/wiki/Orangopoid), [Xenomorph](https://en.wikipedia.org/wiki/Alien_%28creature_in_Alien_franchise%29), Spidron
@@ -96,12 +93,29 @@ _"What the hell is that?"<br />
 
 There are things in the wilderness of horror that defy ready analysis. Some are really, _really_ big. And they stomp out of nightmares and crush everything beneath their feet. They are the Kaiju, and they have no place in the modern world. Standing at something over 15 meters tall, these prehistoric beasts are awe inspiringly terrifying. It's not even _entirely_ clear that these titanic monstrosities are even magical in nature, and indeed most of them don't seem to use any magical powers save for being really big.
 
-A Kaiju is not a normal animal that uses magic to grow really big, it's just a magically spawned entity that is much larger than a land-bound mortal animal could possibly be without suffering from cube square law insufficiencies. They aren't using Clout effects, that's _just how big they are_. Whether they are giant lizards or giant apes, their stats are pretty much the same. And yes, some of them are also magical and have magical disciplines like Fire Starter that allows them to breathe gouts of flame. But mostly they just rely on their size. They don't even have something that counts as special natural weaponry, their normal attack is a base zero normal damage fist - and they are so big that attacking a human-sized target suffers a -5 penalty to the attack roll - and they _still_ normally flatten things in one pound - because that's how a creature with a 35 strength _rolls_.
+
+Whether they are giant lizards or giant apes, their stats are pretty much the same. Their Clout abilities let them exist beyond the limit where a normal animal would collapse under the strain of their own weight. Mostly they just rely on their size. They don't even have something that counts as special natural weaponry, their normal attack is a base zero normal damage fist - and they are so big that attacking a human-sized target suffers a -5 penalty to the attack roll - and they _still_ normally flatten things in one pound - because that's how a creature with a 35 strength _rolls_.
 
 Kaiju can work as "boss monsters" in that they are so out of scale with even large and in-charge characters that finding something that can hurt them _at all_ can be an adventure in itself.
+
+A Kaiju has an Astral power source and a Lunar power schedule. As Giant Animals they are vulnerable to silver and weakened by alcohol.
 
 S: 35 A: 2 I: 4 L: 1 W: 6 C: 1
 
 Skills: Animal Ken 3; Athletics 4; Combat 5; Perception 4; Stealth 2; Survival 4
 
-**Story Inspiration:** [King Kong](http://www.imdb.com/title/tt0024216/), T. Rex.
+#### Kaiju Starting Powers
+
+Basic Powers
+
+ * Smash (Basic Clout)
+
+Advanced Powers
+
+ * Giant Size (Advanced Clout) _Mutation_
+
+Elder Powers
+
+ * Colossus (Elder Clout) _Mutation_
+
+**Story Inspiration:** [King Kong](http://www.imdb.com/title/tt0024216/), [Cloverfield](https://www.imdb.com/title/tt1060277/), T. Rex.

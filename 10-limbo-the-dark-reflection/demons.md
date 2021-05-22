@@ -8,11 +8,11 @@ _"I always get what I want because I take it."_
 
 The Akuma were never human and this fact cannot easily escape onlookers. Standing about a meter taller than a man, Akuma are also blessed with extra... parts. Rows of teeth, third eyes, sometimes even extra arms or mouths. Many come equipped with extra parts that are not analogous to any found in normal people such as horns, pincers, and tentacles. They come in colors like red and blue rather than the tan and slightly darker tan that humans are familiar with. Even the white ones are _white_, rather than merely a slightly paler shade of tan. These are the demons you imagine when your imagination has a bottomless budget for costuming. 
 
-Akuma need to feed on sapients in order to restore their powers. Left on their own in the Dark Reflection they foist mirror goblins into their maws with wild abandon, but they prefer the flesh of humans. While Akuma do not strictly speaking _need_ to eat, they love doing so and their gluttonous appetites cannot be sated easily or long. Akuma are a huge social problem for mortals and supernaturals alike when they appear in the material world, for they lack subtlety in any of their dealings. Akuma are lazy bullies whose only redeeming feature is that at least their short sighted avarice makes them easy to manipulate by those with sufficient power to not be devoured right off. An Akuma has no driving passions, and is dominated by Master Passions of Rage, Hunger, and Fear.
+Akuma need to feed on sapients in order to restore their powers. Left on their own in the Dark Reflection they foist mirror goblins into their maws with wild abandon, but they prefer the flesh of humans. While Akuma do not strictly speaking _need_ to eat, they love doing so and their gluttonous appetites cannot be sated easily or long. Akuma are a huge social problem for mortals and supernaturals alike when they appear in the material world, for they lack subtlety in any of their dealings. Akuma are lazy bullies whose only redeeming feature is that at least their short sighted avarice makes them easy to manipulate by those with sufficient power to not be devoured right off. An Akuma has no Driving Ambitions, and is dominated by Master Passions of Rage, Hunger, and Fear.
 
 While it is _possible_ for an Akuma to gain power nonfatally from a victim, their love of livers and poor discipline ensure that this almost never happens. An Akuma cannot turn their Giant Size off. An Akuma's claws, horns, teeth, or whatever constitute a damage 3 weapon (including their monstrous size). Akuma have a nonstandard attribute array because they were never humans. Before their Potency modifier and their constant Giant Size, their attribute ranges are:
 
-S: 6/11 A: 1/5 I: 1/3 L: 1/3 W: 2/7 C: 1/4
+S: 6/11 A: 1/5 I: 1/3 L: 1/3 W: 2/7 C: 1/4 E: 0/6 P: 2
 
 An Akuma has an Infernal power source and a Feeding power schedule. As Demons they are vulnerable to silver and weakened by water.
 
@@ -93,8 +93,9 @@ Basic Powers
 
 Advanced Powers
 
-* Empty Body (Discernment / Fortitude Devotion)
-* Telekinesis (Discernment / Clout Devotion)
+* Empty Body (Advanced TK)
+* Devastation (Advanced Clout)
+* Telekinesis (Advanced Clout)
 * Mirror Pocket (Advanced Progress of Glass)
 * Dark Night of the Soul (Advanced Depths of Despair)
 * Conditioning (Advanced Authority)

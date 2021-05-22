@@ -1,0 +1,10 @@
+## The Marduk Society
+_"We've slain the monsters of the world until they skulk in darkness like rats. Did you really think the darkness would protect you?"_
+
+In ages past the mighty sky wizard Marduk fought with the great Tiamat and slew her, saving humanity from her dark tyranny. As the savior of humanity, Marduk became a wise and just king who ruled over Sumeria thousands of years ago. He passed his magic down to disciples, and in classic fashion they perverted everything Marduk stood for and are now a terrifying edifice.
+
+The Marduk Society retains the ancient magics of Marduk himself and continue to hunt supernaturals, nominally to save humanity from the oppression of supernatural influences. However, the leadership of the Marduk Society actually _are_ supernatural creatures. After ruthlessly hunting down the spawn of Tiamat for generations they found that they were able to grant themselves immortality by eating the flesh of Leviathans, a practice which in reality transforms their elite membership _into_ Leviathans. The sorceries left behind by Marduk are in truth no different from the sorceries of any Witch, and thus it is that the core membership of the Marduk Society are no different from other supernaturals save for the hat they wear and their intense desire to not get along.
+
+Marduk's magic draws heavily upon human fear and suffering to use as power. However, while the historical Marduk apparently used this as justification to wander the lands righting wrongs and saving the endangered, the modern incarnation conspires to make mortal governments oppressive and ruin the lives of children. Ideally they claim that once their war is won they will make all human society utopic, but there is no particular reason to believe this is true.
+
+**Sample Encounter:** A black van pulls up and six men in black suits get out. They are reasonably professional, have tranq guns and heavy pistols and strongly suggest that the protagonists get into the van. A couple of them are even mutants, and it's probably best to not think about how they got that way.

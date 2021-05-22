@@ -1,4 +1,5 @@
 ## Weaponry and Hazards
+
 _"Holy crap, that looks dangerous."_
 
 ### Weapon Traits
@@ -12,9 +13,11 @@ The strength rating listed with weapons is the strength needed to use the weapon
 * Small weapons can be concealed in a pocket
 * Medium weapons can be concealed under a coat
 * Large weapons can be concealed in a car
-* Huge weapons do not really fit into cars
+* Huge weapons do not fit into cars
 
 ### Ranged Weapons
+
+_"If there's one thing this last week has taught me, it's better to have a gun and not need it than to need a gun and not have it."_
 
 Ranged weapons are used with Agility + Combat. Each weapon is accurate out to a given range (in parenthesis) and also has a maximum range beyond which the weapon won't work at all. If the target is beyond your weapon's accurate range, increase the Threshold to hit by 1.
 
@@ -24,6 +27,7 @@ Ranged weapons are used with Agility + Combat. Each weapon is accurate out to a 
 | Heavy Pistol      | 4      | N (W)       | 3        | S    |
 | Machine Pistol    | 3A     | S (N)       | 4        | S    |
 | Flare Gun         | 1F     | N (W)       | 4        | S    |
+| Harpoon Gun       | 2      | C (S)       | 4        | M    |
 | Submachine Gun    | 3A     | S (W)       | 4        | M    |
 | Shotgun           | 5      | N (S)       | 5        | M    |
 | Shotgun, Powder   | 3N     | N (S)       | 5        | M    |
@@ -39,93 +43,113 @@ Ranged weapons are used with Agility + Combat. Each weapon is accurate out to a 
 | Flame Thrower     | 4FA    | A (W)       | 8        | L    |
 | RPG               | 3E     | S (W)       | 9        | L    |
 | Cannon            | 7      | W (R)       | 10       | H    |
-| Heavy Machine Gun | 8      | W (R)       | 10       | H    |
+| Heavy Machine Gun | 8A     | W (R)       | 10       | H    |
 
-**A**: Weapon fires in automatic mode.<br />
-**E**: Weapon fires an explosive or other ordnance; damage listed is only for direct impact.<br />
-**F**: Weapon does fire damage.<br />
+**A**: Weapon fires in automatic mode.  
+**E**: Weapon fires explosives or other ordnance; damage listed is only for direct impact.  
+**F**: Weapon does fire damage.  
 **S**: Weapon does no damage, but may be used to apply poison
 
 #### Automatic Weapons
 
-A weapon firing on automatic throws out many bullets in a short period of time. This allows it to be used for suppressive fire, to be fired at multiple enemies who are close together, and makes it more likely to hit something. A weapon fired on automatic gains 3 dice on the attack roll, but the spread of bullets makes fine aiming more difficult - the increase in threshold for firing at enemies with cover is doubled (basic cover increases threshold by 2, heavy cover increases threshold by _4_). Also the character can't take the Aim action with an automatic weapon, but they can take the Spray-n-Pray action.
+A weapon firing on automatic throws out many bullets in a short period. This allows it to be used for suppressive fire, to be fired at multiple enemies who are close together, and makes it more likely to hit something. A weapon fired on automatic gains 3 dice on the attack roll, but the spread of bullets makes fine aiming more difficult - the increase in the threshold for firing at enemies with cover is doubled (basic cover increases threshold by 2 and heavy cover increases threshold by _4_). Also, the character can't take the Aim action with an automatic weapon, but they can take the Spray-n-Pray action.
 
 #### Bullets
 
-The amount of bullets fired off in genuine firefights is extremely varied and often frighteningly large. During a 12 second combat round, an assault rifle could easily fire 100 rounds or more (if it even had that many bullets in its magazine or belt-feed). Actually resolving where all of those bullets end up would be far too time consuming to consider doing in most battles. As such, the game doesn't really distinguish between characters squeezing off large numbers of bullets and characters taking hard seconds to line up their targets and fire devastating double-taps into a target's vitals. As such, the game also doesn't bother writing up exactly how many bullets weapons contain. During survival horror segments, ammunition conservation can (and should) be a major concern, but in regular street combat it shouldn't really come up.
+The number of bullets fired off in genuine firefights is extremely varied and often frighteningly large. During a 12 second combat round, an assault rifle could easily fire 100 rounds or more (if it even had that many bullets in its magazine or belt-feed). Resolving where all of those bullets end up would be far too time-consuming to consider doing in most battles. As such, the game doesn't distinguish between characters that squeeze off large numbers of bullets and characters taking hard seconds to line up their targets and fire devastating double-taps into a target's vitals. As such, the game also doesn't bother writing up exactly how many bullets weapons contain. During survival horror segments, ammunition conservation can (and should) be a major concern, but in regular street combat it shouldn't come up.
 
 It is also important to note that while the game only models those bullets that have a significant chance of hitting their target, every bullet fired _eventually_ hits _something_. Stray bullets do not individually hit people we care about often enough to have such events generated by any combination of numbers on the dice, relegating that very real possibility to the realm of plot devices. However, in cases where the target is very close to other targets that these other targets are very likely to catch a bullet one way or another. If the target is getting cover from a creature and the target is missed by just the difference caused by the cover, then you can assume that the living cover is hit. Similarly, if the target is in or in front of a dense crowd of people, _someone_ is getting hit. Deciding _who_ is left as a narrative exercise. In such situations, Extras catch stray bullets much more than Luminaries.
 
 #### Special Ammunition
 
-Characters in After Sundown will often want to fire bullets that are specifically made of iron, wood, or silver. While these bullets have different characteristics than ones made of copper or lead, that's a level of detail that combat in After Sundown does not actually go to. Asking for them at the gun store will draw notice and they aren't likely to have wood or silver in stock, but steel, wooden, and silver bullets can and have been made and work just fine.
+Characters in After Sundown will often want to fire bullets that are specifically made of iron, wood, or silver. While these bullets have different characteristics than ones made of copper or lead, that's a level of detail that combat in After Sundown does not go to. Asking for them at the gun store will draw notice and they aren't likely to have wood or silver in stock, but steel, wooden, and silver bullets can and have been made and work just fine.
 
-Special ammunition exists that is generally more damaging. Whether it's made out of depleted uranium or is special explosive ammunition or whatever, such exotic equipment increases the damage of the gun by 1, costs quite a bit, and puts a real strain on the character's claim to not be a military-grade super villain. Armor piercing ammunition has the same availability issues, but instead reduces the balistic protection of physical armor (but not magical toughness or force fields) by 2. 
+Special ammunition exists that is generally more damaging. Whether it's made out of depleted uranium or is special explosive ammunition or whatever, such exotic equipment increases the damage of the gun by 1, costs quite a bit, and puts a real strain on the character's claim to not be a military-grade supervillain. Armor-piercing ammunition has the same availability issues, but instead reduces the ballistic protection of physical armor (but not magical toughness or force fields) by 2.
 
-Smooth bore weaponry such as shotguns can be loaded with grains of pretty much anything, with "less lethal" baton rounds made of rubber or plastic used by law enforcement. Of special interest to characters in the realm of horror is that they can fill the shells with salt, sand, or live grain in order to suppress Astral, Infernal, or Orphic sorcery respectively. This is quite effective, and the character's Agility + Combat test can suppress magic out to the range of the weapon. Powder and other less-lethal shotgun loads have less impact than conventional shot, and do 3 normal damage instead of 5 lethal.
+Smoothbore weaponry such as shotguns can be loaded with grains of pretty much anything, with "less lethal" baton rounds made of rubber or plastic used by law enforcement. Of special interest to characters in the realm of horror is that they can fill the shells with salt, sand, or seeds to suppress Astral, Infernal, or Orphic sorcery respectively. This is quite effective, and the character's Agility + Combat test can suppress magic out to the range of the weapon. Powder and other less-lethal shotgun loads have less impact than conventional shot, and do 3 normal damage instead of 5 lethal.
 
 #### Silencers
 
-While firearms enthusiasts tend to prefer the term "sound suppressor", since they don't actual reduce the sound of a weapon to nothing, in common usage "silencer" and "sound suppressor" are synonyms.
+While firearms enthusiasts tend to prefer the term "sound suppressor", since they don't reduce the sound of a weapon to nothing, in common usage "silencer" and "sound suppressor" are synonyms.
 
-Silencers do reduce the sound of using the weapon substantially, to the point that its use will probably not be noticed on the other side of a wall; if a test is required, treat the threshold to notice or track the sound as 2 higher. The trade-off is that weapon loses a lot of power, which reduces the Damage by 1 and reduces the accurate range by one category (for example: if you silence a light pistol it has a base damage of 1 and loses accuracy if fired at ranges beyond Adjacent). 
+Silencers do reduce the sound of using the weapon substantially, to the point that its use will probably not be noticed on the other side of a wall; if a test is required, treat the threshold to notice or track the sound as 2 higher. The trade-off is that the weapon loses a lot of power, which reduces the Damage by 1 and reduces the accurate range by one category (for example: if you silence a light pistol it has a base damage of 1 and loses accuracy if fired at ranges beyond Adjacent).
 
-Suppressors are controlled or illegal in some places, notably the United States. A silencer can be improvised out of plastic bottles or the like, but will fall apart with use. After more than a shot, an improvised silencer is basically useless garbage.
+Suppressors are controlled or illegal in some places, notably the United States. A silencer can be improvised out of plastic bottles or the like, but will fall apart with use. After more than a shot, an improvised silencer is useless garbage.
 
 ### Melee Weapons
 
-Melee weaponry differs from ranged weaponry primarily in that it simply goes as far as it will reach and therefore doesn't have a "range" value on the table. Many melee weapons inherently do Normal rather than Lethal damage, and their damage values are followed by an "N". Unlike Ranged Weaponry, which is mostly designed for the purpose, a majority of things that people beat on each other with in hand to hand conflicts are actually improvised weapons - tools and household items that happen to be at hand when a fight breaks out.
+_"The sword is the axis of the world"_
 
-| Weapon         | Damage | Strength | Size |
-|:---------------|:------:|:--------:|:----:|
-| Fist           | 0N     | 0        | X    |
-| Bottle         | 1N     | 3        | S    |
-| Knife          | 2      | 4        | S    |
-| Hammer         | 3      | 4        | S    |
-| Baton          | 2N     | 4        | S    |
-| Baseball Bat   | 2N     | 5        | M    |
-| Nail Bat       | 3      | 5        | M    |
-| Sword          | 4      | 5        | M    |
-| Crowbar        | 3      | 5        | M    |
-| Chair          | 2N     | 6        | L    |
-| Axe            | 4      | 6        | L    |
-| Chainsaw       | 4      | 7        | L    |
-| Great Weapon   | 5      | 7        | L    |
-| Sign Post      | 5N     | 8        | L    |
-| Fire Hydrant   | 5      | 9        | L    |
-| Lamp Post      | 6N     | 12       | H    |
-| Car            | 6N     | 13       | H    |
+Melee weaponry differs from ranged weaponry primarily in that it simply goes as far as it will reach and therefore doesn't have a "range" value on the table. Many melee weapons inherently do Normal rather than Lethal damage, and their damage values are followed by an "N". Unlike Ranged Weaponry, which is mostly designed for the purpose, a majority of things that people use to beat on each other in hand to hand conflicts are improvised weapons: tools and household items that happen to be at hand when a fight breaks out.
+
+| Weapon          | Damage | Strength | Size |
+|:----------------|:------:|:--------:|:----:|
+| Fist            | 0N     | 0        | X    |
+| Knuckle Duster  | 1N     | 3        | S    |
+| Bottle          | 1N     | 3        | S    |
+| Sharp Stake     | 1      | 4        | S    |
+| Shiv            | 1      | 4        | S    |
+| Knife           | 2      | 4        | S    |
+| Hammer/Lead Pipe| 3      | 4        | S    |
+| Baton/Tire Iron | 2N     | 4        | S    |
+| Chain           | 2N     | 5        | S    |
+| Bat/2x4         | 2N     | 5        | M    |
+| Nail Bat        | 3      | 5        | M    |
+| Sword/Machete   | 4      | 5        | M    |
+| Crowbar         | 3      | 5        | M    |
+| Spear           | 4      | 5        | L    |
+| Chair           | 2N     | 6        | L    |
+| Axe/Sledgehammer| 4      | 6        | L    |
+| Chainsaw        | 5      | 7        | L    |
+| Great Weapon    | 5      | 7        | L    |
+| Sign Post       | 5N     | 8        | L    |
+| Fire Hydrant    | 5      | 9        | L    |
+| Lamp Post       | 6N     | 12       | H    |
+| Car             | 6N     | 13       | H    |
 
 **N**: Weapon does Normal Damage.
 
 ### Explosions
+
 _"Can we make an explosion explode?"_
 
-Sometimes things blow up, and in the movies things blow up even more. Even when we step outside the action genre, it is a recognized fact that objects in general in any media - including cooperative horror storytelling - are substantially more _explosive_ than they are in real life. Explosions physically expand in roughly spherical paths (barring the use of shaped charges), and thus in a general sort of way an explosion can be expected to become weaker as per the square of the distance from the point of origin. Except of course it's actually much more complicated than that, because there's gravity and air resistance, and shrapnel pieces that fly a lot more like bullets, and so on. More massive shrapnel flies farther as it loses less power to air resistance, and compression waves pass through denser media better than air. And so on. Game mechanically this is abstracted out into an explosion's _Damage_ (which is how much damage targets in the first area have to soak), and the same explosion's _Radius_ (which is how far that area extends). An explosion does damage to targets that are outside its Radius, but substantially less. A target that is farther away from the explosion than the Radius takes 2 less damage if they are within the Radius _of_ the Radius. And this continues until the Damage reaches zero. In effect, the explosion is modeled in the game as an onion where each band has a thickness of the Radius and does 2 less damage than the band before it. In a nod to the truly epic destruction caused by explosives that are actually adjacent to the target, an explosion will inflict 2 _extra_ damage if the explosive is actually touching the target when it goes off.
+Sometimes things blow up, and in the movies, things blow up even more. Even when we step outside the action genre, it is a recognized fact that objects in general in any media - including cooperative horror storytelling - are substantially more _explosive_ than they are in real life. Explosions physically expand in roughly spherical paths (barring the use of shaped charges), and thus in a general sort of way an explosion can be expected to become weaker as per the square of the distance from the point of origin. Except of course it's actually much more complicated than that because there's gravity and air resistance, and shrapnel pieces that fly a lot more like bullets, and so on. More massive shrapnel flies farther as it loses less power to air resistance, and compression waves pass through denser media better than air. And so on.
 
-An Explosion isn't normally affected by net hits on an attack roll, and inflict precisely the same damage if they are thrown perfectly as if they are detonated when simply dropped and forgotten. An exception to that is if an explosion is specifically placed to cause maximum damage. A character's Logic + Sabotage check can increase the damage bonus for a point blank explosion. Explosions are affected strongly by cover, and their damage ratings are reduced by the coverage and its toughness. Explosions do not necessarily inflict fire damage, even though they do act by burning. Unless otherwise noted, the primary damage is flying shrapnel and concussive force. Explosives can be wrapped in silver, wood chips, or steel in order to make that shrapnel into something that is especially effective against certain supernatural creatures.
+Game mechanically this is abstracted out into an explosion's _Damage_ (which is how much damage targets in the first area have to soak), and the same explosion's _Radius_ (which is how far that area extends). An explosion does damage to targets that are outside its Radius, but substantially less. A target that is farther away from the explosion than the Radius takes 2 less damage if they are within the Radius _of_ the Radius. And this continues until the Damage reaches zero. In effect, the explosion is modeled in the game as an onion where each band has a thickness of the Radius and does 2 less damage than the band before it. In a nod to the truly epic destruction caused by explosives that are directly adjacent to the target, an explosion will inflict 2 _extra_ damage if the explosive is actually touching the target when it goes off. Because of diminishing returns doubling the amount of explosive is equivalent to adding 2 additional damage.
+
+An Explosion isn't normally affected by net hits on an attack roll, and inflict precisely the same damage if they are thrown perfectly as if they are detonated when simply dropped and forgotten. An exception to that is if an explosion is specifically placed to cause maximum damage. A character's Logic + Sabotage check can increase the damage bonus for a point-blank explosion. Explosions are affected strongly by cover, and their damage ratings are reduced by the coverage and its toughness. Explosions do not necessarily inflict fire damage, even though they do act by burning. Unless otherwise noted, the primary damage is flying shrapnel and concussive force. Explosives can be wrapped in silver, wood chips, or steel to make that shrapnel into something that is especially effective against certain supernatural creatures.
+
+**Summary** Explosives do +2 damage when touching something, base damage inside the radius, and -2 damage for *each* step out in radius from there.
 
 | Weapon                    | Damage | Radius | Size |
 |:--------------------------|:------:|:------:|:----:|
-| Hand Grenade              | 6L     | 6m     | S    |
-| Concussion Grenade        | 6N     | 2m     | S    |
-| Plastic Explosive Charge  | 8L     | 50 cm  | S    |
-| Flashbang                 | 1L     | 1m     | S    |
-| Land Mine                 | 3L     | 1m     | M    |
-| Incendiary Grenade        | 4F     | 1m     | S    |
-| Molotov Cocktail          | 2F     | 1m     | M    |
-| Propane Tank              | 4F     | 1m     | L    |
-| Car Gas Tank              | 6F     | 2m     | L    |
+| Dynamite or TNT stick     | 6N     | 1 m    | S    |
+| Hand Grenade              | 6L     | 5 m    | S    |
+| Concussion Grenade        | 8N     | 2 m    | S    |
+| Plastic Explosive Charge  | 8L     | 0.5 m  | S    |
+| Flashbang                 | 1L     | 1 m    | S    |
+| Pipe Bomb                 | 4L     | 5 m    | M    |
+| Land Mine                 | 3L     | 1 m    | M    |
+| 60 mm Mortar Shell        | 8L     | 5 m    | M    |
+| 120 mm Artillary Shell    | 12L    | 10 m   | L    |
+| Incendiary Grenade        | 4F     | 1 m    | S    |
+| Molotov Cocktail          | 2F     | 1 m    | M    |
+| Propane Tank              | 4F     | 1 m    | L    |
+| Car Gas Tank              | 6F     | 2 m    | L    |
 
-**N**: Weapon does Normal Damage.<br />
+**N**: Weapon does Normal Damage, mostly from concussive force  
+**L**: Weapon does Lethal Damage, mostly from shrapnel  
 **F**: Weapon does fire damage.
 
+**Example:** Jack throws a fragmentation hand grenade at a group of Triad enforcers. He rolls his Strength + Combat to land the grenade right at the feet of the toughest-looking of them, getting 3 hits. That enforcer has to roll a Soak Test against 6L damage, as does everyone within 6 meters. Jack, standing a little too close at 10 meters has to soak 4 lethal damage, because he's within twice the radius.
+
 ### Throwing Things
-_As soon as the first ape threw their first rock, primates started being a threat to leopards instead of just the other way around._
+
+_"As soon as the first ape threw their first rock, primates started being a threat to leopards instead of just the other way around."_
 
 Characters will probably end up throwing a lot of stuff in an After Sundown campaign. Explosives, buckets of water, and even just plain chairs. It is well known that you can start a fight pretty much anywhere by throwing a chair in a crowd. When you're throwing something, you get bonuses to your attack roll if the thing is big. It is simply easier to connect with a target if you are throwing a whole car than if you are throwing a sharpened playing card. In general, a Small object (like a bottle or a hungamunga) provides +1 die, a medium object (like a tomahawk or a bucket of water) provides 2 extra dice, a large object (like a chair or a person) provides 4 extra dice, and a huge object (like a car or an altar) provides 6 extra dice. A character can throw things that they can lift but not effectively wield in melee because of their Strength being exceeded, but not very far. Such objects are only accurate out to Adjacent range and have a maximum range of Close. Items that the character can wield can be thrown out to Short Range
 
-Damage inflicted by thrown weapons is usually pretty disappointing. Unless it's designed as a throwing weapon (or randomly shaped like something that is such as a bowling ball), the base damage of such thrown items are only going to be 0 or 1, depending upon hardness, sharpness, and density. Any object that is thrown into someone that is too heavy for them to use will knock them down however. And if it's too heavy for them to lift, they may become trapped under it. So when a character throws a Molotov cocktail at an opponent, the damage from throwing the bottle into them is usually pretty inconsequential. The whole "catching on fire" thing is pretty keen though.
+Damage inflicted by thrown weapons is usually pretty disappointing. Unless it's designed as a throwing weapon (or randomly shaped like something that is such as a bowling ball), the base damage of such thrown items is only going to be 0 or 1, depending upon hardness, sharpness, and density. Any object that is thrown into someone that is too heavy for them to use will knock them down, however. And if it's too heavy for them to lift, they may become trapped under it. So when a character throws a Molotov cocktail at an opponent, the damage from throwing the bottle into them is usually pretty inconsequential. The whole "catching on fire" thing is pretty keen though.
 
 | Weapon           | Size   | Bonus | Damage | Notes |
 |:-----------------|:-------|:-----:|:------:|:------|
@@ -145,12 +169,15 @@ Damage inflicted by thrown weapons is usually pretty disappointing. Unless it's 
 | Car              | Huge   | 3     | 1L     | |
 | Boulder          | Huge   | 3     | 1L     | |
 
+**Example:** Lacking any other weapons, Nolan grabs a round-looking rock off the ground to throw at some street toughs that are about 10 meters away. That's Close range, which means he doesn't have a range penalty. His player rolls his Strength + Athletics (since he's better with that than combat) + 0 bonus for a rock, and gets 3 hits against the threshold of 2 needed to hit a target at 10 meters. The tough has to make a Soak Test against 6 normal damage: 4 for Nolan's strength, 1 for the rock, and 1 for the net hit on the attack.
+
 ## Armor & PPE
-_Some people wear their armor on the inside, as some sort of metaphorical refusal to emotionally connect with others. I find that kevlar vests are much more effective at stopping bullets._
 
-Characters will sometimes wear armor or other protective gear. Armor makes it less likely that a character will die when placed into a deadly situation. Armor is heavier than normal clothes, and wearing it is tiring. However, there are characters in After Sundown who have Patience of the Mountain and literally do not get tired. And they often wear armor all the time, even to sleep. It should be noted however that most of the world has a level of civilization that makes wearing armor problematic socially.
+_"Some people wear their armor on the inside, as some sort of metaphorical refusal to emotionally connect with others. I find that kevlar vests are much more effective at stopping bullets."_
 
-Armor has a different rating against different kinds of attacks. The Ballistics rating applies against guns and explosives and the like. The Melee rating applies against knives and claws in addition to baseball bats and large thrown objects like rocks and cars. And finally, the Heat value applies against getting set on fire and also cold. The rating of armor adds additional soak dice. In addition, a character with an armor rating can buy a number of hits on soak tests equal to their armor rating at the rate of 1 hit per three dice. So a character with 2 Armor against an attack could set aside 3 soak dice for one automatic hit or 6 soak dice for 2 automatic hits.
+Characters will sometimes wear armor or other protective gear. Armor makes it less likely that a character will die when placed into a deadly situation. Armor is heavier than normal clothes, and wearing it is tiring. However, there are characters in After Sundown who have Idomitability and literally never tired. They can wear armor all the time, even to sleep. It should be noted however that most of the world has a level of civilization that makes wearing armor problematic socially.
+
+Armor has a different rating against different kinds of attacks. The Ballistics rating applies against guns and explosives and the like. The Melee rating applies against knives and claws in addition to baseball bats and large thrown objects like rocks and cars. And finally, the Heat value applies against getting set on fire and also cold. The rating of armor adds additional soak dice. Also, a character with an armor rating can buy hits on soak tests at the rate of 1 hit per three dice.
 
 Most armor does not cover the character's whole body, and an attacker who knows about the armor can attack the unarmored bits by voluntarily increasing their to-hit threshold by 1. For armor that truly covers the whole body, such as riot gear or hazmat suits, that is not an option. Remember that outré armor like that is often rather hard to explain socially, so even characters who _could_ wear such comfortably usually don't.
 
@@ -163,10 +190,10 @@ Modern armor wears out _quickly_ and needs to be replaced after taking ballistic
 | Stab Vest        | 1         | 4     | 1    | |
 | Ballistic Vest   | 4         | 2     | 1    | NIJ Type II soft ballistic fiber vest |
 | Plate Carrier    | 6         | 4     | 1    | NIJ Type IV ballistic fiber with hard metal or ceramic inserts|
+| Riot Gear        | 6         | 6     | 3    | Includes nomex for fire resistance |
 | Gambeson         | 1         | 2     | 1    | |
 | Chain Mail       | 2         | 6     | 2    | |
 | Plate Mail       | 4         | 6     | 2    | |
-| Riot Gear        | 6         | 6     | 3    | Includes nomex for fire resistance |
 | Construction PPE | 1         | 3     | 0    | Incomplete coverage - hard hat, steel reinforced boots, etc. |
 | Hazmat PPE       | 1         | 2     | 4    | Keeps wearer dry |
 | Fire PPE         | 2         | 3     | 6    | |
@@ -174,9 +201,10 @@ Modern armor wears out _quickly_ and needs to be replaced after taking ballistic
 Characters may also seek out other special protective gear that doesn't act as armor against normal attacks but instead protects against specialized threats like tear gas or even just rain. Protection from rain is addressed in the section on Wind and Water.
 
 ### Damage Over Time
-_Are you still on fire? You should stop that eventually._
 
-When a character is soaked in acid, freezing to death, on fire, or otherwise subjected to a damaging situation that is ongoing, we call this DOT or Damage Over Time. While it _could_ be modeled as a series of tiny attacks that had a remote chance of doing damage each second, that is far fiddlier than the people actually playing the game need to deal with. DOT damage is added one wound box at a time. A DOT effect has a "delay" number, and that number determines how much time passes between filling in one wound box and the next. When a DOT is introduced to a character, they may make a Resistance Test against it, and the hits on that test are _added_ to the Delay Number rather than _subtracting_ from the actual damage done. Being covered in acid for long enough is liable to be a problem for anyone. DOT's will continue filling in a wound box on schedule until they end. For external sources of damage, that generally means removing the noxious stimulus, while something like an injected poison usually has an amount of time it will persist based on how much was injected (this time could be cut shorter with things like antidotes or diuretics).
+_"Are you still on fire? You should stop that eventually."_
+
+When a character is soaked in acid, freezing to death, on fire, or otherwise subjected to a damaging situation that is ongoing, we call this DOT or Damage Over Time. While it _could_ be modeled as a series of tiny attacks that had a remote chance of doing damage each second, that is far fiddlier than the people playing the game need to deal with. DOT damage is added one wound box at a time. A DOT effect has a "delay" number, and that number determines how much time passes between filling in one wound box and the next. When a DOT is introduced to a character, they may make a Resistance Test against it, and the hits on that test are _added_ to the Delay Number rather than _subtracting_ from the actual damage done. Being covered in acid for long enough is liable to be a problem for anyone. DOT's will continue filling in a wound box on schedule until they end. For external sources of damage, that generally means removing the noxious stimulus, while something like an injected poison usually has an amount of time it will persist based on how much was injected (this time could be cut shorter with things like antidotes or diuretics).
 
 | Delay Number | Time Between Damage Boxes   | Example DOT Source |
 |:------------:|:----------------------------|:-------------------|
@@ -189,18 +217,19 @@ When a character is soaked in acid, freezing to death, on fire, or otherwise sub
 | 6            | 15 Minutes                  | Watching an M. Night Shyamalan movie |
 | 7            | 30 Minutes                  | Staring at a glowing radioactive rock |
 | 8            | 1 Hour                      | Inadequate protection from brutal cold |
-| 9+           | Double Time                 | Each Additional Delay Number (4 Hours, 8 hours, 16 Hours, etc...) |
+| 9+           | Double Time                 | Each Additional Delay Number (4 hours, 8 hours, 16 hours, etc...) |
 
 ### Other Hazards
-_Don't touch that. Or that either._
+
+_"Don't touch that. Or that either."_
 
 #### Falling
 
-Characters will fall from time to time. And falling substantial distances actually can take quite an amount of time. However, in a 12 second combat round a character could almost reach terminal velocity and fall over 600 meters, so for practical purposes it's usually best to simply have characters hit the ground after having just one Simple Action to try to do something about their situation. It is also true that "The bigger they are, the harder they fall." That's not just a trite saying that He Man gives before tripping giant robots, it's physical reality. Larger creatures have more mass proportional to their surface area and accelerate at the same speed, truly mice and ants can survive being dropped from any height and elephants can't even jump without breaking their bones on the way down. Game mechanically this truth is handled by preventing characters from using Strength or Armor to soak falling damage, and by having larger creatures take additional damage from falls. Characters can soak damage from falls by performing Agility + Athletics stunts with a threshold of 1 (net hits soak damage, but the first hit does not). Magical benefits for soaking damage do apply (as they make the character tougher relative to their mass rather than adding additional mass), so a character gains the benefits of Fortitude.
+Characters will fall from time to time. And falling substantial distances actually can take quite an amount of time. However, in a 12-second combat round a character could almost reach terminal velocity and fall over 600 meters, so for practical purposes, it's usually best to simply have characters hit the ground after having just one Simple Action to try to do something about their situation. It is also true that "The bigger they are, the harder they fall." That's not just a trite saying that He Man gives before tripping giant robots, it's physical reality. Larger creatures have more mass proportional to their surface area and accelerate at the same speed, truly mice and ants can survive being dropped from any height and elephants can't even jump without breaking their bones on the way down. Game mechanically this truth is handled by preventing characters from using Strength or Armor to soak falling damage, and by having larger creatures take additional damage from falls. Characters can soak damage from falls by performing Agility + Athletics stunts with a threshold of 1 (net hits soak damage, but the first hit does not). Magical benefits for soaking damage do apply (as they make the character tougher relative to their mass rather than adding additional mass), so a character gains the benefits of Fortitude.
 
 If the character falls onto a hard or sharp surface, increase damage by 1 or more. If the falling creature is large, increase the damage by 1 or more. If the falling creature is small, reduce the damage by 1 or more.
 
-The increase in velocity over distance and therefore time is actually quite nonlinear, but for ease of approximation treat each additional 10 meters as one additional damage. Humanish characters reach terminal velocity after around 450 m of free-fall, which we set somewhat arbitrarily as enough damage to kill a normal person twice over.
+In reality, the increase in velocity over distance and therefore time is nonlinear, but for ease of approximation treat each additional 10 meters as one additional damage. Humanish characters reach terminal velocity after around 450 m of free-fall, which we set somewhat arbitrarily as enough damage to kill a normal person twice over.
 
 | Distance                   | Damage |
 |:---------------------------|:------:|
@@ -212,29 +241,44 @@ The increase in velocity over distance and therefore time is actually quite nonl
 | For each additional 10 m   | +1     |
 | Terminal Velocity (450+ m) | 20     |
 
+#### Fire & Heat
+
+| Fire Example      | Damage |
+|:------------------|:------:|
+| Flare/Torch       | TK     |
+| Blowtorch         | TK     |
+| McDonald's Coffee | TK     |
+| Burning Building  | TK     |
+| Body engulfed     | TK     |
+| Crematory         | TK     |
+
 #### Electrocution
 
-Electricity damage is something of a paradox. Electricity flows through the path of least resistance, and it inflicts damage based on the resistance of the path it flows through. Thus, you can defend yourself from electricity by covering yourself in high resistance insulation (because it will redirect electricity away from your body to another path) _or_ by covering yourself with low resistance conductive mesh (because it will _create_ a preferred path through the mesh and away from your organs). From the standpoint of the game, a character who is protected by especially conductive or non-conductive material is _immune_ to electrical shocks. Electricity is inherently unpredictable, whenever someone is electrocuted, roll a die - if it comes up a hit, increase the Damage by 1. Net hits on attacks with electrical outputs are not added to the damage of an electric shock.
+Electricity damage is something of a paradox. Electricity flows through the path of least resistance, and it inflicts damage based on the resistance of the path it flows through. Thus, you can defend yourself from electricity by covering yourself in high resistance insulation (because it will redirect electricity away from your body to another path) _or_ by covering yourself with low resistance conductive mesh (because it will _create_ a preferred path through the mesh and away from your organs). From the standpoint of the game, a character who is protected by especially conductive or non-conductive material is _immune_ to electrical shocks.
 
-| Shock                               | Damage |
-|:------------------------------------|:------:|
-| Ordinary (Wall Socket)              | 2N     |
-| Serious (Electric Fence)            | 3N     |
-| Incapacitating (High Powered Taser) | 4N     |
-| Terminal (Lightning Strike)         | 5      |
+Electricity is inherently unpredictable, whenever someone is electrocuted, roll a die - if it comes up a hit, increase the Damage by 1. Net hits on attacks with electrical outputs are not added to the damage of an electric shock. If the source is continuous like the character has grabbed a live wire, the induced muscle contractions may make it hard to let go continue to inflict damage; a reflexive Strength + Athletics test is made to break away each round, using the Damage as a Rating to determine the threshold.
+
+| Shock                                   | Damage |
+|:----------------------------------------|:------:|
+| Ordinary (Wall Socket)                  | 2N     |
+| Serious (Electric Fence)                | 3N     |
+| Incapacitating (High Powered Taser)     | 4N     |
+| Terminal (Lightning Strike, Third Rail) | 5      |
 
 ### Poison
 
-Poison has a progressive effect that affects the target more as time goes on. Functionally this means that poison is _much slower_ than bullets or chainsaws. The way this is handled is as a DOT. However, not all poisons inflict actual damage, many come with special effects in addition to or instead of filling in wound boxes. Poisons normally only accumulate effects for a certain amount of time based on the original dose. When a victim is exposed to additional doses before the first has run its course, use the current timer for how long the poison will last and reduce the Delay by 1 if the timer is less than half over, or leave the Delay number alone and reset the termination timer if it has run more than half of its course. Characters with Patience of the Mountains or Tongue of the Serpent are immune to poisons. If a character is given anti-venom or some similar treatment, the character gains additional resistance dice to increase the Delay and/or the termination counter is reduced in length (depending on whether it works by clearing the chemical from the victim's system or neutralizing the effects). Note that the dosages are all the "normal" dosages, which for "recreational" poisons (like street drugs) are actually very small. Poisons my be more or less effective if administered by another route (injecting pepper spray would be all kinds of fatal). The assumption is that street drugs are being snorted unless otherwise indicated. The secondary effects of a poison kick in as soon as one damage box is filled in (or would be filled in for non damaging poisons), and end when the Timer runs out. Damage, whether Normal or Lethal, remains until healed.
+Poison has a progressive effect that affects the target more as time goes on. Functionally this means that poison is _much slower_ than bullets or chainsaws. The way this is handled is as a DOT. However, not all poisons inflict actual damage, many come with special effects in addition to or instead of filling in wound boxes. Poisons normally only accumulate effects for a certain amount of time, based on the original dose. When a victim is exposed to additional doses before the first has run its course, use the current timer for how long the poison will last and reduce the Delay by 1 if the timer is less than half over, or leave the Delay number alone and reset the termination timer if it has run more than half of its course. Characters with Patience of the Mountains or Tongue of the Serpent are immune to poisons. If a character is given anti-venom or some similar treatment, the character gains additional resistance dice to increase the Delay and/or the termination counter is reduced in length (depending on whether it works by clearing the chemical from the victim's system or neutralizing the effects). Note that the dosages are all the "normal" dosages, which for "recreational" poisons (like street drugs) are very small. Poisons may be more or less effective if administered by another route (injecting pepper spray would be all kinds of fatal). The assumption is that street drugs are being snorted unless otherwise indicated. The secondary effects of a poison kick in as soon as one damage box is filled in (or would be filled in for non-damaging poisons), and end when the Timer runs out. Damage, whether Normal or Lethal, remains until healed.
 
 | Poison            | Delay | Timer      | Notes |
 |:------------------|:-----:|:-----------|:------|
-| Tear Gas          | 2N    | 5 rounds   | Provides a "dose" for each round of exposure. |
+| Smoke             | TK    | TK         | Provides a "dose" each round of exposure |
+| Tear Gas          | 2N    | 5 rounds   | Provides a "dose" each round of exposure |
+| Chlorine Gas      | TK    | TK         | Provides a "dose" each round of exposure |
 | Pepper Spray      | 0N    | 2 rounds   | |
 | Tranq Dart        | 0N    | 3 rounds   | Fatigue |
 | Curare            | 0N    | 1 round    | Paralysis |
 | Rat Poison        | 5     | 1 hour     | Ingested. |
-| Uranium           | 18    | 3 Months   | Provides a "dose" for each five minutes of exposure. |
+| Uranium           | 18    | 3 Months   | Provides a "dose" for every five minutes of exposure. |
 | "Euphoric"        | 2\*   | 1 Hour     | Amnesia and Overstimulation |
 | "Hallucinogenic"  | 2\*   | 6 Hours    | Amnesia and Delusion |
 | "Paralytic"       | 0\*   | 10 Minutes | Paralysis |
@@ -245,7 +289,7 @@ Poison has a progressive effect that affects the target more as time goes on. Fu
 | Cocaine           | 5\*   | 20 Minutes | Anesthetic and Delusion |
 | Alcohol           | 9N    | 1 Hour     | Ingested. Repeated dosing can cause Amnesia, Anesthetic, or Delusion |
 
-\* This Poison doesn't actually do any damage, the damage level is just there so that secondary effects occur. At the MC's option, overdoses may still be fatal if the virtual damage level rises to Terminal.
+\* This Poison doesn't do any actual damage, the damage level is just there so that secondary effects occur. At the MC's option, overdoses may still be fatal if the virtual damage level rises to Terminal.
 
 Poisons in Quotes are the magical poisons available with Tongue of the Serpent. The damage level may at the character's option be increased by the character's Potency.
 
@@ -253,13 +297,13 @@ When a Poison has a secondary effect, that effect generally lasts for 10 minutes
 
 ### Disease
 
-| Disease           | Delay | Effects |
-|:------------------|:-----:|:--------|
-| Rabies            | TK    | TK |
-| Cholera           | TK    | TK |
-| "Chud"            | 5     | Victim dissolves into white goo. |
-| "Cooties"         | 3\*   | Victim driven mad with lust. |
-| "Doom Flies"      | 8     | Victim eaten up by maggots, explodes into swarm of flies. |
-| "Rage Virus"      | 3     | Victim transforms into Soulless. |
-| "Thing Infection" | 11    | Victim fills up with roots, Triffid bursts out of their husk. |
+| Disease           | Delay     | Effects |
+|:------------------|:---------:|:--------|
+| Rabies            | TK        | TK |
+| Cholera           | TK        | TK |
+| "Chud"            | 5         | Victim dissolves into white goo. |
+| "Cooties"         | 3\*       | Victim driven mad with lust. |
+| "Doom Flies"      | 8         | Victim eaten up by maggots, explodes into swarm of flies. |
+| "Rage Virus"      | 3         | Victim transforms into Soulless. |
+| "Thing Infection" | 11        | Victim fills up with roots, Triffid bursts out of their husk. |
 | "Z-Virus"         | No Damage | When Victim dies, it rises as a Shambler. |

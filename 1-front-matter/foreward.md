@@ -1,0 +1,9 @@
+## Foreward
+
+Let us look back to 1990. The moral panic over Satanic ritual abuse was in full swing. Vampires were cool and the Interview movie was still in development hell. The Golden Age of Slasher Movies had ended and we were inundated with direct-to-video horror sequels. The 2nd Edition of Advanced Dungeons & Dragons was coming out and they cut all the cool stuff like demons and assassins in a facile attempt to get the contemptible fundies like Patricia Pulling off their backs. In reaction to this a different sort of game was produced.
+
+Contrary to what some of you are thinking, it was not Vampire: The Masquerade, which was not due out for another year. It was Nightlife. And it Nightlife you weren't limited to being a vampire (... or vampyre, for... reasons) but could also be a werewolf, ghost, daemon, wyght, animate, or... Inuit. So, a lot of questionable decisions were made, and it never had the popularity of White Wolf's crowning glory, but it did have some workable and interesting ideas at its core. And we've had the benefit of another 30 years of game design since then, which is far more than they had, 1990 being only 16 years after D&D's Little Brown Books first left the presses in 1974.
+
+In that time a man with the improbable name Frank Trollman, who had his own commercial game credits, made his own horror heartbreaker inspired by this legacy. The original version of After Sundown was published as a series of forum posts on the Gaming Den in 2011. He generously published it with a CC0 license - the closest thing to the public domain the law broadly allows - meaning that independent additions and revisions can be added to the game by anyone.
+
+With that spirit in mind, (the authorial) we have produced a new edition, attempting to revise and extend the material of the first edition with the benefit of additional hindsight and feedback. We hope you enjoy it.

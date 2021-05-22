@@ -1,11 +1,12 @@
 ## Advantages and Disadvantages
+
 _Oh yeah? But can you do this?_
 
 Over and above the fact that different people are stronger or weaker, more or less trained than others, there are things some characters can do that others cannot. These vary from simple "stupid human tricks" to feats that defy explanation even by trained stage magicians. From a game structural perspective, an Advantage is like a Power in that it is an ability that you either have or do not have. However, Advantages are available to humans, even _Extras_, and are substantially less powerful than an actual Power.
 
-Similarly, some people just have problems that others don't. Disadvantages represent a wide variety of possible problems and are somewhat more integral to the game in that every playable monster has at least one of them. A character is not allowed to double dip by using a power to eliminate the problems of having a Disadvantage; if this occurs they should choose another Disadvantage instead.
+Similarly, some people just have problems that others don't. Disadvantages represent a wide variety of possible problems and are somewhat more integral to the game in that every playable monster has at least one of them. A character is not allowed to double-dip by using a power to eliminate the problems of having a Disadvantage; if this occurs they should choose another Disadvantage instead.
 
-Characters may, with MC approval, take a number of Disadvantages during character creation. Each Disadvantage taken will allow the player to take an additional Advantage. The inherent Disadvantages from being a Monster or increasing Potency do not grant corresponding Advantages.
+Characters may, with MC approval, take Disadvantages during character creation. Each Disadvantage taken will allow the player to take an additional Advantage. The inherent Disadvantages due to being a Monster or increasing Potency do not grant corresponding Advantages.
 
 ### Physical Advantages
 
@@ -19,6 +20,8 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 **Fists of Fury:** The character's body is hardened for martial arts and their unarmed attacks do +1 damage (this does not stack with additional damage due to shapeshifting).
 
+**Large:** The character is unusually large and massive. They gain a +1 bonus to rolls to physically Intimidate others and to grab attacks (including the threshold to grab them in turn), but also will have to buy large clothing and may have difficulty finding ways to hide.
+
 **Natural Immunity:** There is some poison or disease that the character is completely immune to the harmful effects of.
 
 **Swarming:** The character is very good at fighting in groups, and does not suffer penalties for fighting in large groups and does not provide penalties to their allies.
@@ -29,9 +32,9 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 **Eidetic Memory:** The character can remember things that they have seen or heard in incredibly accurate and minute detail. This means that, for example, when they see a slasher walking around dressed as a human after they the same guy dressed as a monster, they will almost invariably recognize them as one and the same.
 
-**Experimenter:** The character can quit any time. Ingesting chemicals over a long period of time will still cause adaptation and eventually physical dependence, but the character is never psychologically or spiritually addicted to anything.
+**Experimenter:** The character can quit any time. Ingesting chemicals will still eventually cause adaptation and physical dependence, but the character is never psychologically or spiritually addicted to anything.
 
-**Mathematical Savant:** The character can perform complex mental arithmetic quite rapidly and reliably, at least as fast as if they were operating a abacus, calculator, or slide rule. This extends to other pure symbol manipulation like operating a shift cipher, but that's about the limit. 
+**Mathematical Savant:** The character can perform complex mental arithmetic quite rapidly and reliably, at least as fast as if they were operating a abacus, calculator, or slide rule. This extends to other pure symbol manipulation like operating a shift cipher, but that's about the limit.
 
 **Time Sense:** The character knows what time it is. They know how long it has been since the last time you asked what time it is. And they can decide ahead of time how long they will sleep - they not only do not need a clock, they don't need an _alarm_ clock to manage their lives.
 
@@ -45,7 +48,7 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 **Loyalty:** The character really likes their friends, or maybe just takes duty to the team very seriously. The threshold to convince them to turn on those they feel loyal to (often including the other characters) is increased by 1. This even applies to magic, and the character effectively gains 1 extra hit to resist Authority and similar effects if they are being made to turn on their allies. In the case of ongoing domination such as Possession, the bonus hit can retroactively cause the character to resist the effect if they are subsequently let loose on their friends.
 
-**One of Those Faces:** The character's appearance is bland an unnoticeable, and people tend to forget their face and generally just don't notice much about them. The threshold to identify and remember distinguishing details about the character is one higher. This Advantage is not compatible with Attractive or Unattractive.
+**One of Those Faces:** The character's appearance is bland and unnoticeable, and people tend to forget their face and generally just don't notice much about them. The threshold to identify and remember distinguishing details about the character is one higher. This Advantage is not compatible with Attractive or Unattractive.
 
 ### Physical Disadvantages
 
@@ -53,9 +56,9 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 **Conspicuous Consumption:** The character bleeds from the mouth, has weeping sores, or in some other way is _obviously_ very ill. People tend to react with a mix of horror and sympathy and the threshold of getting them to feel something else - or not try to immediately get the character to a hospital - is increased by 1.
 
-**Deadly Allergy:** The character has some generally avoidable, but potentially lethal allergy. If they consume the substance, whether it's peanuts, shellfish, or penicillin, it is treated as a lethal poison. Some creatures vulnerable to silver are also effectively poisoned by it.
+**Deadly Allergy:** The character has some generally avoidable but potentially lethal allergy. If they consume the substance, whether it's peanuts, shellfish, or penicillin, it is treated as a lethal poison. Some creatures vulnerable to silver are also effectively poisoned by it.
 
-**Distinctive Appearance:** The character is easy to describe, possibly because the look wildly different from others, but maybe just because there's something really obvious like a burn mark on their face or a missing eye. Other characters get an additional 2 dice to recall details about the character's appearance and behavior.
+**Distinctive Appearance:** The character is easy to describe, possibly because they look wildly different from others, but maybe just because there's something really obvious like a burn mark on their face or a missing eye. Other characters get an additional 2 dice to recall details about the character's appearance and behavior.
 
 **Oversensitive:** One of the character's senses is always prone to _overstimulation_, frequently flashing lights or loud noises. This can also represent the sensitivity to bright lights of some monsters with a weakness to sunlight.
 
@@ -63,11 +66,11 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 ### Mental Disadvantages
 
-**Aimless:** The character's hopes and dreams feel distant and unreal. Advancing their Driving Passion does not allow them to refresh an Edge.
+**Aimless:** The character's hopes and dreams feel distant and unreal. Advancing their Driving Ambition does not allow them to refresh an Edge.
 
-**Anachronism:** The character is from another time, or possibly just grew up in an Amish community or a savage region of one of the outlands. And they do not know how machines work unless they are specially instructed on them. The character cannot default when operating 21st century devices.
+**Anachronism:** The character is from another time, or possibly just grew up in an Amish community or a savage region of one of the outlands. And they do not know how machines work unless they are specially instructed on them. The character cannot default when operating 21st-century devices.
 
-**Compulsive Behavior:** The character feels compelled to do some thing over and over again in ways which are maladaptive. This can be comedic, tragic, distinctive, and time wasting. A good example of Compulsive Behavior can be found in the TV show [Monk](https://en.wikipedia.org%2Fwiki%2FMonk_%28TV_series%29). Resisting the compulsion is similar to resisting a frenzy (and may result in one if frustrated under sufficient stress).
+**Compulsive Behavior:** The character feels compelled to do something over and over again in ways that are maladaptive. This can be comedic, tragic, distinctive, and time-wasting. A good example of Compulsive Behavior can be found in the TV show [Monk](https://en.wikipedia.org%2Fwiki%2FMonk_%28TV_series%29). Resisting the compulsion is similar to resisting a frenzy (and may result in one if frustrated under sufficient stress).
 
 **Delusional:** The character is absolutely certain of something that does not appear to be true and will not be swayed by any evidence to the contrary. This would include most religious beliefs, but the character is not awarded Disadvantages for believing ridiculous things that are believed by a large portion of the population, because such delusions do not negatively impact the character. So if you believe that there are important messages from aliens coded in dog howls, that's a disadvantage; but if you believe that there are important messages from Jesus coded in cheese sandwiches, this is _not_ a disadvantage. Not because it isn't counter-factual and immune to contrary evidence, but because society at large has accepted people with such delusions and made accommodations for them.
 
@@ -95,7 +98,7 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 **Naive:** The character is unfamiliar with modern society for whatever reason, and does not know how to respond socially to normal behavior. Increase the threshold of most social actions within such a society by 1. This does not apply to supernatural society, where the character may find they fit in much better.
 
-**Offensive to Animals:** Animals do not like the character. If a Giant Animal has a choice of targets, it will attack them, and in general the threshold to work with animals is increased by 1.
+**Offensive to Animals:** Animals do not like the character. If a Giant Animal has a choice of targets, it will attack them, and in general, the threshold to work with animals is increased by 1.
 
 **Oppressed Minority:** The character is a member of a group that is discriminated against. Those who are particularly prejudiced may attack the character for no other reason, and the character will be faced with an increased threshold to make a good impression on many others.
 
@@ -111,9 +114,9 @@ Characters may, with MC approval, take a number of Disadvantages during characte
 
 **Haunted:** Left to their own devices, spirits harass the character. It's entirely possible that no one knows why this is. If a Ghost has a choice of targets, it will attack them.
 
-**Infectious Mood:** The general disposition of the character is infectious. However, since they are a supernatural creature, and therefore _crazy_, the moods that they impart in others are similarly maladaptive. The character's Master Passion plays out in Extras who are in their presence for extended periods of time.
+**Infectious Mood:** The general disposition of the character is infectious. However, since they are a supernatural creature, and therefore _crazy_, the moods that they impart in others are similarly maladaptive. The character's Master Passion plays out in Extras who are in their presence for an extended time.
 
-**Lunacy:** The character's emotions wax and wane with the moon; in the week of the full moon their threshold to resist frenzy is increased by 1, and on the night of the full moon they must check for frenzy when the moon rises. Around the time of the new moon they  instead have a corresponding vulnerability to despondency. Lunatic stacks with Temperamental, making Lunatic Werewolves particularly unstable.
+**Lunacy:** The character's emotions wax and wane with the moon; in the week of the full moon their threshold to resist frenzy is increased by 1, and on the night of the full moon they must check for frenzy when the moon rises. Around the time of the new moon they instead have a corresponding vulnerability to despondency. Lunatic stacks with Temperamental, making Lunatic Werewolves particularly unstable.
 
 **Mirror-Marked:** The character catches glimpses of the Dark Reflection when seeing mirrors out of the corner of their eye. Goblins will target the character for abduction if given the chance.
 

@@ -17,7 +17,7 @@ The best media to look through to get a handle on Mirror Goblins is The Maxx, as
 
 A Mirror Goblin was never human and has a nonstandard attribute array:
 
-S: 1/4, A: 2/7, I: 1/6, L: 1/5, W: 1/4, C: 1/6
+S: 3/8, A: 5/10, I: 4/10, L: 3/8, W: 3/8, C: 3/8
 
 A Mirror Goblin has an Infernal power source and a Ritual power schedule. While they are inherently magical creatures they do not have Edge and their Potency is rated one and cannot develop further.
 
@@ -90,15 +90,15 @@ _"Skin... Graaaaah... Tasty..."_
 
 Within the prison world that is the Deep Reflection, hideous ogres prowl and punish or even murder those unlucky enough to fall into their clutches. But while they are the jailers of this foul realm, they are also its prisoners. Trolls spend almost every moment of their existence in agony and dejection, and eagerly take out their pains on others.
 
-Hulking brutes with bulging musculature and an inhuman appearance, Trolls cannot actually turn their Giant Size _off_. These tortured giants of Limbo appear in literature as Tartarians and Pyramid Head. While they _do_ eat people, they don't actually get anything for it except a meal. They rip the skin from their victims simply because they find enjoyment in doing so, not for the advancement of any mystical agenda.
+Hulking brutes with bulging musculature and an inhuman appearance, Trolls cannot actually turn their Giant Size _off_. These tortured giants of Limbo appear in literature as Tartarians and Pyramid Head. Trolls regain power by feeding on living things, often simply by swallowing them whole in their gaping maws. 
 
 Trolls have a fairly multivarious appearance, varying from merely oversized humans to lumpy stone skinned oni with tremendous tusks. These changes are generally speaking purely cosmetic. Trolls have no difficulty recognizing different Trolls as being the same as themselves.
 
 Trolls have a nonstandard attribute array because they were never humans. Before their Potency modifier and their constant Giant Size, their attribute ranges are:
 
-S: 10/15, A: 4/8, I: 4/8, L: 3/7, W: 4/12, C: 3/7
+S: 10/15, A: 4/8, I: 4/8, L: 3/7, W: 4/12, C: 3/7 E: 1/6 P: 3
 
-A Troll has an Infernal power source and a Continuous power schedule.
+A Troll has an Infernal power source and a Feeding power schedule.
 
 #### Troll Starting Powers
 
@@ -114,10 +114,10 @@ Basic Powers
 
 Advanced Powers
 
-* Giant Size (Advanced Clout)
+* Giant Size (Advanced Clout) _Mutation_
 * Devastation (Advanced Clout)
 * Indomitability (Advanced Fortitude)
 * Restoration (Advanced Fortitude)
 * Mien of Power (Advanced Magnetism)
 
-**Story Inspiration:** [Silent Hill](http://www.imdb.com/title/tt0384537/), [Billy Goats Gruff](https://en.wikipedia.org/wiki/Three_Billy_Goats_Gruff), [Jack and the Giant](https://en.wikipedia.org/wiki/Jack_and_the_Beanstalk)
+**Story Inspiration:** [Silent Hill](http://www.imdb.com/title/tt0384537/), [Trollhunter](https://www.imdb.com/title/tt1740707/), [Billy Goats Gruff](https://en.wikipedia.org/wiki/Three_Billy_Goats_Gruff), [Jack and the Giant](https://en.wikipedia.org/wiki/Jack_and_the_Beanstalk)

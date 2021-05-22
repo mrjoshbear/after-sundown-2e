@@ -34,7 +34,7 @@ _"You know, the best way to get rid of ghosts is to clean house."_
 
 Wraiths appear as they did in life save with photographic filters applied to make them look washed out and see-through. Each Wraith is a specific person that died, and they tend to have goals that tie into their time while alive or the circumstances of their death. A Wraith that accomplishes its driving goal often dissolves into a happy ending. But sometimes a Luminary Wraith will simply go on and make an unlife for themselves in supernatural society.
 
-Like all Ghosts, a Wraith is only corporeal while within the Gloom, and can only be in the mortal world until the sun rises before being banished back to Mictlan. Each Wraith has a number of things that tie them to the real world called "fetters". These can be favored objects, their own corpse, or loved ones. In order to regain Power Points they have to be within a few meters of one of their fetters and interact with it in some obsessive way. If a Wraith loses track of their fetters, they cannot regain Power Points and are doomed to slowly fade away. If a Wraith attains its primary goal and persists afterwards, they can stop obsessing over the past and make a new life with new fetters.
+Like all Ghosts, a Wraith is only corporeal while within the Gloom, and can only be in the mortal world until the sun rises before being banished back to Mictlan. Each Wraith has a number of things that tie them to the real world called "fetters". These can be favored objects, their own corpse, or loved ones. In order to regain Magic Points they have to be within a few meters of one of their fetters and interact with it in some obsessive way. If a Wraith loses track of their fetters, they cannot regain Magic Points and are doomed to slowly fade away. If a Wraith attains its primary goal and persists afterwards, they can stop obsessing over the past and make a new life with new fetters.
 
 Some Luminary Wraiths come into being with a lot of extra disciplines, putting them on close to the same footing as a normal player character. Some people might even be tempted to run Wraith chronicles, but that's really very difficult role playing.
 
@@ -51,7 +51,7 @@ Advanced Powers
 
 * Empty Body (TK)
 
-**Story Inspiration:** [Ghost](http://www.imdb.com/title/tt0099653/), [Stir of Echoes](http://www.imdb.com/title/tt0164181/), [Sixth Sense](http://www.imdb.com/title/tt0167404/), most ghost stories honestly.
+**Story Inspiration:** [Ghost](http://www.imdb.com/title/tt0099653/), [Stir of Echoes](http://www.imdb.com/title/tt0164181/), [Sixth Sense](http://www.imdb.com/title/tt0167404/), [The Others](https://www.imdb.com/title/tt0230600/) most ghost stories honestly.
 
 ### Poltergeists
 _"They're here..."_
@@ -73,8 +73,8 @@ Basic Powers
 Advanced Powers
 
 * Empty Body (TK)
-* Telekinesis (Advanced Clout)
 * Devastation (Advanced Clout)
+* Telekinesis (Advanced Clout)
 
 **Story Inspiration:** [Poltergeist](http://www.imdb.com/title/tt0084516/), [It](http://www.imdb.com/title/tt0099864/)
 
@@ -83,9 +83,9 @@ _"TK"_
 
 When Wraiths grow old in their unlife and watch everything they care about wither away, sometimes they get worse. Their minds are warped by one frenzy after another as their other fetters fall into history until hatred of the living is all they have left, and then in a vicious cycle that becomes the one thing that sustains them. It's a sad fate, but there's a lot of bad going around in the world of horror and not much reason to care.
 
-The problem is that a rare few these broken souls eventually reach something like Elderhood and develop powers that let them bother the living. A Dybbuk is driven to find ways out of Mictlan and go joyriding in mortals.
+The problem is that a rare few these broken souls eventually reach something like Elderhood and develop powers that let them bother the living. A Dybbuk is driven to find ways out of Mictlan to torment mortals, feeding off of their pain and destruction until they can gather the power to possess one and go joyriding in their new body.
 
-A Dybbuk has an Orphic power source and a Lunar power schedule. They are usually dominated by Master Passion Rage. As undead they are vulnerable to wood and weakened by sunlight.
+A Dybbuk has an Orphic power source and a Feeding power schedule. They are usually dominated by Master Passion Rage. As undead they are vulnerable to wood and weakened by sunlight.
 
 #### Dybbuk Starting Powers
 
@@ -95,7 +95,7 @@ Basic Powers
  * Aura Perception (Basic Discernment)
  * Patience of the Mountains (Basic Fortitude)
  * Vigor (Basic Clout)
- * Chill of the Grave (Basic Descent of Entropy)
+ * Chill of the Grave (Basic Lure of Destruction)
 
 Advanced Powers
 
@@ -108,4 +108,4 @@ Elder Powers
 
  * Possession (Elder Authority)
 
-**Story Inspiration:** [The Possession](https://www.imdb.com/title/tt0431021/), [Session 9](https://www.imdb.com/title/tt0261983/)
+**Story Inspiration:** [The Possession](https://www.imdb.com/title/tt0431021/), [Session 9](https://www.imdb.com/title/tt0261983/), [The Prodigy](https://www.imdb.com/title/tt4504044/)

@@ -1,14 +1,16 @@
 ## Resources and Obligations
+
 _"Whoever dies with the most will presumably have the most left when they are resurrected."_
 
 Characters in the realm of horror spend more time than you might think running around naked. That's fine and all, and meshes well with a certain kind of story. But much of the time, characters really do have physical objects and social connections at their disposal in addition to their personal abilities and the contents of their mind. In After Sundown, these resources are itemized and written down in order to formalize reserves that a character can draw upon during their adventures. Individual advantages that a character has are assigned a value based on their presumptive potential utility and categorized by what kind of story advantage they grant. Resources can be physical _things_, but they can also be more ephemeral things of value such as friendships or society's recognition of ownership. Characters may also have fetters that tie their hands, demands placed upon them by society either out of need or hostility. These are called Obligations.
 
 ### Resources
+
 _That's what I got, what you got?_
 
 Resources are not necessarily fungible nor are they necessarily transferable. While a character's Finance Resources can usually be traded away (that being most of the point), even in those cases they may instead be stocks or property rights that may be difficult to transfer quickly and/or draw attention when title is given away at all. Friendships can almost never be sold away, and minions are not generally happy to have the subject brought up in anything but the crudest of jests.
 
-Depending on the parameters of the campaign, a starting character in After Sundown is normally expected to have a 1-point Resource, a 2-point Resource, and a 3-point Resource (and no, you can't trade those all in for a 6-point Resource, but thanks for asking). With the MC's permission, a character can begin play with additional Resources, so long as they "pay" for these resources by taking Obligations of equal size. That is, a character might have an extra 3-point Science Resource (access to the FBI finger print database perhaps) but also be saddled with a 3-point Stalkers Obligation (presumably the Bureau keeping tabs on their movements). Players may not take two 1-point obligations to pay for a 2-point resource, nor may they take a 2-point Obligation to pay for two different 1-point Resources.
+Depending on the parameters of the campaign, a starting character in After Sundown is normally expected to have a 1-point Resource, a 2-point Resource, and a 3-point Resource (and no, you can't trade those all in for a 6-point Resource, but thanks for asking). With the MC's permission, a character can begin play with additional Resources, so long as they "pay" for these resources by taking Obligations of equal size. That is, a character might have an extra 3-point Science Resource (access to the FBI fingerprint database perhaps) but also be saddled with a 3-point Stalkers Obligation (presumably the Bureau keeping tabs on their movements). Players may not take two 1-point obligations to pay for a 2-point resource, nor may they take a 2-point Obligation to pay for two different 1-point Resources.
 
 #### Backup
 
@@ -21,16 +23,16 @@ Backup is people, beasts, or monsters who will fight for you in dangerous situat
 | 3      | ... a group of well-armed professional extras, like a SWAT team or national guard unit, or a professional Luminary. |
 | 4      | ... a group of extraordinary professionals, like the Feds or CDC, or a group of monstrous extras such as spawn, zombies, or Mirror Goblins. |
 | 5      | ... a group of Luminary monsters or monster hunters, such as the Ghostbusters or a pack of Werewolves. |
-| 6      | ... a world class strikeforce or terrifying elder monster, such as a deniable special ops unit or Dragon. |
+| 6      | ... a world-class strikeforce or terrifying elder monster, such as a deniable special ops unit or a Dragon. |
 
 #### Contacts
 
-Contacts are people who you can rely upon for information or as sources of goods. Generally speaking, any character actually knows many people, not just one. And some of them will be more "useful" and others less. For the purposes of the chronicle, the character's main contact is not necessarily their best friend, but likely the shadiest or best connected person they know. One of the most important things Contacts can do for you is help you find ways to turn one kind of Resource into another.
+Contacts are people who you can rely upon for information or as sources of goods. Generally speaking, any character actually knows many people, not just one. And some of them will be more "useful" and others less. For the purposes of the chronicle, the character's main contact is not necessarily their best friend, but likely the shadiest or best-connected person they know. One of the most important things Contacts can do for you is help you find ways to turn one kind of Resource into another.
 
 | Rating | So, you know a guy who... |
 |:------:|:--------------------------|
 | 1      | ... deals drugs or pimps |
-|        | ... is a bartender or pawn broker who "hears things" |
+|        | ... is a bartender or pawnbroker who "hears things" |
 | 2      | ... smuggles contraband |
 |        | ... works in the government |
 | 3      | ... does inventory for the National Guard |
@@ -48,11 +50,11 @@ Favors are open-ended things other people owe you. Essentially, a favor is a cla
 
 #### Finances
 
-Finances need not literally be bank accounts in dollars or euros, piles of gold or drugs works pretty well for that. A resource is financial in nature if its primary utility is that it can be traded in the human world for goods and services. Indeed, the characters probably have several different things that are tradable. Rather than itemize the value of their watch and each piece of jewelry, each level of Finances gives an example of something that might be the biggest ticket item they have for trade. So a character whose largest item is their car can still probably scrape together the cash to buy some kit-kats or whatever without having to sell it.
+Finances are physical assets that a character owns or at least has access to. Finances need not be bank accounts or safe deposit boxes full of dollars or euros; they could be piles of gold or drugs or a large asset like a house or boat. A resource is financial if its primary utility is that it can be traded in the human world for goods and services, or at least is recognized as generally fungible with such if you need a loan. Indeed, the characters probably have several different things that are tradable. Rather than itemize the value of their watch and each piece of jewelry, each level of Finances gives an example of something that might be the biggest ticket item they have for trade. So a character whose largest item is their car can still probably scrape together the cash to buy some kit-kats or whatever without having to sell it.
 
 | Rating | You own property worth... |
 |:------:|:--------------------------------------------|
-| 1      | ... tens of thousands of dollars, such as vehicle or a large drug collection. |
+| 1      | ... tens of thousands of dollars, such as a vehicle or a large drug collection. |
 | 2      | ... hundreds of thousands of dollars, such as a small house, a few kilos of cocaine, an arsenal of military weapons, or a briefcase full of cash. |
 | 3      | ... millions of dollars, such as a successful small business, a rural estate, a home in silicon valley, or a few 400oz gold bars from Fort Knox. |
 | 4      | ... tens of millions of dollars, such as a successful medium-sized business, a freighter ship, or a large mansion |
@@ -69,9 +71,9 @@ Intelligence is access to special mundane methods of gaining information and sol
 |        | ... academic journal publications
 | 2      | ... a city forensic laboratory
 |        | ... unedited news feeds
-| 3      | ... the FBI finger print database
+| 3      | ... the FBI fingerprint database
 |        | ... Hamburger University
-| 4      | ... top secret FSB intelligence 
+| 4      | ... top secret FSB intelligence
 |        | ... the NSA phone taps
 | 5      | ... the spy satellite network (EoG)
 |        | ... CERN
@@ -80,7 +82,7 @@ Intelligence is access to special mundane methods of gaining information and sol
 
 #### Secrets
 
-Secrets are a lot like finances, but for the supernatural world. Secrets are things that have market value within the World Crime League or the Makhzen but which for whatever reason would be difficult to sell for acceptable value in mortal markets. Like with finances, it is entirely possible that the character has multiple items including enough kittens to make small purchases. The examples are for the most valuable item a character with that level of Secrets might own.
+Secrets are a lot like finances, but for the supernatural world. Secrets are things that have market value within the World Crime League or the Makhzen but which for whatever reason would be difficult to sell for acceptable value in mortal markets. Like with finances, the character may have multiple items including enough kittens to make small purchases. The examples are for the most valuable item a character with that level of Secrets might own.
 
 | Rating | Example |
 |:------:|:--------------------------------------------|
@@ -89,7 +91,7 @@ Secrets are a lot like finances, but for the supernatural world. Secrets are thi
 | 2      | ... a hideout in the Dreamlands
 |        | ... a group of unregistered orphans
 | 3      | ... bottled dreams or nightmares
-|        | ... a soviet-era nuclear weapon
+|        | ... a Soviet-era nuclear weapon
 | 4      | ... smallpox
 |        | ... Rembrandt's _Storm on the Sea_
 | 5      | ... the blood of a powerful elder
@@ -99,7 +101,7 @@ Secrets are a lot like finances, but for the supernatural world. Secrets are thi
 
 #### Treasure
 
-Treasure is access to special magical methods of problem solving. Enchanted places and objects are all over the place in the realm of horror, and many of the dark and hidden events of the past and future have been written down. Finding these places, objects, and writings of power is a serious goal for many supernatural creatures - and with good reason. Information is power, and well, _power_ is power too. And when this power affects a supernatural world, it becomes useful and relevant to the interests of creatures that _live_ in that world. Sometimes a source of magic will have enough gold or obvious age in it that it might be sold in a pawn shop for Euros. However, in almost all cases the market price of such items is so small in human terms compared to its utility that Witches who find out that someone sold something of true power will laugh at them.
+Treasure is access to special magical methods of problem-solving. Enchanted places and objects are all over the place in the realm of horror, and many of the dark and hidden events of the past and future have been written down. Finding these places, objects, and writings of power is a serious goal for many supernatural creatures - and with good reason. Information is power, and well, _power_ is power too. And when this power affects a supernatural world, it becomes useful and relevant to the interests of creatures that _live_ in that world. Sometimes a source of magic will have enough gold or obvious age in it that it might be sold in a pawnshop for Euros. However, in almost all cases the market price of such items is so small in human terms compared to its utility that Witches who find out that someone sold something of true power will laugh at them.
 
 | Rating | You have in your possession... |
 |:------:|:--------------------------------------------|
@@ -118,13 +120,13 @@ Treasure is access to special magical methods of problem solving. Enchanted plac
 
 ### Obligations
 
-Some characters have obligations: things that restrict their ability to act freely. Some obligations are things that the character's ethos demands of them, and others are imposed on the character from without. But the effect is really very similar. If the character's little sister is in trouble with the Glow Skulls, forcing the character to come in conflict with the voodoo gangsters; this is very similar in overall effect to a situation in which the Glow Skulls have it in for the character. While the impetus is very different, in either case the character is drawn into conflict with the Glow Skulls "against their will". And if they are captured by the Glow Skulls, it is surmisable that they will not be interrogated by Rudenko.
+Some characters have obligations: things that restrict their ability to act freely. Some obligations are things that the character's ethos demands of them, and others are imposed on the character from without. But the effect is really very similar. If the character's little sister is in trouble with the Glow Skulls, forcing the character to come in conflict with the voodoo gangsters; this is very similar in overall effect to a situation in which the Glow Skulls have it in for the character. While the impetus is very different, in either case, the character is drawn into conflict with the Glow Skulls "against their will". And if they are captured by the Glow Skulls, it is surmisable that they will not be interrogated by Rudenko.
 
-MCs should give potential obligations that players are considering for their characters the fish eye. After all, while an obligation limits the character's choices, in a very real way it limits the choices of every character in the coterie. The other characters are presumably not going to leave one of their own to take on the Glow Skulls on their own. And once they are drawn into that conflict you're basically looking at the rest of the players getting saddled with obligations that they didn't agree to or get any compensatory resources for.
+MCs should give potential obligations that players are considering for their characters the fish eye. After all, while an obligation limits the character's choices, in a very real way it limits the choices of every character in the coterie. The other characters are presumably not going to leave one of their own to take on the Glow Skulls on their own. And once they are drawn into that conflict you're saddling rest of the players with obligations that they didn't agree to or get any compensatory resources for.
 
 #### Addiction
 
-Everyone has things they want to do. These are goals, and they are not Obligations. However, some people have things they _have_ to do, even at a cost to themselves. These addictive behaviors can be detrimental to successful completion of other goals. From the simple reality of giving one's self away with cigarette smoke or the glow of the ash all the way to losing one's life savings and whole days of life to the jab of a needle. An Addiction is valued by how much it impacts the character's ability to accomplish _other things_, rather than on specifically what (if anything) will happen to them if they fail to perform their addictive rituals. Note also that the value of the Addiction in game terms is not meaningfully tied to its long-term affects on the character's _health_, but merely to their ability to be goal oriented in the context of the story.
+Everyone has things they want to do. These are goals, and they are not Obligations. However, some people have things they _have_ to do, even at a cost to themselves. These addictive behaviors can be detrimental to the successful completion of other goals. From the simple reality of giving one's self away with cigarette smoke or the glow of the ash to losing one's life savings and whole days of life to the jab of a needle. Addiction is valued by how much it impacts the character's ability to accomplish _other things_, rather than on specifically what (if anything) will happen to them if they fail to perform their addictive rituals. Note also that the value of the Addiction in game terms is not meaningfully tied to its long-term effects on the character's _health_, but merely to their ability to be goal-oriented in the context of the story.
 
 | Rating | You just _gotta_... |
 |:------:|:--------------------------------------------|
@@ -154,7 +156,7 @@ Debts are an Obligation in the strictest accounting term: they are resources tha
 | 3      | ...a new liver to the syndicate. |
 |        | ...a magical artifact to the Daziban. |
 | 4      | ...some missions to Russian Intelligence. |
-|        | ...a replacement Van Gogh to the Pinceps. |
+|        | ...a replacement Van Gogh to the Prince. |
 | 5      | ... atonement for the city you destroyed. |
 |        | ...the head of the Gorgon to the Anti-Pope. |
 | 6      | ... information about your friends to the Empire. |
@@ -162,7 +164,7 @@ Debts are an Obligation in the strictest accounting term: they are resources tha
 
 #### Duty
 
-Duty is a social requirement to do certain things in certain circumstances. It acts as a very effective constraint upon the character's actions, because it is generally speaking something they agreed to do. It isn't just that the _player_ wanted their character to operate with a social limitation in order to afford nifty resources that could be used in other ways - the _character_ for whatever reason has taken on a commitment that they _intend_ to keep. A Duty is worth more the more it interferes with a character's _other_ goals.
+Duty is a social requirement to do certain things in certain circumstances. It acts as a very effective constraint upon the character's actions, because it is generally speaking something they agreed to do. It isn't just that the _player_ wanted their character to operate with a social limitation to afford nifty resources that could be used in other ways - the _character_ for whatever reason has a commitment that they _intend_ to keep. A Duty is worth more the more it interferes with a character's _other_ goals.
 
 | Rating | You have made a commitment to... |
 |:------:|:--------------------------------------------|
@@ -172,7 +174,7 @@ Duty is a social requirement to do certain things in certain circumstances. It a
 |        | ...be on call for the local fire department. |
 | 3      | ...keep your little sister fed and safe. |
 |        | ...perform the duties required of you by the FBI. |
-| 4      | ...protect the interests of the Revolutionary committee. |
+| 4      | ...protect the interests of the Revolutionary Committee. |
 |        | ...your badge at AMP. |
 | 5      | ...find souls for the King with Three Shadows. |
 |        | ...find the Shadow Blade and return it to the Oaken Abyss. |
@@ -189,7 +191,7 @@ Enemies are people (or at least creatures) that actively wish ill upon the chara
 |        | ...will shoot at you if you enter their territory. |
 | 2      | ...are hunting you. |
 |        | ...want to expose your plans. |
-| 3      | ...have taken over most of town. |
+| 3      | ...have taken over most of the town. |
 |        | ...know where you live. |
 | 4      | ...control the news. |
 |        | ...know what you are. |

@@ -1,0 +1,35 @@
+## Placing Opposition
+_In the third series, one of the main antagonists is her own daughter from an alternate timeline where she has become evil and resentful. There weren't a lot of things left in the current world that could challenge her after the shenanigans of the second series._
+
+The key thing to remember as an MC is that you don't get anything for thwarting the protagonists. While it is generally a good idea to make the progression of the chronicle feel somewhat challenging, there is no special benefit to be had by terminating the chronicle early due to failure or character death. When designing opposition for the player characters, the goal should be to maintain the verisimilitude of the world first, and to provide interesting and exciting challenges to the players second. "Defeating" the players is not a meaningful or acceptable goal for the MC to have.
+
+After Sundown has some seriously terrifying stuff in it, but that doesn't mean that the protagonists have to be challenged by it all the time. Indeed, if the players face nothing but enemies scaled to their abilities, the power of the characters won't ever be apparent. A Werewolf on a rampage in war form is a very scary thing, and a couple of police officers are very unlikely to be able to effectively contain it. Having the players periodically overpower challenges of this sort in a casual manner is good for the game. At the same time, if the protagonists never take on enemies that are near their power level, their adventurers will gradually lose interest.
+
+Players should work with the MC to direct their adventurers in a manner where they come into direct conflict with opposition that is in their ecological niche. The MC should take aims to make the world feel like it is persistent and continues to have events and conflicts while the player characters are not around. This means among other things that the powerful elders in the worlds should be available to be communicated with and opposed. But the MC should frankly discuss political and military realities such that players can pick battles they can win. While the choice between two unmarked doors leading to victory or defeat may be fair, it does not feel fair and it doesn't make an interesting story.
+
+### Portraying Opposition
+
+#### Negotiation
+
+It can be hard to negotiate with players in the role of an NPC. Roughly speaking, the goal of the MC in a negotiation with the PCs is to portray NPCs as true to their character as possible. Players should be able to use their own skill in addition to the Powers and skills of their characters to get an advantage over most NPCs. Try to _portray_ opposition to the players actions, but don't get investing in actually resisting them yourself: if they have a good pitch then they should get a good chunk of what they want. Just don't give them the farm for nothing.
+
+Generally, you can't get more out of a skilled negotiator than their BATNA: the Best Alternative to a Negotiated Agreement. That is, you have to offer them a better deal than they have from just walking away (assuming they can). Of course, not everyone that the players encounter is going to be reasonable or even have understandable goals - Evil Plants just aren't easy to cut deals with.
+
+People want things they don't have, and so there are diminishing returns to offering them more of what they already have plenty of. If you're trying to leverage your Finances 3 to get some Backup, it's a lot easier to buy it off of someone with Finances 1 than someone with Finances 4, because the person with Finances 4 likely wants to keep their backup handy in case they're threatened, but it's a tempting offer to someone with fewer resources.
+
+Some people respond to pressure by freezing up and rejecting the deal, and others crumple and accept. Roughly speaking, if you can overwhelm someone with enough net hits (more than their Logic), then you can get them to agree to most anything, so long as it seems like a plausibly good deal.
+
+
+#### Fear and Morale
+
+One important aspect of After Sundown is that the _protagonists_ are often more horrifying than their opposition. Not only should they occasionally be able to overwhelm enemies with supernatural force, they can also frequently attain victory through pants-shitting terror. Rampaging Werewolves aren't just deadly, they induce panic, and a substantial number of people that encounter it should break and run.
+
+More broadly, considering fear and morale isn't just a matter of portraying the terrifying nature of monstrous protagonists, but it also means ending fights before they dissolve into penalty-induced wuss-slapping or boring clean-up actions. Noncombatants (and undisciplined combatants) should break and run early, but even well-disciplined and competently lead fighting forces will lead ordered retreats when continuing the fight no longer serves their interests.
+
+When in doubt, have any Extras make a Social Resistance Test against a threshold based on a combination of how terrifying the opposition is and what losses they have already take and either flee in terror or attempt to surrender if they fail. For well organized groups instead have their leader make a Willpower + Tactics test against the same (or lesser) threshold. Organized fighters will generally attempt to make an orderly retreat before offering surrender or breaking into a rout.
+
+#### Combat Tactics
+
+Roughly, characters without the Tactics skill don't tend to make smart tactical choices. Even more importantly, groups without recognized leaders that have a decent Tactics skill are usually not going to be very good at coordinated actions. They aren't going to try to focus their attacks on a single target to overwhelm their defenses, they don't make organized retreats, they don't use covering fire for defensive advantage, and they break and run individually rather than making an orderly retreat and attempting to save their wounded. Well-lead groups will do all of the above. Don't be afraid to shift your own tactical approach to combat based on the skill of the characters that are involved; some variation will both make the game more interesting and improve the verisimilitude of the world and that includes having the players face incompetent opposition from time to time.
+
+On the other hand, you can sometimes tip the scale when the opposition is highly sophisticated. Skilled tacticians will insure they have lines of retreat so they can live to fight another day and will only press the attack when they have the advantage, leaning on ambushes and overwhelming force to threaten the player characters. Just be careful to make sure your goal is to _challenge_ them, not to make them suffer automatic defeat. Even great tacticians make blunders and it's okay for the players to win decisively if they make smart moves and get lucky. Even if they do poorly, smart attackers may give them the chance to surrender or negotiate an end to hostilities if they have achieved a superior bargaining position and the players are willing to deal.
