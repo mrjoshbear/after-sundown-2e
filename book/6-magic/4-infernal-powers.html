@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Infernal Powers - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html" class="active"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="infernal-disciplines"><a class="header" href="#infernal-disciplines">Infernal Disciplines</a></h1>
+<p>The Dark Reflection is a horrible place from which few things escape. But its reach and grasp can be felt far outside the ashen pits of Limbo itself. Infernal Disciplines are those magics that manipulate and harness the taint of that parched landscape and turn them to one's own advantage.</p>
+<p>The magic from Limbo is a lot like fire. It is also quite specifically malicious and it corrupts things it touches. When clean water is nearby, it discolors slightly as if ash had fallen into it. A skilled exorcist can track the power and location of magic from the Dark Reflection by consulting distilled water in a clear container. When Infernal Disciplines are cast they can be doused by throwing sand on them. Reasonably clean sand must be used - ground up silicon dioxide works. By the time the sand hits the floor it has been replaced by white and black sand.</p>
+<h2 id="names-of-the-blasphemies"><a class="header" href="#names-of-the-blasphemies">Names of the Blasphemies</a></h2>
+<p><em>It is hubris of the first order to name that which is not known.</em></p>
+<p>There are words that should not be spoken. Mostly, these are the names of ancient unspeakable evils. And the <em>reason</em> these evils are unspeakable is because they will hear you if you speak about them. Upon learning each ability from this discipline, the character is able to choose for themselves a True Name. Abilities that function based upon the character's name only respond to that name, no matter what they refer to themselves as, and knows the name of everyone they perceive.</p>
+<h3 id="basic-names-of-the-blasphemies"><a class="header" href="#basic-names-of-the-blasphemies">Basic Names of the Blasphemies</a></h3>
+<h4 id="learn-the-hearts-pain"><a class="header" href="#learn-the-hearts-pain">Learn the Heart's Pain</a></h4>
+<p><em>Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, Charisma + Empathy or Intuition + Larceny</p>
+<p>Simply by focusing on them the character can know the limits of a person's psyche. The hits on the activation test determine the degree of detail that the character learns. Learn the Heart's Pain can only be used once per scene on each other creature.</p>
+<table><thead><tr><th style="text-align: center">Hits</th><th style="text-align: left">Knowledge Gained</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left">The target's Master Passion, if any (humans usually have no Master Passion)</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left">The target's Driving Ambition</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left">General details of the target (such as career and name)</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left">Specific details of the target's hopes and dreams</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left">Intimate details of the target's life that the target barely even cares about.</td></tr>
+</tbody></table>
+<h4 id="poison-heart"><a class="header" href="#poison-heart">Poison Heart</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Charisma + Empathy or Intuition + Larceny vs. target Willpower</p>
+<p>The character fills the target's heart with a litany of lies. If successful causes the target to feel intense feelings of betrayal and disappointment. If the character knows the target's Master Passion, they can incite a Frenzy. If the character knows the target's Driving Ambition, they can make them bitterly sullen and full of feelings of failure (suffering a morale penalty to skill tests until the end of the scene). And if the names of any of the target's friends and loved ones are known, the target can be made to distrust them. The rating of any frenzies, depressions, or misgivings are the number of net hits.</p>
+<h3 id="advanced-names-of-the-blasphemies"><a class="header" href="#advanced-names-of-the-blasphemies">Advanced Names of the Blasphemies</a></h3>
+<h4 id="bind-the-name"><a class="header" href="#bind-the-name">Bind the Name</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> 5 Magic Points</p>
+<p><strong>Action:</strong> Complex, Intuition + Empathy or Charisma + Bureaucracy</p>
+<p>By knowing a creature's name, the character can bind them in Limbo, making it even more improbable that they could escape. The threshold to escape the Dark Reflection is increased for the target by the number of hits. Only the most powerful Name Bindings applies to a target if more than one are applied. The Name Binding can be dispelled at the point in space it was literally invoked, not at the bound target.</p>
+<h4 id="banishment"><a class="header" href="#banishment">Banishment</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 2 Magic Points</p>
+<p><strong>Action:</strong> Complex, Intuition + Larceny or Charisma + Bureaucracy vs. target Intuition</p>
+<p>The character hurls a victim they can see into the Dark Reflection. If three net hits are made the target can be sent into Limbo in a whirl of flame, leaving only a small scorch mark and a hint of brimstone. The character can also use this power on themselves to travel to Limbo, needing only a single hit against a threshold of 0, but once there this power does nothing to get them back out.</p>
+<h4 id="contradiction"><a class="header" href="#contradiction">Contradiction</a></h4>
+<p><em>Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Extended (1 hour), Intuition + Larceny or Charisma + Bureaucracy vs. target Willpower, net hits to time frame</p>
+<p>The character can tempt a victim into doing something they would never do, something wildly against their nature. This takes conversational time, and is absolutely powerless to convince someone to do something that they are merely moderately opposed to. A violation of the character's Ethical Taboos is always within the scope of Contradiction.</p>
+<h4 id="the-great-unbinding"><a class="header" href="#the-great-unbinding">The Great Unbinding</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 5 Magic Points</p>
+<p><strong>Action:</strong> Extended (1 hour), Intuition + Empathy or Charisma + Bureaucracy vs. threshold 5</p>
+<p>The character can summon beings out of hell and into the mortal world by calling upon their name. Creating a summoning portal is an Extreme task (threshold 5). The character must speak the name of a specific entity, who feels the tug of the attempt to bring them into the mortal world. The summoned creature must overcome the Gauntlet and any Name Binding normally with a Social Resistance test, and is not compelled to follow the thread of the summoning into the mortal world. If the creature wishes to leave Limbo, it appears before the summoner at the completion of their incantations. No special compulsion to obey or be favorably disposed to the summoner is provided by the Great Unbinding, although it's possible that an inhabitant of Limbo will offer something like gratitude for letting them out, depending on how hungry they are.</p>
+<h2 id="progress-of-glass"><a class="header" href="#progress-of-glass">Progress of Glass</a></h2>
+<p>&quot;<em>We do not always see where we go. But we always go.</em>&quot;</p>
+<p>The Progress of Glass is a path of Infernal sorcery that deeply investigates the connections between existence and the Dark Reflection. Followers of the Progress of Glass are able to handle different perspectives very easily - some would say that they have already driven themselves mad. In any case, spending so long gazing into mirrors has left them able to write in mirror writing or use reflections for targeting without penalty.</p>
+<h3 id="basic-progress-of-glass"><a class="header" href="#basic-progress-of-glass">Basic Progress of Glass</a></h3>
+<h4 id="distant-reflection"><a class="header" href="#distant-reflection">Distant Reflection</a></h4>
+<p><em>Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Extended (1 hour), Logic + Operations or Intuition + Perception, net hits to timeframe</p>
+<p>The character can peer into a reflective surface and see what is reflected off of another reflective surface elsewhere. The character must be within 100 meters per point of Potency of both surfaces, and must have a pretty good idea of where both surfaces are (and yeah, they have to be able to see at least one of them).</p>
+<h4 id="deny-the-gauntlet"><a class="header" href="#deny-the-gauntlet">Deny the Gauntlet</a></h4>
+<p><em>Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Simple, Logic + Operations or Intuition + Stealth, net hits to duration (1 Round)</p>
+<p>The character can remove the difficulties in moving across gateways into and out of the Dark Reflection. The gauntlet is not hampered for purposes of keeping creatures held in Limbo by Name Bindings.</p>
+<h3 id="advanced-progress-of-glass"><a class="header" href="#advanced-progress-of-glass">Advanced Progress of Glass</a></h3>
+<h4 id="mirror-pocket"><a class="header" href="#mirror-pocket">Mirror Pocket</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 2 Magic Points</p>
+<p><strong>Action:</strong> Logic + Operations or Intuition + Stealth</p>
+<p>The character can create and subsequently access a virtual space within a reflective surface. Things can be stored in and retrieved from the mirror pocket with relatively little fuss. This looks like a cartoon activity: the character's had passes into the surface causing it to ripple slightly and then some object is left within or drawn out - in either case demonstrably having more volume than the mirror possibly could. Magic Points must be paid to create the Mirror Pocket, but putting things in or taking things out is free. The depth of the pocket is 20 cm per hit on the test to create the pocket. A character can maintain multiple mirror pockets in different reflective surfaces, but not in the same one. Mirror Pocket can also be used to access a pocket created by someone else by getting as many hits on an activation test as the original creator, with no cost in Magic Points.</p>
+<h4 id="rain-of-glass"><a class="header" href="#rain-of-glass">Rain of Glass</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Complex, Agility + Combat or Logic + Operations, net hits to damage</p>
+<p>Shards of blackened, jagged glass rain down and tear the flesh from the bones of everyone in the area. A Rain of Glass can be sent out as a cone up to 30 meters in length per Potency, or fly out in all directions to cover a cylinder centered on the character with a radius of 10 meters per Potency. Alternatively, the character can just make all the glass withing 100 meters per potency explode and hit every target Adjacent to any of it. It does a base damage of 3, which is increased with the hits and resisted like a normal explosion (including the additional protective effects of cover).</p>
+<h2 id="spark-of-knowledge"><a class="header" href="#spark-of-knowledge">Spark of Knowledge</a></h2>
+<p>Spark of Knowledge only applies to complex, artificial things; it has no power to work on bodies or natural things, but moreover it has no power over the simplest of machines. In general, an object must have multiple moving parts, electrical circuits, or a significant amount of information (more than a tweet) to be a target of the powers in this discipline.</p>
+<h3 id="basic-spark-of-knowledge"><a class="header" href="#basic-spark-of-knowledge">Basic Spark of Knowledge</a></h3>
+<h4 id="osmosis"><a class="header" href="#osmosis">Osmosis</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Extended (variable), Logic + Research or Logic + Electronics, net hits to timescale</p>
+<p>The character can absorb knowledge and information from an object just by touching it. The base time of the action is the same as would be normally required to view the information contained, but net hits may reduce the timescale far beyond what would normally be physically possible, so the point of instantaneously becoming part of the character's memory with enough hits. The character may also hold an object to consult it in real-time as an automatic Free Action, a bit like having a teleprompter. Osmosis works just as well on books and other physical records as digital devices, but while it smooths over encoding difficulties it still requires the character to have the appropriate Languages or other Backgrounds to contextualize the information contained.</p>
+<h4 id="panopticon"><a class="header" href="#panopticon">Panopticon</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, Logic + Electronics or Logic + Operations</p>
+<p>The character can treat sensors as extensions of their own natural senses. Without TK the character must touch a device to shift to perceive through it, but once established they may shift their perception into other connected devices with a Simple action. It is also possible to spread their senses over multiple sensors, but doing so quickly becomes overwhelming, as does any stimulation that overloads a sensor's output, as if they character were subject to <em>overstimulation</em>.</p>
+<h4 id="spanner-in-the-works"><a class="header" href="#spanner-in-the-works">Spanner in the Works</a></h4>
+<p><em>Enchantment, Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, Logic + Sabotage or Logic + Rigging</p>
+<p>TK</p>
+<h3 id="advanced-spark-of-knowledge"><a class="header" href="#advanced-spark-of-knowledge">Advanced Spark of Knowledge</a></h3>
+<h4 id="ghost-in-the-machine"><a class="header" href="#ghost-in-the-machine">Ghost in the Machine</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Free, automatic</p>
+<p>TK / operate machinery</p>
+<h4 id="maximum-overdrive--redline"><a class="header" href="#maximum-overdrive--redline">Maximum Overdrive / Redline</a></h4>
+<h4 id="tk"><a class="header" href="#tk">TK</a></h4>
+<p><em>Passive</em></p>
+<p>The character no longer needs to touch artifacts to use Spark of Knowledge and can apply their powers to any object they can perceive.</p>
+<h2 id="song-of-swarms"><a class="header" href="#song-of-swarms">Song of Swarms</a></h2>
+<p>&quot;<em>I'd like to help, but I'm covered in bees.</em>&quot;</p>
+<p>Insects are kind of creepy at the best of times, but in the horror genre they actually are a source of wickedness and danger. This is borne out in After Sundown, achieved in no small part by Infernal magic. The Song of the Swarm is that magic and it has a great deal of internal synergy, many of the abilities within it make other abilities more useful. Being able to send insects where you want them is more useful if you can see what the insects see, and so on and so forth. Having Song of the Swarm allows you to treat arthropods as if they were smart animals like parrots or dogs for the purposes of Animal Ken.</p>
+<p>Insect bites to creatures inside insect swarms are usually not much to report on, causing just Damage 1 strikes even en masse, although these strikes do not require a to-hit roll, can't be dodged, and can come from inside a target's armor where it doesn't do much good. Anything special that happens with the character's unarmed attacks apply with their insects, including injecting poison or disease or inflicting aggravated damage with Touch of Darkness.</p>
+<h3 id="basic-song-of-swarms"><a class="header" href="#basic-song-of-swarms">Basic Song of Swarms</a></h3>
+<h4 id="body-colony"><a class="header" href="#body-colony">Body Colony</a></h4>
+<p><em>Passive</em></p>
+<p>The character's body has bugs growing inside it. In addition to being really gross, they can also fly out of the character's body and crawl back in without causing any lasting damage. The bugs growing in the character's body do pretty much what the character wills them to do, so they can follow much more complex routes than a normal bug of their type. The bugs from a character can swarm one person at a time or carry very small objects. They take an entire round to crawl into or out of the character's body, but they take no actions to direct.</p>
+<h4 id="small-witness"><a class="header" href="#small-witness">Small Witness</a></h4>
+<p><em>Covert, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Free, automatic</p>
+<p>The character can see through the eyes of insects in their vicinity. The character can see through the eyes of a bug that is within a meter of their body, and can continue to see through its eyes even if the character or the bug moves away, so long as they remain within a kilometer per Potency. A character can maintain a number of separate small witnesses equal to their Intuition score simultaneously and suffers no penalties from distraction. The character can make their own Perception tests through the senses of the bugs. Small Witness has 4 hits for purposes of being dispelled.</p>
+<h3 id="advanced-song-of-swarms"><a class="header" href="#advanced-song-of-swarms">Advanced Song of Swarms</a></h3>
+<h4 id="magnify-the-swarm"><a class="header" href="#magnify-the-swarm">Magnify the Swarm</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Complex, Charisma + Animal Ken or Willpower + Survival</p>
+<p>When there are insects in the area, the character can draw upon the magic of Limbo to cause a great number of comparable insects to wriggle into reality. Each hit on the activation to fill a 10-meter cube and pretty much swarm everything and everyone in that area.</p>
+<h4 id="swarm-body"><a class="header" href="#swarm-body">Swarm Body</a></h4>
+<p><em>Blatant, Protean, Mutation, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, automatic</p>
+<p>The character's body breaks into a cloud of insects of roughly the same mass as the character. The deaths of individual bugs do not meaningfully affect the character, but the deaths of very large numbers may seriously hurt them. When they reform, every 10% of the original swarm unable to make it translate to a lethal wound. The Swarm body can be dispelled as if it had 4 hits, and however many insects are on hand at the time will coalesce into the original character (with accompanying wounds if not all the insects are available for the forced change). When the Swarm Body ends, whether voluntarily or through being dispelled, the character can elect to materialize anywhere that some of their bugs are, but any bugs unable to reach their new position within 1 Round die (and the character suffers proportional wounds).</p>
+<h2 id="wages-of-damnation"><a class="header" href="#wages-of-damnation">Wages of Damnation</a></h2>
+<p><em>The weed of crime bears bitter fruit, you old hag!</em></p>
+<p>The Dark Reflection doesn't just twist the physical world into a burned and ruined husk, it twists and scorches human bodies, relationships, and even souls until all that is left is misery and betrayal. Those who delve into the knowledge of Limbo learn grim ends of human nature and command the power of wickedness to compel disease agents to action.</p>
+<h3 id="basic-wages-of-damnation"><a class="header" href="#basic-wages-of-damnation">Basic Wages of Damnation</a></h3>
+<h4 id="abyss-of-the-body"><a class="header" href="#abyss-of-the-body">Abyss of the Body</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, Intuition + Larceny or Charisma + Medicine vs. target Strength (net hits to DOT)</p>
+<p>The character carries hideous diseases that can be foisted upon others with a touch, a bite, or a kiss. A character with Abyss of the Body is not themselves affected by disease, and they can carry all manners of normal plagues and pass them normally. In addition, each character who has Abyss of the Body can voluntarily transmit a purely magical disease. The disease they have at their disposal to use voluntarily is chosen when the discipline is learned. A character inflicted by additional magical diseases is still immune, but has no control of its transmission. Abyss of the Body can be learned multiple times to control multiple diseases. To spread a disease voluntarily the character must touch the target, with net hits reducing the disease's DOT Delay. The spreading of disease can be dispelled or suppressed, but the immunity to disease of the character is passive, covert, and impervious to dispelling.</p>
+<table><thead><tr><th style="text-align: left">Disease</th><th style="text-align: center">Delay</th><th style="text-align: left">Effects</th></tr></thead><tbody>
+<tr><td style="text-align: left">Chud</td><td style="text-align: center">5</td><td style="text-align: left">Victim dissolves into white goo.</td></tr>
+<tr><td style="text-align: left">Cooties</td><td style="text-align: center">3*</td><td style="text-align: left">Victim driven mad with lust.</td></tr>
+<tr><td style="text-align: left">Doom Flies</td><td style="text-align: center">8</td><td style="text-align: left">Victim eaten up by maggots, explodes into swarm of flies.</td></tr>
+<tr><td style="text-align: left">RAGE Virus</td><td style="text-align: center">3</td><td style="text-align: left">Victim transforms into Soulless.</td></tr>
+<tr><td style="text-align: left">Thing Infection</td><td style="text-align: center">11</td><td style="text-align: left">Victim fills up with roots, Triffid bursts out of their husk.</td></tr>
+<tr><td style="text-align: left">Z-Virus</td><td style="text-align: center">-</td><td style="text-align: left">Victim rises as a Shambler after death.</td></tr>
+</tbody></table>
+<h4 id="devils-advocate"><a class="header" href="#devils-advocate">Devil's Advocate</a></h4>
+<p><em>Passive</em></p>
+<p>The character has an uncanny ability to see the dark cloud of every situation. They have a +3 bonus to arguing against any proposal, fact, or course of action, and a similar bonus to applying their own bitter cynicism to resist the positive arguments of others.</p>
+<h4 id="light-of-ennui"><a class="header" href="#light-of-ennui">Light of Ennui</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Free, Charisma + Larceny or Charisma + Empathy vs. Willpower</p>
+<p>The character becomes a beacon of apathy and despair, foiling attempts by those caught in the metaphorical glow to care. Everyone affected is unable to muster an emotional response to much of anything. Frenzy doesn't happen, and all appeals to emotion and even magically created emotions fail unless the speaking character can muster more hits than the Light of Ennui. Lighting or dousing the Light of Ennui is a free action. The Light of Ennui sheds literal light in the Otherworlds, but in the mortal world it is visible only to the character and those using Aura Perception, in either case being a dim light similar to a candle.</p>
+<h3 id="advanced-wages-of-damnation"><a class="header" href="#advanced-wages-of-damnation">Advanced Wages of Damnation</a></h3>
+<h4 id="for-the-fairest"><a class="header" href="#for-the-fairest">For the Fairest</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Complex, Charisma + Empathy or Intuition + Larceny vs. Intuition</p>
+<p>The character can appear as that which is most desired by each person that sees them. In private, this is a powerful if risky tool of seduction and corruption. With multiple witnesses it is likely to create intense or even violent conflict as everyone strives over one another to possess what appears to be their heart's desire. This ability is likely to cause a frenzy in anyone with a Master Passion of Hunger, Loneliness, or Greed if they fail in an attempt to possess the character, and if conflict results the ensuing brawl is likely to trigger those with Rage or Fear as well.</p>
+<h4 id="glimpse-of-damnation"><a class="header" href="#glimpse-of-damnation">Glimpse of Damnation</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Intuition + Artisan or Charisma + Expression vs. Willpower</p>
+<p>The character can reveal to others a bit of the torment that is Limbo. Every victim within line of sight who is affected is stunned for a turn with horror and despair. Even Damnation loses its impact, and a target who is affected will be harder to affect in the same evening - apply a 1 hit penalty to the character for each time a particular victim has been assaulted.</p>
+<h2 id="walk-of-flame"><a class="header" href="#walk-of-flame">Walk of Flame</a></h2>
+<p>&quot;<em>People running around. Skin on fire. It's beautiful.</em>&quot;</p>
+<p>Fire is likely the dividing line between man and beast. And yet while it is undeniable that fire provides light and warmth, protection from the monsters of the darkness and the forging of bricks and steel - that's mostly a facet of <em>technology</em>. Magical fire is a terrifying thing that rages at the limits of control and burns things down to ash. Firestarters in After Sundown are of course based largely on Carrie, and it is unsurprising therefore that fire magic spends a lot more time spreading panic and a lot less time smelting iron than controlled industrial fires do.</p>
+<h3 id="basic-walk-of-flame"><a class="header" href="#basic-walk-of-flame">Basic Walk of Flame</a></h3>
+<h4 id="everything-burns"><a class="header" href="#everything-burns">Everything Burns</a></h4>
+<p><em>Passive</em></p>
+<p>The Walk of Flame grants inscrutable insight into gross destruction and general hooliganism. The character gains a +3 bonus to tests to outright break something, ruin a relationship, or rig an explosive device.</p>
+<h4 id="fire-walking"><a class="header" href="#fire-walking">Fire Walking</a></h4>
+<p><em>Passive</em></p>
+<p>The character hardens themselves against the flames and no longer burns. This does not protect them from shrapnel propelled by an explosion, but does protect them from any wounds caused by heat itself. This explicitly includes invulnerability to the fire damage caused by other Walk of Flame Powers.</p>
+<h4 id="hells-arsenal"><a class="header" href="#hells-arsenal">Hell's Arsenal</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, automatic</p>
+<p>The character can conjure up flame in their hand, varying it in intensity from a lighter flame raising from an extended finger to an inferno in their palm. The fire does not burn the hand it sprouts out of (the waves of heat move away), but the user is otherwise not protected from the fire or any fires that they start. Calling, changing the intensity, or extinguishing of the flame is a Simple action that costs nothing. The character may shape the flame into a melee weapon with damage equal to the character's Potency or throw bursts of flame equivalent to a Molotov cocktail.</p>
+<h3 id="advanced-walk-of-flame"><a class="header" href="#advanced-walk-of-flame">Advanced Walk of Flame</a></h3>
+<h4 id="breath-of-the-dragon"><a class="header" href="#breath-of-the-dragon">Breath of the Dragon</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Simple, Strength + Combat or Willpower + Intimidation, net hits to damage</p>
+<p>The character can breathe great blasts of flame like a dragon. The fiery breath makes a cone up to 30 meters in length per Potency, and has a base damage of Potency with net hits increasing damage to all in the area. Breath of the Dragon is otherwise effectively an explosion of fire for the purposes of defending against it.</p>
+<h4 id="fire-starter"><a class="header" href="#fire-starter">Fire Starter</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 0+ Magic Points</p>
+<p><strong>Action:</strong> Simple, Agility + Combat or Logic + Research, ranged explosion attack</p>
+<p>The character concentrates momentarily and something bursts into flame. Alternately, the character may have a bolt or ball of flame fly from some part of their body to explode at the target. The flames can go out to the limit of vision, but become inaccurate outside of Short range. Treat the attack as an explosion with damage equal to the character's Logic attribute, but unlike normal explosions net hits on the attack increase damage. The radius of the explosion starts from a base of 0 (affecting only the target), but is increased by 2 m for each additional Magic Point invested up to the character's Potency.</p>
+<h4 id="flames-of-panic"><a class="header" href="#flames-of-panic">Flames of Panic</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Logic + Intimidation or Agility + Survival vs. Willpower</p>
+<p>The character sends waves of terror into crowds of people. This magic affects every creature that the character can literally see, other than themselves (which means that they can shape its effects by voluntarily closing one eye, for example). Affected targets are panicked and stampede around irrationally for one round for each net hit of the caster. This may also trigger a Frenzy from any creature with a Master Passion of Fear.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../6-magic/3-astral-powers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../6-magic/5-orphic-powers.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../6-magic/3-astral-powers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../6-magic/5-orphic-powers.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

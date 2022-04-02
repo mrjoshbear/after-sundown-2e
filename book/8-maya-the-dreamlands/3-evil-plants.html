@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Evil Plants - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html" class="active"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="evil-plants"><a class="header" href="#evil-plants">Evil Plants</a></h2>
+<p><em>&quot;There's no sense in getting killed by a plant.&quot;</em></p>
+<p>The lands of Maya are filled with strange foliage. But strangest of all is the foliage that harbors a deep hatred for people and animals. Possessed of an intelligence that is so wholly unlike those of humanity's that they are difficult to measure, these plants are condemned universally as being &quot;Evil&quot; even by the jaded standards of supernatural society. Completely emotionless, Evil Plants are not motivated by passions and cannot be induced to frenzy nor convinced against a course of action with emotional argument of any kind.</p>
+<h3 id="creepers"><a class="header" href="#creepers">Creepers</a></h3>
+<p><em>&quot;It waits till we’re weak before it reveals its strength.&quot;</em></p>
+<p>Creepers are the weakest of the Evil Plants, but are subtle and insidious nonetheless. The real body of the creeper is a system of interlocking rhizomatic roots that lie underground or parasitically buried into other plants that emerge only to creep their way into weakened prey. From these roots spring myriad possible forms, most commonly brightly colored flowering vines or apparent patches of beautiful wild flowers. Disturbing these flowers subjects the area to clouds of sticky poison that (most commonly) drives everyone in the area to hallucinatory madness as the vines and roots begin their slow emergence to trap them in place.</p>
+<p>Creepers are obviously quite dangerous to cultivate, but people sometimes try anyway as they can be coaxed or bred into producing particular poisons or reagents useful in Bitter Fruit recipes.</p>
+<p>Creepers have a nonstandard attribute array because they were never humans. Creepers have no Agility or ability to move outside of using Grass Rope to extend parts of themselves or the plants that they exist alongside and have no personalities to exercise Charisma, but very old and well-fed Creepers could resemble a forest of mangroves or aspens more than a cluster of vines. Before their Potency modifier their attribute ranges are:</p>
+<p>S: 1/12 A: 0/0 I: 5/10 L: 1/1 W: 1/6 C: 0/0 E: 0/0 P: 1</p>
+<p>A Creeper has an Astral power source and a Feeding power schedule - any lost Magic Points are restored by consuming bodies. As with other Evil Plants they are vulnerable to iron and weakened by alcohol - spraying an area down can prevent them from extending their roots until it evaporates.</p>
+<h4 id="creeper-starting-powers"><a class="header" href="#creeper-starting-powers">Creeper Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Grass Rope (Basic Coil of Thorns)</li>
+<li>Bite of the Serpent (Basic Lure of Destruction) <em>Native</em> - Hallucinogenic or Soporific</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="https://www.imdb.com/title/tt0963794/">The Ruins</a>, <a href="https://www.imdb.com/title/tt2798920/">Annihilation</a>, <a href="https://www.imdb.com/title/tt9204204/">Little Joe</a></p>
+<h3 id="mantraps"><a class="header" href="#mantraps">Mantraps</a></h3>
+<p><em>&quot;Feed Me!&quot;</em></p>
+<p>Mantraps are essentially Aubrey the monster from Little Shop of Horrors or the carnivorous plants from Mario Brothers. They are able to move their giant mouth quite quickly, but they are rooted to the ground and cannot effectively give chase. Brutally effective ambush hunters, Mantraps try to eat animals whenever the opportunities arise.</p>
+<p>Mantraps can't readily transport themselves across the land, let alone the borders between the dreamlands and the material world. Nevertheless, they do appear on Earth, because there are those who for whatever reason dig them up and transplant them. They often appear as guard plants in Marduk Society compounds. Mantraps can learn to speak, and their muppet-like countenance creates alien voices.</p>
+<p>The huge woody maw of a Mantrap is a damage 3 weapon, and, yes, it does count as wood for the purpose of supernatural vulnerabilities. Mantraps have a nonstandard attribute array because they were never humans. Before their Potency modifier their attribute ranges are:</p>
+<p>S: 3/8 A: 4/7 I: 4/10 L: 4/6 W: 5/11 C: 4/7 E:0/6 P:1</p>
+<p>A Mantrap has an Astral power source and a Feeding power schedule. As Evil Plants they are vulnerable to iron and weakened by alcohol.</p>
+<h4 id="mantrap-starting-powers"><a class="header" href="#mantrap-starting-powers">Mantrap Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Vigor (Basic Clout)</li>
+<li>Revive the Flesh (Basic Fortitude)</li>
+<li>Hide From Notice (Basic Veil)</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="https://www.imdb.com/title/tt0091419/">Aubrey II</a>, <a href="https://en.wikipedia.org/wiki/Characters_in_the_Mario_franchise#Recurring_enemies">Piranha Plants</a></p>
+<h3 id="triffids"><a class="header" href="#triffids">Triffids</a></h3>
+<p><em>&quot;I dunno what the hell's in there, but it's weird and pissed off, whatever it is.&quot;</em></p>
+<p>The Triffids are mobile plant monsters that are only vaguely describable as humanoid in shape. Like other Evil Plants, they need meat in their diet, but unlike the others they can get up and walk at a normal speed. As such, Triffids are not relegated to ambush hunting, they can seriously chase their prey down and eat them. And they do.</p>
+<p>A Triffid has a poison barb on the end of each meter long tendril that extends from their maw. Some of them sprout leaves and/or flowers from various parts of their body. Some of them are instead smooth like an ivy vine or wrinkled like a redwood tree. It's not entirely clear what the significance of that distinction is.</p>
+<p>The vicious barbed tendrils of a Triffid constitute a damage 3 weapon that can deliver the poison of the Triffid's &quot;bite&quot;. Triffids have a nonstandard attribute array because they were never humans. Before their Potency modifier their attribute ranges are:</p>
+<p>S: 7/12 A: 4/7 I: 6/10 L: 4/6 W: 5/11 C: 4/7 E: 0/6 P: 2</p>
+<p>A Triffid has an Astral power source and a Lunar power schedule. As Evil Plants they are vulnerable to iron and weakened by alcohol.</p>
+<h4 id="triffid-starting-powers"><a class="header" href="#triffid-starting-powers">Triffid Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Bitter Fruit (Basic Coil of Thorns)</li>
+<li>Grass Rope (Basic Coil of Thorns)</li>
+<li>Bite of the Serpent (Basic Lure of Destruction) <em>Native</em> - Paralytic</li>
+<li>Revive the Flesh (Basic Fortitude)</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Puppetry (Advanced Coil of Thorns)</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="https://www.imdb.com/title/tt0044121/">The Thing</a>, <a href="https://en.wikipedia.org/wiki/The_Night_of_the_Triffids">The Night of the Triffids</a>, <a href="http://www.imdb.com/title/tt0057970/">The Creeping Terror</a></p>
+<h3 id="pods"><a class="header" href="#pods">Pods</a></h3>
+<p><em>&quot;There are others... they'll stop you!&quot;<br >
+&quot;In an hour, you won't want them to.&quot;</em></p>
+<p>The Pods are psychic hazards that take over people and use them to make more pods and take more people over. It's a rather disturbing pyramid scheme, and it is not uncommon for even the Marduk Society and the Communes to work together in order to unravel Pod cults. It's not especially clear what it is that Pods <em>want</em>, but whatever it is, they appear to have no intention of discussing it with any political structures from the material world.</p>
+<p>Each pod is roughly the size of a large watermelon and appears to be a massive green potato. Most pods have some milk white tendrils growing out of what is most probably the bottom. These look similar to the rootlets that grow out of a potato if you leave it in water for a long period of time. There are slight depressions all over the Pod that appear to be its &quot;eyes&quot; - they are able to see things through them and use Authority on victims who look at them. The tendrils of a Pod can only move by growing over the course of minutes and hours, so for any practical purposes they are essentially immobile. Pods have a nonstandard attribute array because they were never humans. Before their Potency modifier their attribute ranges are:</p>
+<p>S: 1/1 A: 0/0 I: 5/12 L: 5/12 W: 5/12 C: 4/10 E:1/6 P: 3</p>
+<p>A Pod has an Astral power source and a Lunar power schedule. As Evil Plants they are vulnerable to iron and weakened by alcohol.</p>
+<h4 id="pod-starting-powers"><a class="header" href="#pod-starting-powers">Pod Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Enchanted Slumber (Basic Veil of Morpheus)</li>
+<li>Grass Rope (Basic Coil of Thorns)</li>
+<li>Supernatural Senses (Basic Discernment)</li>
+<li>Aura Perception (Basic Discernment)</li>
+<li>Command (Basic Authority)</li>
+<li>Mesmerism (Basic Authority)</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Telepathy (Advanced Discernment)</li>
+<li>Conditioning (Advanced Authority)</li>
+<li>Mind Root (Advanced Coil of Thorns)</li>
+</ul>
+<p>Elder Powers</p>
+<ul>
+<li>Possession (Elder Authority)</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0049366/">Invasion of the Body Snatchers</a>, <a href="https://en.wikipedia.org/wiki/Pod_People_%28Invasion_of_the_Body_Snatchers%29">Pod People</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../8-maya-the-dreamlands/2-giant-animals.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../8-maya-the-dreamlands/4-fae.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../8-maya-the-dreamlands/2-giant-animals.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../8-maya-the-dreamlands/4-fae.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Running the Game - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html" class="active"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="running-the-game"><a class="header" href="#running-the-game">Running the Game</a></h1>
+<p>After Sundown is a collaborative storytelling game, where all the players except one take the roles of the protagonists in an ensemble story set in the realm of horror. The odd player out is the MC, who acts as narrator, director, and actor of last resort for all the other characters in the story. The MC has substantial leeway in interpreting how events unfold and is responsible for much of the writing of the backstory. Nevertheless, the story is still <em>about</em> the player characters, and no one should forget that.</p>
+<p>Player characters will have numbers and abilities written on a character sheet that demonstrate what they are capable of, but in most cases the players themselves will determine what their character actually does. When actions are declared, dice are often rolled to determine the results of the action. But when that is not enough (or would be too tedious as is the case for many minor actions), the MC can deterministically assign results.</p>
+<p>Actual stories are told cooperatively, with players bringing up events relevant to their character's backstory and possibilities for the MC to consider weaving into the ongoing description of the world and having real first-person narrative control over the actions and dialog of their player character. The MC is sometimes said to be &quot;running&quot; the game because they provide the narrative control on the stage on which the protagonists act.</p>
+<h2 id="basic-dice-mechanics-the-test"><a class="header" href="#basic-dice-mechanics-the-test">Basic Dice Mechanics: The Test</a></h2>
+<p>When you perform an action with an undetermined outcome you roll a pile of d6s called a <em>Dicepool</em>. Dice which come up as a 5 or 6 are <em>Hits</em>. A task's required number of hits is its <em>Threshold</em>. Any hits gained in addition to that are <em>Net Hits</em> (that is, Net Hits = Hits - Threshold). If a die roll generates enough hits the attempt is a success; otherwise, it's a failure.</p>
+<p>The effects one can expect out of getting a number of Hits are proportionately more awesome as the number of hits increases:</p>
+<table><thead><tr><th style="text-align: center">Hits</th><th style="text-align: left">Awesomeness</th></tr></thead><tbody>
+<tr><td style="text-align: center">0</td><td style="text-align: left">Not Awesome. Tying shoes, climbing stairs.</td></tr>
+<tr><td style="text-align: center">1</td><td style="text-align: left">Completely Pedestrian. Driving a car, throwing Darts.</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left">Ordinary. Driving in the rain, hitting a bullseye at the range</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left">Professional. Don't try this at home. Formula One racing, surgery</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left">Hard. Don't try this at all. Movie stunts, brain surgery</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left">Extreme.</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left">Crazy Extreme.</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: left">Super Human. Does not need disclaimers because it is clearly impossible.</td></tr>
+</tbody></table>
+<h3 id="rating"><a class="header" href="#rating">Rating</a></h3>
+<p>&quot;Rating&quot; is a term generically used for measuring something that relates to dice mechanics. The unit of a Rating is a &quot;point&quot;, which amounts to one die in a pool or a threshold change of one. The most common Ratings are the Attributes and Skills of characters, but it also can refer to the toughness of objects or the difficulty of working with them, the damage dealt by weapons or deflected by armor, the inherent force of certain Powers, or arbitrary things like the gauntlet between Limbo and Earth. The Rating of an object is often used as the threshold for the most particular actions that would be taken on it, such as a lock having a Rating for how difficult it is to bypass whether with force or finesse.</p>
+<h3 id="dicepools"><a class="header" href="#dicepools">Dicepools</a></h3>
+<p>Your dicepool is generally speaking a pile of d6s with dice equal to your character's Attribute + Skill, and circumstantial modifiers increase or decrease the number of dice rolled. A human Extra's attributes go up to 9 and their skills up to 6. A supernatural creature's dicepools can go up higher than that because their Potency increases their Attribute maximums and their Edge increases their Skill maximums. As such, it is expected that supernatural critters will roll more dice on actions that their powers apply to than normal humans do.</p>
+<h3 id="defaulting"><a class="header" href="#defaulting">Defaulting</a></h3>
+<p>Sometimes people try doing something with no idea what they're doing; this is called <em>defaulting</em>. There may be a penalty to the dicepool for defaulting without the appropriate Active Skill or Background to perform the task, generally -1.</p>
+<h3 id="buying-hits"><a class="header" href="#buying-hits">Buying Hits</a></h3>
+<p>When a character is not under any particular threat or pressure, they may elect to forgo the process of actually rolling dice and simply get one hit for every 4 full dice in their dice pool. This process of &quot;phoning it in&quot; gets usually results in less hits than had they legitimately tried, but it has a strong tendency to work if that's all that is required.</p>
+<h3 id="resistance-tests"><a class="header" href="#resistance-tests">Resistance Tests</a></h3>
+<p>Sometimes a character will be allowed to <em>resist</em> something being done to them. This is done by rolling dice like normal, save that rather than generating an awesome result, the character is merely reducing the number of hits against them, making whatever is being done to them take less or even no effect. In general, a Physical Resistance Test is simply a Strength roll, a Mental Resistance Test is an Intuition roll, and a Social Resistance Test is a Willpower roll. If a character has an Edge score, it is added to these Resistance tests. When a character is struck with an attack they may be called upon to make a Soak roll, which is a special kind of Physical Resistance Test that also adds their appropriate Armor value to the roll (if any). In most cases, if the Resistance Test reduces the number of hits on a test to zero or less, the original attempt has failed.</p>
+<p>Some powers specify that they are resisted by other attributes and this may be extended to other situations at the MC's discretion; Edge is added to these tests as normal.</p>
+<h3 id="opposed-tests"><a class="header" href="#opposed-tests">Opposed Tests</a></h3>
+<p>When two characters are competing they may each make a test and then the hits are compared to see who has the advantage. In many cases, the effective net hits in such a situation is found by subtracting the losing character's hits from the winner's, as if the loser's dicepool were a resistance test. For example, two characters in a chase would both roll Agility + Athletics, with the net hits representing the degree to which the winner pulled ahead of the loser.</p>
+<p>In other circumstances Opposed Tests may use entirely different dicepools, such as attempting to fool a target with a disguise (Charisma + Persuasion) being opposed by (Intuition + Perception)</p>
+<h3 id="initiative-tests"><a class="header" href="#initiative-tests">Initiative Tests</a></h3>
+<p>When it's important to know which characters act first in a situation - or in what order - an Initiative Test is called for. Each character that wishes to participate rolls Agility + Intuition (an exception to the normal rule that dicepools will be Attribute + Skill) and takes the number of hits as their Initiative Score. Characters act in order of Initiative Scores, and characters whose scores are the same act simultaneously. A character who gets a higher Initiative Score may choose to act <em>after</em> characters with a lower Initiative Score if they want.</p>
+<h3 id="extended-tests-and-timescale"><a class="header" href="#extended-tests-and-timescale">Extended Tests and Timescale</a></h3>
+<p>Most actions take an expected amount of time. If a character gets the requisite number of hits, they succeed in the expected amount of time. If they get more than the requisite number of hits, they may complete the task well ahead of schedule. For every hit made in excess of the minimum, move to the next lower amount of time on the time chart. If a character fails to succeed, they may retry, but only after having put in the normal time into the first shot. So for example: Mina is attempting to paint a house (Strength + Artisan, 1, 2 days) and gets 3 hits. Since she got 2 more hits than she needed, she can go to the next lower time period twice, bringing the time frame down to five hours.</p>
+<table><thead><tr><th style="text-align: left">Step</th><th style="text-align: left">Time Period</th></tr></thead><tbody>
+<tr><td style="text-align: left">0</td><td style="text-align: left">Free Action</td></tr>
+<tr><td style="text-align: left">1</td><td style="text-align: left">Simple Action</td></tr>
+<tr><td style="text-align: left">2</td><td style="text-align: left">1 Round/Complex Action</td></tr>
+<tr><td style="text-align: left">3</td><td style="text-align: left">1 minute</td></tr>
+<tr><td style="text-align: left">4</td><td style="text-align: left">5 minutes</td></tr>
+<tr><td style="text-align: left">5</td><td style="text-align: left">20 minutes</td></tr>
+<tr><td style="text-align: left">6</td><td style="text-align: left">1 hour</td></tr>
+<tr><td style="text-align: left">7</td><td style="text-align: left">5 hours</td></tr>
+<tr><td style="text-align: left">8</td><td style="text-align: left">1 day</td></tr>
+<tr><td style="text-align: left">9</td><td style="text-align: left">3 days</td></tr>
+<tr><td style="text-align: left">10</td><td style="text-align: left">1 week</td></tr>
+<tr><td style="text-align: left">11</td><td style="text-align: left">1 month</td></tr>
+<tr><td style="text-align: left">12</td><td style="text-align: left">1 season/quarter</td></tr>
+<tr><td style="text-align: left">13</td><td style="text-align: left">1 year</td></tr>
+<tr><td style="text-align: left">14</td><td style="text-align: left">1 decade</td></tr>
+<tr><td style="text-align: left">15</td><td style="text-align: left">1 century</td></tr>
+<tr><td style="text-align: left">16+</td><td style="text-align: left">Eternal</td></tr>
+</tbody></table>
+<p>Of special note are the first three entries. A round is approximately 12 seconds used to mark the finest period that the game tracks. At this granularity, Initiative Score is used to determine the order in which actions occur. Normally, a character can perform either one Complex or two Simple actions in a Round, in addition to Free Actions and Reactions (which take practically negligible time).</p>
+<h3 id="predictable-failure"><a class="header" href="#predictable-failure">Predictable Failure</a></h3>
+<p>Sometimes a character will be struggling under enough penalties that they don't have a dice pool at all. In these instances, the character is going to get zero hits, which means that absolutely nothing they do will be awesome. They can still stagger down the corridor or open a door, but as soon as a stunt requires even one hit they are going to fail unless they are a Luminary who can spend Edge on the problem to get some dice and a chance.</p>
+<h3 id="team-work"><a class="header" href="#team-work">Team Work</a></h3>
+<p>When more than one character throws their weight into a project they can achieve results that are more awesome and in less time than what either character could achieve alone. However, the game mechanics completely break down if you just add the dicepool of one character to another. What is done instead is that whichever character has the best dicepool is considered the main acting character, and the other characters are considered the assisting characters. Each assisting character makes their check, and each hit is added as a bonus die on the main character's test. Since characters get about 1 hit per three dice, on average improving the awesomeness of a task is &quot;hard&quot; (threshold 3). In many cases, an MC will allow a character to assist with a tangential but vaguely related skill (in which case one of the assisting characters can roll more dice than the main acting character).</p>
+<p>Too many cooks spoil the broth. How many characters qualify as &quot;too many&quot; is, unfortunately, a very fluid concept that depends a lot on what you're doing. Sometimes there are real physical limits to how many people can literally fit around a project, and other times it's procedural. In general, most teamwork projects should be handled with five or fewer people. A project larger than that should probably be split into multiple tests, although at the MC's discretion there may be exceptions. A good set of management protocols is essential for most group projects to move forward. Most of the time, no more assisting characters can work on a project than the highest Tactics skill of the characters. The character providing the tactics skill allowing multiple characters to work on the project need not be the main acting character, and often will not be.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../1-introduction/3-terrible-places.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../2-characters/1-characters-introduction.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../1-introduction/3-terrible-places.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../2-characters/1-characters-introduction.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

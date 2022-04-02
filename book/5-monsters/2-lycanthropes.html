@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Lycanthropes - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html" class="active"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="lycanthropes-ruled-by-rage"><a class="header" href="#lycanthropes-ruled-by-rage">Lycanthropes: Ruled by Rage</a></h2>
+<p><em>&quot;A man may live for forty years, and a wolf only seven. But at the end of their lives, which one knows more of the tundra?<br />
+The man and the wolf know the same.&quot;</em></p>
+<p>Lycanthropy is a disease that passes from lycanthropes to people that are nearly killed at their jaws. All that is necessary to become a lycanthrope is to be bitten, nearly die, and yet survive the ordeal. It's like rabies. Only your heart has to stop at least for a little while.</p>
+<p>Once afflicted, a newly created Lycanthrope will find their wounds closing rapidly. The essentially deadly injuries suffered in the initial attack heal without leaving a scar or discoloration to mark their passing. The victim will feel feverish to the touch and chilled in the chest - a condition that will follow them until the end of their days.</p>
+<p>There isn't any ancient lycanthrope culture. For the vast majority of the time, a lycanthrope would come into being only by surviving an attack by another lycanthrope. As such, most lycanthropes came into the world with their creator either defeated or hostile. The vast majority of lycanthropes either learned the ins and outs of their condition on their own or had it explained to them by someone else in the know (usually another supernatural). So it is quite common for lycanthropes to be adapted into the cultures of <em>other</em> supernatural creatures. A Werewolf who was taken in by witches would generally have the same traditions and prejudices as those witches, not those of whatever Werewolf tore into him with its fangs and left him for dead.</p>
+<p>An exception to that generalization can be found in small family groups. Lycanthropes often go all crazy with rage and are a severe danger to their families and friends. A loved one pushed nearly to death by the rampages of a wererat is rather likely to spurn the creature which transformed it, running off and ultimately forming a new &quot;culture&quot; of one. However, it is not unheard of for such a victim to stay on and create a pack of lycanthropes. These groups tend to avoid contact with humans and supernaturals alike and have strange views.</p>
+<p>Lycanthropes take aggravated damage from silver weapons and are weakened by alcohol, which also tends to make them even more unstable and prone to frenzy. All types of Lycanthrope have a Lunar power source. Most Lycanthropes are subject to Master Passion Rage, which leads them to sometimes go berserk when the moon rises. Lycanthropes of all kinds are well-advised to avoid fragile things and people.</p>
+<blockquote>
+<h4 id="therianthropes"><a class="header" href="#therianthropes">Therianthropes?</a></h4>
+<p>The word &quot;lycanthrope&quot; literally comes from Greek words for &quot;wolf&quot; and &quot;form&quot;, but it is an English word that means &quot;a human who transforms into a wolf <em>or other beast</em>&quot;. Many people will try to get you to use the word &quot;Therianthrope&quot; or &quot;Zoanthrope&quot; in an attempt to use Greek root words correctly, but those words are not commonly used in English. Of course, as with all aspects of this work you may change whatever you wish to suit your particular needs or predilections.</p>
+</blockquote>
+<h3 id="werewolves"><a class="header" href="#werewolves">Werewolves</a></h3>
+<p><em>&quot;The better to eat you with, my dear.&quot;</em></p>
+<p>Somewhere in the howling wilderness of Scandinavia, a &quot;wolf warrior&quot; of the North became darkly fused with a wolf pelt he was wearing while fighting the Huns. That places the creation of the Werewolf at approximately 600 CE. Passed on to enemies and conquered victims, the curse spread throughout the lands of Europe and beyond along the warpaths of the Huns and Vikings. In later nights, the curse spread throughout the world on the backs of European conquistadors and imperial marines. By the Thirteenth Century it had spread as far as Central Asia, and Wolf Mother Asena led the Syndicate of the Bumin Horde of Ergenekon to rule much of Eurasia until her presumed death and the dissolution of the Syndicate in 1844.</p>
+<p>Werewolves are instilled with a love of combat and destruction even when in human forms. In their monstrous forms, they take the shape of awkwardly toothy man-wolves. Glistening with drool and usually splattered with blood, the claws and fangs of a monstrous formed werewolf are a terror. Every Werewolf can transform into a &quot;regular&quot; canine as well as a huge canid beast. Not all Werewolves transform into an actual wolf when they become a mundane animal; for whatever reason, some become dogs, coyotes, foxes, jackals, or even hyenas.</p>
+<p>Though they gain no magical power or sustenance from it, Werewolves are drawn to eating human flesh and will often succumb to this temptation while in a frenzy. The curse of Lycanthropy comes with unusual and often unwanted hair growth on various parts of the body for Werewolves. In the era of waxing and depilatories, a Werewolf can keep this under control, but changing into the War Form causes hair to come back no matter what has been done. On the plus side: baldness is curable through infection with Lycanthropy.</p>
+<p>Werewolves have an Astral power source and a Lunar power schedule. As Lycanthropes, they are vulnerable to silver and weakened by alcohol.</p>
+<h4 id="the-first-werewolf"><a class="header" href="#the-first-werewolf">The First Werewolf?</a></h4>
+<p>The secret histories are comparatively clear about the source of the canine form of Lycanthropy. There was a Norse warrior at the beginning of the 7th century who got cursed, and every single Werewolf in the whole world traces their condition back to him. However, while this story is well-documented and has a lot of evidence behind it, there are still those who insist that there were earlier Werewolves or that canine Lycanthropy has occurred more than once. In particular, several secret historians hold that the myth of Romulus and Remus refers to a Werewolf cult that founded the Roman kingdom. The exact mechanics of the wolf pelt curse are unknown to modern sorcery, so it is within the realm of possibility that it could happen again. Or that it already has.</p>
+<h4 id="werewolf-starting-powers"><a class="header" href="#werewolf-starting-powers">Werewolf Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Revive the Flesh (Basic Fortitude)</li>
+<li>Beast Form (Basic Call of the Wild)</li>
+<li>Tongue of Beasts (Basic Call of the Wild)</li>
+<li>Vigor (Basic Clout)</li>
+<li>Nimble Feet (Basic Celerity)</li>
+<li>Repel (Basic Magnetism)</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Devastation (Advanced Clout)</li>
+<li>Monstrous Self (Advanced Clout)</li>
+</ul>
+<p><strong>Distinctive Flaw:</strong> Temperamental</p>
+<p><strong>Associated Flaws:</strong> Distinctive Appearance, Prideful, Doomed Romance, Eerie Presence, Haunted</p>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0034398/">Larry Talbot</a>, <a href="http://www.imdb.com/title/tt0210070/">Ginger Snaps</a>, <a href="http://www.imdb.com/title/tt0280609/">Dog Soldiers</a></p>
+<h3 id="the-nezumi-plague-on-the-world-of-men"><a class="header" href="#the-nezumi-plague-on-the-world-of-men">The Nezumi: Plague on the world of Men</a></h3>
+<p><em>&quot;Tear him up.&quot;</em></p>
+<p>The most frequently told story of the origins of the plague of the Nezumi is that someone turned their back on the teachings of the Buddha and was cursed with reincarnating in a lower form during their own life. If even partially true, this would mean that the plague started no earlier than about 500 BCE. Once afflicted, a Nezumi Lycanthrope begins to twitch their nose like Elizabeth Montgomery and click their tongues nervously.</p>
+<p>A Nezumi's animal form is that of a large rat. Nezumi are immune to the effects of disease, but carry virtually every disease they come into contact with. Unlike other lycanthropes, Nezumi have no monstrous war form, though nothing is stopping them from eventually learning one, and some certainly do. While most Nezumi lack the brutal jaws or rending claws of other lycanthropes, their bites are still often quite deadly because of the pestilence they carry. Still, it is important to note that even their animal form is of little help in a fight, being as it is just a large rat.</p>
+<p>Most Nezumi are mastered by the same all-consuming rage of the other Lycanthropes. However, they <em>don't</em> normally possess any great strength, a fact which frequently causes them to become quite cowardly and fearful of authority. Many Nezumi become quite resigned from the world: hiding in sewers, jumping at sounds; knowing that the heat of battle runs in their veins, and feeling dreadfully afraid that it will eventually drive them to a suicidal battle over nothing. Interacting with the world of men seems to be a never-ending river of frustrations, and many choose to simply not do it. Those who master their rage usually do so only by trading it for Master Passion Fear.</p>
+<p>A Nezumi has an Infernal power source and a Lunar power schedule. As Lycanthropes, they are vulnerable to silver and weakened by alcohol.</p>
+<h4 id="the-first-nezumi"><a class="header" href="#the-first-nezumi">The First Nezumi?</a></h4>
+<p>Opinions are divided as to the historicity of the Buddha offending story in the secret histories. The oldest <em>living</em> Nezumi is Hamamoto Yoshi, who was born in the 8th century CE in Nagaokyo, Japan and now lives in cryptic hermitude in Kyoto's sewers. Most Nezumi die of old age, and when Yoshi has deigned to answer such questions at all, he has denied being the first.</p>
+<h4 id="nezumi-starting-powers"><a class="header" href="#nezumi-starting-powers">Nezumi Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Beast Form (Basic Call of the Wild) <em>Native</em></li>
+<li>Tongue of Beasts (Basic Call of the Wild)</li>
+<li>Hide From Notice (Basic Veil)</li>
+<li>Learn the Heart's Pain (Basic Names of the Blasphemies)</li>
+<li>Revive the Flesh (Basic Fortitude)</li>
+<li>Abyss of the Body (Basic Wages of Damnation)</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Hide in Plain Sight (Advanced Veil)</li>
+<li>The Beckoning (Advanced Call of the Wild)</li>
+</ul>
+<p><strong>Distinctive Flaw:</strong> Red Taped</p>
+<p><strong>Associated Flaws:</strong> Conspicuous Consumption, Distinctive Appearance, Compulsive Behavior, Disloyal, Temperamental, Eerie Presence</p>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0310357/">Willard</a>, Torment, <a href="https://en.wikipedia.org/wiki/Fruits_Basket">Fruits Basket</a></p>
+<h3 id="the-bagheera-the-lady-or-the-tiger"><a class="header" href="#the-bagheera-the-lady-or-the-tiger">The Bagheera: The Lady or the Tiger</a></h3>
+<p><em>&quot;You can fool everybody, but landie, dearie me, you can't fool a cat. They seem to know who's not right.&quot;</em></p>
+<p>The legends say that the Bagheera were formed first by a jaguar warrior pledged to Huitzilopochtli that stalked the jungles and mountains like Death itself taken shape. They also say that a Bengali priestess was the first, blessed by Shiva to bring destruction to her enemies. When consulted on the subject directly, the Stellar Oracles enigmatically state that both stories are true. Regardless, once infected a Bagheera is a creature of death and finds that their mere presence alarms and angers animals of all types, especially cats.</p>
+<p>A Bagheera's War Form is that of a great and ghostly cat. Perhaps a tiger, jaguar, or leopard. Most Bagheera cannot transform into a remotely reasonably sized cat that can pass as something &quot;not terrifying.&quot; It has been suggested that the beast inside a Bagheera isn't really an animal at all, since they seem to show less than no affinity for the mundane beasts they appear as - a marked departure from other Lycanthropes.</p>
+<p>A Bagheera has an Orphic power source and a Lunar power schedule. As Lycanthropes, they are vulnerable to silver and weakened by alcohol.</p>
+<h4 id="the-first-bagheera"><a class="header" href="#the-first-bagheera">The First Bagheera</a></h4>
+<p>The origins of the Bagheera are clouded in mystery. Like the Camazotz most, records of their history were lost during the genocidal conquest of South America. The modern Bagheera take their name from a separate tradition in which a Bengali priestess called upon her gods and goddesses to allow her to smite the spreading Islamic culture in the 1300s, but the Bagheera of the False Face were likely a much older line than that.</p>
+<h4 id="bagheera-starting-powers"><a class="header" href="#bagheera-starting-powers">Bagheera Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Quickness (Basic Celerity)</li>
+<li>Nimble Feet (Basic Celerity)</li>
+<li>Vigor (Basic Clout)</li>
+<li>Touch of Darkness (Basic Lure of Destruction)</li>
+<li>Hide From Notice (Basic Veil)</li>
+<li>Revive the Flesh (Basic Fortitude)</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Blur (Advanced Celerity)</li>
+<li>Monstrous Self (Advanced Clout)</li>
+</ul>
+<p><strong>Distinctive Flaw:</strong> Offensive to Animals</p>
+<p><strong>Associated Flaws:</strong> Distinctive Appearance, Disloyal, Flake, Prideful, Temperamental, Eerie Presence, Feared by Children</p>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0034587/">Cat People</a>, <a href="http://www.imdb.com/title/tt0031143/">The Cat and the Canary</a>, <a href="https://en.wikipedia.org/wiki/Geobreeders">Geobreeders</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../5-monsters/1-monsters-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../5-monsters/3-vampires.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../5-monsters/1-monsters-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../5-monsters/3-vampires.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

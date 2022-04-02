@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Witches - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html" class="active"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="witches-a-greed-for-power"><a class="header" href="#witches-a-greed-for-power">Witches: A Greed for Power</a></h2>
+<p><em>&quot;It's not all hocus pocus and chicanery. There's also sleight of hand and deceit. And raw sorcerous power.&quot;</em></p>
+<p>The core of sorcery in a horror setting is that it's a series of secrets that an individual learns that gives them great powers and is a really bad idea. When Extras attempt to learn magic, they don't turn into monsters or anything but just end up as cultists. Think Cthulhu or Bible Black cultists. Better yet, don't. Extras who attempt to learn magic usually end up getting sacrificed one way or another, and it's no better than being a Vampire Spawn. But for those lucky few who can master the dark arts without succumbing to the whispers or tentacles of demons, a lifetime of sorcerous power and intrigue awaits.</p>
+<p>Using magic is, for a mortal, a harrowing, draining, and indeed life and sanity threatening thing. However, through deliberate study or horrid inspiration, a human can manage to change themselves into something that <em>can</em> use magic with relative safety and reliability. Once attuned to sorcery a soul can never be the same, and people who become sorcerers can be hard to get along with or even <em>understand</em>. What they have in common is a desire for power so strong it drives them to destroy their souls.</p>
+<p>Most Witches are usually fairly vulnerable to normal physical attacks, but silver causes them aggravated damage. Witches are also weakened by simply getting wet, so most of them have peculiar or even paranoid washing behaviors. Witches tend toward Master Passion Greed, a less controlled form of the drive for power that brought them to sorcery in the first place. In After Sundown, men and women can both be &quot;Witches&quot;, although some men prefer the epithet &quot;Warlocks&quot; and a considerable number prefer to call themselves by some more culturally specific term for a magician such as Houngan or Rishi.</p>
+<p>Otherwise, Witches are a special case of supernatural, because the biggest thing they have in common is that they have learned some Sorcery, but beyond that, they differ a great deal depending on what they learned and how. Each type of witch has just a few powers in common and much greater flexibility to determine their starting power set compared to other supernatural creatures. The one thing that's harder to do is to turn one into a pure physical combat monster, but the Khaibit has a decent shot at it.</p>
+<blockquote>
+<h4 id="mad-science"><a class="header" href="#mad-science">Mad Science</a></h4>
+<p><em>&quot;I'll show them, I'll show them all!&quot;</em></p>
+<p>You have to want power pretty badly to become a sorcerer, but not everyone that becomes a sorcerer was originally looking into traditional mystical sources for that power. It's entirely possible to start out with the trappings of science and those trappings continue to work quite well, no matter how much the hoary old traditionalists shake their heads about it. It's just that the sort of things you have to do are not the sort approved of by institutional review boards. You have to dig into things that are disreputable and start experimenting on yourself. Once the breakthrough scars your soul the supernatural world will group you with the Witches just the same.</p>
+<p>Dr. Victor Frankenstein could easily be interpreted as a Khaibit: having picked up a morbid obsession after the death of his mother, he proceeds to experiment with Reanimation until he creates a new living creature, with the only extra detail required being an accidental death and resurrection during his chemical experiments in Ingolstadt.</p>
+</blockquote>
+<h3 id="baali-the-willingly-damned"><a class="header" href="#baali-the-willingly-damned">Baali: the Willingly Damned</a></h3>
+<p><em>&quot;You will not remember what I show you now, and yet I shall awaken memories of love... and crime... and death...&quot;</em></p>
+<p>Perhaps the most expedient manner to make one's human soul stop reacting poorly to magic is to set it on fire and be done with it. A Baali is someone who did exactly that. Some sell their soul off to demons, while others burn out their souls quickly or slowly by dabbling in dark power. Infernal grimoires have over-elaborate rites to get the job done one way or another. Baali may delve into any infernal Discipline, but some direct power over others is always their first birthright.</p>
+<p>Baali tend to be emotionally distant and enraged by pictures of themselves (such as reflections, paintings, or photographs). This is probably to do with the fact that their souls are burned out husks or trapped far away in a mysterious hell dimension and reminders of their pasts as humans are infuriating. The thing where they usually fail at having normal relationships with people is probably much the same, albeit played out in a grinding process of ashy distance rather than inexplicable rage.</p>
+<p>Baali refresh their powers by hurting people. This is functionally equivalent to vampiric blood-drinking, but they don't specifically put any blood into their mouths. They still have to spend the same amount of time absorbing the proceeds of their wickedness and have to inflict lethal wounds in the process; in the olden days, it was perfectly acceptable to sacrifice people on alters for a full charge-up and some Baali still try to get away with it. The range is limited to about one meter per Potency, but the flow of power can't be seen or observed in any way without Aura Perception.</p>
+<p>The Baali Witch has an Infernal power source and a Feeding power schedule. As Witches, they are vulnerable to silver and weakened by water.</p>
+<h4 id="the-first-baali"><a class="header" href="#the-first-baali">The First Baali?</a></h4>
+<p>The word &quot;Baali&quot; is an old Mesopotamian word meaning someone worthy of respect or allegiance. It has been handed around the Middle East and North Africa for millennia, and even such famous figures as Hanni_bal_ have reference to precisely that in their names. But the title used to mean someone who used Sorcery. That changed with the reforms of Hammurabi in the 18th century BCE, where people who had no magic at all could be known as a Baal. The first person in the secret histories who used Infernal magic to burn out their soul to keep the use of magic from destroying them was Marduk. He slew Tiamat and began the Marduk Society in the 25th century BCE. It is interesting to note that in the nights since, the Marduk Society has moved to favor Astral magic, and no longer has many Baali members.</p>
+<h4 id="baali-starting-powers"><a class="header" href="#baali-starting-powers">Baali Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Aura Perception (Basic Discernment)</li>
+<li>Command (Basic Authority)</li>
+<li>Any 4 basic powers from Authority, Discernment, or any Infernal Discipline</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Cloud Memory (Advanced Authority)</li>
+<li>Any advanced power from Authority, Discernment, or any Infernal Discipline they have a Basic Power in</li>
+</ul>
+<p><strong>Distinctive Flaw:</strong> Disloyal</p>
+<p><strong>Associated Flaws:</strong> Allergy (silver), Distinctive Appearance, Compulsive Behavior (mirrors), Delusional, Prideful, Temperamental, Eerie Presence, Feared by Children, Offensive to Animals, Mirror-Marked</p>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0023245/">The 1932 Mummy</a>, <a href="http://www.imdb.com/title/tt0360486/">Constantine</a>, <a href="http://www.imdb.com/title/tt0118971/">Devil's Advocate</a>, <a href="http://www.imdb.com/title/tt0223268/">Faust</a></p>
+<h3 id="mekhashfim-poisoners-of-souls"><a class="header" href="#mekhashfim-poisoners-of-souls">Mekhashfim: Poisoners of Souls</a></h3>
+<p><em>&quot;There are poisons that blind you, and poisons that open your eyes.&quot;</em></p>
+<p>Sometimes those drugs that are supposed to rip open the doors of perception work for people. They see things mortals were not meant to know, and in turn, these things have a look inside them and ruin their souls just like the PSAs say they will. The upside, though, is that these mutilated souls and their (metaphorically) gaping third eyes are now great channels for the evil power of nightmare to come through. Non-Luminaries that try this end up as addled husks, but Mekhashfim manage to hold it together. Mostly.</p>
+<p>There are various ways of getting to this point. Those psychonauts of a scientific bent may have little experience with the supernatural beforehand and simply stumble through the veil of reality by accident. Others may be guided on a mystic path with all due ceremony before drinking the potion that initiates them to the mysteries. And sometimes alchemists just find that the culmination of their Great Work to perfect the soul involves absorbing more mercury fumes than the brain can handle. Any Astral path may come to them, but they all have a facility with drugs and potions that is remarkable to witness.</p>
+<p>The Mekhashfim ritual to regain Magic Points usually involves taking more psychoactive substances. Any radical ecstatic practice could work, and some grimoires, like the King in Yellow, manage to fuck you up so badly just by reading them that the effect is much the same, but each Mekhashef has their particular vice that they must always return to. The resulting lotus-eater fugue state lasts for a few hours in any case.</p>
+<p>A Mekhashef has an Astral power source and a Ritual power schedule. As Witches, they are vulnerable to silver and weakened by water.</p>
+<h4 id="the-first-mekhashef"><a class="header" href="#the-first-mekhashef">The First Mekhashef?</a></h4>
+<p>There have probably been Mekhashfim as long as there have been Luminary shamans that were willing to do eat dubious mushrooms to gain power over the supernatural, but few of their methods survived to be recorded after the dawn of history. The secret histories note that the Eleusinian Mysteries had been established and started actively initiating members around 650 BCE, but the name Mekhashfim wasn't settled on until a few centuries later by a group of refugee witches displaced from around the Mediterranean who took it on as a reminder of the price of publicity.</p>
+<h4 id="mekhashfim-starting-powers"><a class="header" href="#mekhashfim-starting-powers">Mekhashfim Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Aura Perception (Basic Discernment)</li>
+<li>Bitter Fruit (Basic Coil of Thorns)</li>
+<li>Any 4 basic powers from Discernment, Guise, or any Astral Discipline</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Telepathy (Advanced Discernment)</li>
+<li>Any advanced power from Discernment, Guise, or any Astral Discipline they have a basic power in</li>
+</ul>
+<p><strong>Distinctive Flaw:</strong> Delusional</p>
+<p><strong>Associated Flaws:</strong> Oversensitive, Tunnel Vision, Aimless, Compulsive Behavior, Flake, Infectious Mood, Dream Walker</p>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0115963/">The Craft</a>, <a href="https://www.imdb.com/title/tt4263482/">The VVitch</a>, <a href="https://www.imdb.com/title/tt3908142/">The Love Witch</a>, <a href="https://www.imdb.com/title/tt1783732/">John Dies at the End</a>, <a href="https://www.imdb.com/title/tt2011276/">Banshee Chapter</a></p>
+<h3 id="khaibit-traffickers-in-death"><a class="header" href="#khaibit-traffickers-in-death">Khaibit: Traffickers in Death</a></h3>
+<p><em>&quot;There are far worse things awaiting man than death.&quot;</em></p>
+<p>Fear of darkness and death leads men to do strange things. Perhaps the strangest of them is to murder one's self and then use sorcery or advanced medical techniques to make one's foray into the land of the dead a temporary one. This does not inherently prevent a person from dying in the future, indeed quite the opposite. Many who gain the intimate secrets of death in this manner are chased by the shadow of doom for the remainder of their existence, but their dead souls have no trouble manipulating the power of the Gloom. Having opened the Gates of Death they all have some power over Ghosts and Zombies, but all Orphic Disciplines are open to them.</p>
+<p>The Khaibit Ritual to regain power requires <em>either</em> a bunch of medical equipment <em>or</em> a bunch of corpse pieces, depending upon whether they originally killed themselves with scientific equipment or ancient rituals. That declaration needs to be made right at the beginning of character creation. However, while the more mystical types need to have a skull to &quot;Alas Poor Yorick&quot; with, it doesn't need to be especially fresh and they don't need to have chopped it off themselves and an Orphic Grimoire counts too. Either way, Khaibit are incredibly bad tenants, as some sort of horrible luck rubs off onto any place they stay for long. Appliances break down, walls cave in, windows break. Many Khaibit become paranoid about these effects, and come to believe that a mysterious force is hunting them to take them back to The Gloom. They might even be right.</p>
+<p>The Khaibit Witch has an Orphic power source and a Ritual power schedule. As Witches, they are vulnerable to silver and weakened by water.</p>
+<h4 id="the-first-khaibit"><a class="header" href="#the-first-khaibit">The First Khaibit?</a></h4>
+<p>Khaibit Sorcery is available throughout the night all over the world. The earliest recorded books of power written for the subject were in Egypt around 1550 BCE. The &quot;Book of the Dead&quot; was itself based on earlier sorcerous investigations, but Khaibit Witches date back in a currently recognizable form to the beginnings of the Middle Kingdom in Egypt.</p>
+<h4 id="khaibit-starting-powers"><a class="header" href="#khaibit-starting-powers">Khaibit Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Aura Perception (Basic Discernment)</li>
+<li>Summon Spirit (Basic Necromancy)</li>
+<li>Any 4 basic powers from Discernment, Fortitude, or any Orphic Discipline</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Reanimate (Advanced Necromancy)</li>
+<li>Any advanced power from Discernment, Fortitude, or any Orphic Discipline they have a Basic Power in</li>
+</ul>
+<p><strong>Distinctive Flaw:</strong> Haunted</p>
+<p><strong>Associated Flaws:</strong> Conspicuous Consumption, Distinctive Appearance, Tunnel Vision, Delusional, Disloyal, Prideful, Feared by Children, Offensive to Animals, Red Taped</p>
+<p><strong>Story Inspiration:</strong> <a href="http://www.imdb.com/title/tt0089885/">Reanimator</a>, <a href="http://www.imdb.com/title/tt0099582/">Flatliners</a>, <a href="http://www.imdb.com/title/tt0057197/">Jason and the Argonauts</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../5-monsters/3-vampires.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../5-monsters/5-leviathan.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../5-monsters/3-vampires.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../5-monsters/5-leviathan.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
