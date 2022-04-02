@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Zombies - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html" class="active"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="zombies"><a class="header" href="#zombies">Zombies</a></h2>
+<p><em>&quot;It is a truth universally acknowledged that a zombie in possession of brains must be in want of more brains.&quot;</em></p>
+<p>Zombies are physical bodies without the benefit of life or human spirit who nonetheless move about and hunger for the brains of the living. They are not respected members of the supernatural community, but are instead treated as servitors and disposable soldiers by those with necromantic powers and a social problem by most everyone else. Zombies are not traditionally considered playable, but are instead most likely to appear as tools or independent menaces in an After Sundown campaign.</p>
+<p>All Zombies, regardless of strength, have an Orphic power source. When an extra becomes a Zombie, they become a Shambler or a Soulless depending upon the circumstances of their transformation. When a Luminary becomes a Zombie, they become a Revenant in all cases. Unlike many unplayable types, a Zombie <em>is</em> made out of a human being and they <em>are</em> a template added to a normal human statline.</p>
+<blockquote>
+<h3 id="luminary-zombies"><a class="header" href="#luminary-zombies">Luminary Zombies</a></h3>
+<p>When Luminaries become zombies they never turn into Shamblers or Soulless (unless they're missing their soul or something like that) but arise as Revenants. As they intended as a playable type with some presence in monstrous society the description and starting powers of Revenants is given under the Outliers section rather than with other Zombies.</p>
+</blockquote>
+<blockquote>
+<h3 id="voodoo-and-the-zombi"><a class="header" href="#voodoo-and-the-zombi">Voodoo and the Zombi</a></h3>
+<p>While the word &quot;Zombie&quot; comes undeniably from Caribbean Creole and ultimately derives from West Africa, the Zombies of After Sundown don't have a lot to do with that particular mythology or how it is interpreted in modern popular culture. People brought to slavish near-death by drugs or potions are better represented with the Mind Root power than with Reanimate.</p>
+</blockquote>
+<h3 id="shamblers"><a class="header" href="#shamblers">Shamblers</a></h3>
+<p><em>&quot;When the dead rise, civilization will fall.&quot;</em></p>
+<p>Shamblers are the classic &quot;slow zombies&quot; from zombie movies from the eighties. They hunger for brains, but they are basically walking corpses who shamble around - hence the name. Shamblers are <em>not</em> individually particularly dangerous. But they <em>are</em> implacable and they can come in fairly large numbers. Created by Orphic sorcery or by leakage of power from Mictlan, Shamblers will thoughtlessly move toward humans and attempt to eat their brains. The opening up of a major Well to Mictlan is often accompanied by the mass animation of large numbers of corpses as Shamblers, leading to potentially terrifying armies of the things even in the face of the relative incompetence of any solitary Shambler.</p>
+<p>A Shambler has no Charisma or Logic score and automatically fails any test it would be called upon to make. Upon creation, a Shambler's Agility is reduced by one (to a minimum of 1) but their Strength is increased by 1. A Shambler loses their Logic, Charisma, and Willpower attributes and all of their skills, even combat skills. When not controlled magically, they really will simply walk over and relentlessly and unskillfully claw and bite at potential victims with their substantial but undirected strength. Shamblers are not specifically slower than a normal person, but they <em>always</em> move at the rate of a Careful Walk even when ordered to do otherwise. Only their literally endless endurance and willingness to travel unceasingly to find brains gives their aggregate daily travels a frightening total of up to 50 kilometers a day. </p>
+<p>When Shamblers arise after the death of a human infested with the Z-Virus they can continue to spread it, although this tends not to matter to much because they usually try to eat what they kill and thus the infection doesn't spread <em>too</em> quickly. On the other hand, when Mictlan wells open up the evil magic that animates them will continue to work until the gateway itself closes. </p>
+<p>The skin of a Shambler is quite resilient and hard, and their fists are Damage 1N weapons. Shamblers have no passions, but their behavior is in some ways comparable to a very slow Master Passion Hunger frenzy. A few Shamblers end up with powers such as Vigor or Armored in Life, or Bite of the Serpent (Necrotic).</p>
+<p>A Shambler has an Orphic power source, a Feeding Power Schedule, and a Potency of 1, although most never need Magic Points. They never have an Edge attribute. As undead they are vulnerable to wood and weakened by sunlight.</p>
+<h4 id="shambler-starting-powers"><a class="header" href="#shambler-starting-powers">Shambler Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Patience of the Mountains (Basic Fortitude)</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="https://www.imdb.com/title/tt0063350/">Night of the Living Dead</a>, <a href="https://www.imdb.com/title/tt0023694/">White Zombie</a>, <a href="https://www.imdb.com/title/tt0089371/">Mr. Vampire/Geung see sin sang</a></p>
+<h3 id="soulless"><a class="header" href="#soulless">Soulless</a></h3>
+<p><em>&quot;If you look at the whole life of the planet, we... you know, man, has only been around for a few blinks of an eye. So if the infection wipes us all out, that is a return to normality.&quot;</em></p>
+<p>The Soulless are the lately fashionable &quot;fast zombies&quot; of more modern cinema. Clearly distinct from Shamblers by their bright red eyes and relatively speedy disposition, the Soulless are neither plodding nor tireless. Possessed of more humanlike speeds and faculties, the Soulless are individually much more terrifying than a Shambler. But while they are rarely spawned in the tremendous numbers of Shamblers, the fact that they can and do spread their affliction readily to the living means that their numbers can easily grow out of control if not checked by heroic intervention.</p>
+<p>A Soulless loses their Charisma but not their Logic or Willpower. Their near-constant frenzy means they effectively have an extra point of both Strength and Willpower. A Soulless is consumed by rage at all times to the point of complete irrationality, but they are not actually incapable of utilizing tools. While a Soulless will <em>usually</em> opt to empower Vigor to tear down a door rather than attempting to turn the knob, this is a result of their all consuming hatred rather than actual ineptitude on their part. The Soulless fighting style is simple and predictable, but usually effective enough: all Soulless have a Combat skill of 1.</p>
+<p>The bite or even <em>spit</em> of the Soulless can corrupt and kill mortals, with the RAGE Virus spreading rapidly. If they are sterilized by any method, any victims they take down will stay inert. Every Soulless is dominated by both Master Passion Rage and will fly into a Rage Frenzy with basically no provocation at all. Triggers include <em>seeing humans</em>.</p>
+<p>A Soulless has Master Passion Rage with an Orphic power source and a Feeding Power Schedule, and a Potency of 1. As undead they are vulnerable to wood and weakened by sunlight.</p>
+<h4 id="soulless-starting-powers"><a class="header" href="#soulless-starting-powers">Soulless Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Vigor (Basic Clout)</li>
+<li>Nimble Feet (Basic Celerity)</li>
+<li>Abyss of the Body (Basic Wages of Damnation) <em>Native</em> - The RAGE Virus</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="https://www.imdb.com/title/tt0289043/">28 Days Later</a>, <a href="https://www.imdb.com/title/tt0120804/">Resident Evil</a>, <a href="https://www.imdb.com/title/tt0363547/">Dawn of the Dead Remake</a></p>
+<h3 id="thrillers"><a class="header" href="#thrillers">Thrillers</a></h3>
+<p><em>&quot;I was told there was nothing left. No reason, no conscience, no understanding. Not even the most rudimentary sense of life or death, of good or evil, right or wrong. I met this six-year-old child with this blank, pale, emotionless face, and the blackest eyes, the devil's eyes. I spent eight years trying to reach him, and then another seven trying to keep him locked up because I realized that what was living behind that boy's eyes was purely and simply...evil.</em></p>
+<p>Sometimes people come back from the dead for seemingly no more reason than their love of killing. Maybe the Gloom just spits them back because Death wants them to keep doing their work. These monstrous and immortal serial killers just keep coming back to kill again and again, and not much ever stops them. Syndicates <em>hate</em> these things, because they almost always murder enough people to attract big investigations that start to turn up weird and unexplainable evidence. They aren't the sort to listen to reason and try to tone it down or keep the killing on the down-low. They have their ritualistic MO and they are going to stick to it, death and society be damned.</p>
+<p>Thrillers are disturbingly powerful and it's just possible that a few of them have survived long enough to become elders; like vampires they have a tendency to not stay dead. Although in retrospect they've probably been around for a very long time, Thrillers weren't identified as a distinct type of monster until some troublesome details of the Ripper Killings were examined, and the problem wasn't widely appreciated until the later half of the 20th century when mortal attention to serial killers started to influence supernatural understanding. Syndicates tend to be rather forgiving of things that are done in the name of putting down a Thriller with extreme prejudice - burying the staked heart and brain in separate bags of seeds on different continents is considered merely prudent. </p>
+<p>Thrillers vary in their Master Passion - although Rage seems to be the most common - and some of them are disquietingly emotionless, akin to the Emptiness of Evil Plants or Mockeries. Their Driving Ambition is almost always to make another kill according to their ritualistic plan, which means some of them restore Luck at an alarming rate. They have an Orphic power source, a Lunar Power Schedule, and a Potency of 2. As undead they are vulnerable to wood and weakened by sunlight.</p>
+<h4 id="thriller-starting-powers"><a class="header" href="#thriller-starting-powers">Thriller Starting Powers</a></h4>
+<p>Basic Powers</p>
+<ul>
+<li>Nimble Feet (Basic Celerity)</li>
+<li>Vigor (Basic Clout)</li>
+<li>Touch of Darkness (Basic Lure of Destruction)</li>
+<li>Armored in Life (Basic Fortitude)</li>
+<li>Patience of the Mountains (Basic Fortitude)</li>
+<li>Revive the Flesh (Basic Fortitude)</li>
+</ul>
+<p>Advanced Powers</p>
+<ul>
+<li>Indomitability (Advanced Fortitude)</li>
+<li>Restoration (Advanced Fortitude)</li>
+</ul>
+<p><strong>Story Inspiration:</strong> <a href="https://en.wikipedia.org/wiki/Friday_the_13th_Part_2">Jason Voorhees</a>, <a href="https://www.imdb.com/title/tt0077651/">Michael Myers</a>, <a href="https://www.imdb.com/title/tt0087800/">Freddy Krueger</a> <a href="https://www.imdb.com/title/tt0082782/">The Miner</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../10-mictlan-the-gloom/1-a-tour-of-death.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../10-mictlan-the-gloom/3-ghosts.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../10-mictlan-the-gloom/1-a-tour-of-death.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../10-mictlan-the-gloom/3-ghosts.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

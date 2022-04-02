@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Wounds, Death, and Dying - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html" class="active"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="wounds"><a class="header" href="#wounds">Wounds</a></h2>
+<p><em>&quot;Okay, that hurt.&quot;</em></p>
+<p>When a character would take damage, they are usually allowed to soak that damage. This involves rolling a Resistance Test (normally Strength), with the hits subtracted from the incoming damage. If the damage is reduced to zero, the character takes no perceptible harm, otherwise they suffer a wound. Some number of boxes of the character's condition monitor will be filled up. All characters (and most objects worth bothering about) have 10 boxes on their condition monitor. When boxes are filled in, they are marked depending on the type of damage that caused the wound:</p>
+<table><thead><tr><th style="text-align: left">Damage Type</th><th style="text-align: center">Box</th></tr></thead><tbody>
+<tr><td style="text-align: left">Normal</td><td style="text-align: center"><code>[/]</code></td></tr>
+<tr><td style="text-align: left">Lethal</td><td style="text-align: center"><code>[X]</code></td></tr>
+<tr><td style="text-align: left">Aggravated</td><td style="text-align: center"><code>[*]</code></td></tr>
+</tbody></table>
+<p>For ease of accounting, the game arranges all wound marks in the order of Aggravated, then Lethal, then Normal. As new wound marks of any type accumulate they push lesser marks to the right of the track. If a damage mark would be pushed off of the track entirely simply discard it. The only exception to this is if a character's track is already filled with Normal marks when you start adding a Normal wound: in that case, you should convert existing Normal marks into Lethal marks on a one-for-one basis.</p>
+<p>When all 10 of a character's boxes fill up with any kind of damage they are <strong>Incapacitated</strong>. They might or might not be conscious, but they cannot attempt any action that requires a dice roll, and they can at best crawl around at a Crawl.</p>
+<ul>
+<li>If the character's rightmost box is filled in with a forward slash (<code>[/]</code>), they are in no immediate danger (at least not from their wounds, being incapacitated in a place where you just <em>took</em> a wound implies a certain level of urgency in most cases).</li>
+<li>If the character's rightmost box is filled in with a backslash (<code>[\\]</code>), they gain the Dying condition with one hour to live (see the Healing and Death section). This usually comes directly from Lethal or Aggravated wounds, but note that wound marks heal separately so it's possible to have just the backslash itself.</li>
+</ul>
+<p>A character can also suffer a Terminal wound, which is much like an Incapacitating wound (in that all of your condition boxes will be filled up with a mark), but the character gains the Dying condition with only 5 minutes to live. Even a Normal damage attack can cause a Terminal wound (eg: an unlucky rubber bullet or boxer's punch), and then someone had better be on hand with CPR or the curtain is coming down.</p>
+<table><thead><tr><th style="text-align: center">Net Damage</th><th style="text-align: left">Wound Type</th><th style="text-align: left">Wound Boxes</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>P</strong>etty</td><td style="text-align: left">1 Box</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>O</strong>rdinary</td><td style="text-align: left">3 Boxes</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>S</strong>erious</td><td style="text-align: left">6 Boxes</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>I</strong>ncapacitating</td><td style="text-align: left">All 10 Boxes</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>T</strong>erminal</td><td style="text-align: left">All 10 Boxes*</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>T</strong>erminal</td><td style="text-align: left">All 10 Boxes*</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: left"><strong>T</strong>erminal</td><td style="text-align: left">All 10 Boxes*</td></tr>
+<tr><td style="text-align: center">8+</td><td style="text-align: left"><strong>D</strong>eath</td><td style="text-align: left">NA</td></tr>
+</tbody></table>
+<p>* Also, you are probably going to die.</p>
+<ul>
+<li><strong>Petty Wounds:</strong> A scratch. Will stop bleeding in a minute, and heal completely in a day. May still get infected or transmit poison.</li>
+<li><strong>Ordinary Wounds:</strong> These are painful and physically debilitating, but they generally heal up without much more than a discoloration at the spot, though they will take many days to do so.</li>
+<li><strong>Serious Wounds:</strong> People who see a serious wound inflicted generally wince, and the agony and pure physical hampering it causes will generally strike mortal terror into the sane.</li>
+<li><strong>Incapacitating Wounds:</strong> An incapacitating wound is called that because it incapacitates the victim. They may or may not lose consciousness, but they will be unable to stand even if they can keep their eyes open.</li>
+<li><strong>Terminal Wounds:</strong> Your ass is dying. Not dead, but nothing short of a miracle and a pair of lightning paddles is going to save you now.</li>
+<li><strong>Death:</strong> A character who receives 8 unsoaked damage from a single attack simply dies outright. Feel free to describe graphic injuries such as exploding heads and bodies torn in half.</li>
+</ul>
+<h3 id="the-bloody-mess-rule"><a class="header" href="#the-bloody-mess-rule">The Bloody Mess Rule</a></h3>
+<p>If a character takes 10 or more post-soak damage they are instantly and bloodily killed. Feel free to describe graphic injuries such as exploding heads and bodies torn in half. Restoration still works if you can assemble most of the heart and head back into a pile.</p>
+<h3 id="damage-penalties"><a class="header" href="#damage-penalties">Damage Penalties</a></h3>
+<p>When a character has been <em>recently</em> damaged, their ability to act is extremely impaired. The character's actions take a penalty equal to the number of boxes on their condition monitor that have a forward slash (<code>[/]</code>). This includes any Normal (<code>[/]</code>), Lethal (<code>[X]</code>) or Aggravated (<code>[~~X~~]</code>) wound boxes.</p>
+<p>A character with the Indomitably power ignores wound penalties completely.</p>
+<h2 id="healing-and-death"><a class="header" href="#healing-and-death">Healing and Death</a></h2>
+<p><em>Good as new<br />
+...or not...</em></p>
+<p>When characters are injured, there are two possibilities: they can either get better or not. Medically speaking, injured tissue can resolve into healed or regenerated tissue, it can resolve into a scar, or it can die. This is much farther in-depth than we care to go into.</p>
+<p>When a character is given time to heal, they reduce the number of boxes that are filled in with a type of wound mark by 2. The character must also succeed on a Healing Test or the damage will fester: Normal or Lethal marked healed will add a mark of the next higher damage type, and Aggravated marks will heal only 1 mark instead of 2. Note that when a wound festers on a character who's already Incapacitated it can potentially send them into a Dying state, as normal for taking new damage marks. The time required for natural healing depends on the type of wound.</p>
+<table><thead><tr><th style="text-align: left">Wounds</th><th style="text-align: center">Symbol</th><th style="text-align: left">Healing Time</th></tr></thead><tbody>
+<tr><td style="text-align: left">Normal</td><td style="text-align: center"><code>[/]</code></td><td style="text-align: left">20 minutes</td></tr>
+<tr><td style="text-align: left">Lethal</td><td style="text-align: center"><code>[\\]</code></td><td style="text-align: left">1 day</td></tr>
+<tr><td style="text-align: left">Aggravated</td><td style="text-align: center"><code>[-]</code></td><td style="text-align: left">3 Days</td></tr>
+</tbody></table>
+<p>If a character is running around being the Action Man, they don't heal at all. Healing doesn't really happen until the character takes some time off from ninja flips and car chases. The exception is characters who have suffered Incapacitating or Terminal injuries, who start the cycle of healing and possible death right away.</p>
+<p>If a character's entire track is filled, the character's healing timeframe is increased by one step until they have at least one box that has no wounds in it. Normal marks will take 1 hour to heal, Lethal marks will take 3 days to heal, and Aggravated marks will take an entire week to heal.</p>
+<h3 id="sample-healing"><a class="header" href="#sample-healing">Sample Healing</a></h3>
+<p>Assuming that a character were to <em>fail</em> all of their Healing Tests during their
+rest, their damage track would change as follows:</p>
+<table><thead><tr><th style="text-align: left">Time Passed</th><th style="text-align: center">Condition Track</th><th style="text-align: left">Notes</th></tr></thead><tbody>
+<tr><td style="text-align: left">Starting</td><td style="text-align: center"><code>[/][/][/][/][/][/][/][/][ ][ ]</code></td><td style="text-align: left">Start with 8 <code>[/]</code></td></tr>
+<tr><td style="text-align: left">20 minutes</td><td style="text-align: center"><code>[X][/][/][/][/][/][ ][ ][ ][ ]</code></td><td style="text-align: left">Heal 2 <code>[/]</code>, add 1 <code>[\\]</code></td></tr>
+<tr><td style="text-align: left">40 minutes</td><td style="text-align: center"><code>[X][X][/][/][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">&quot;</td></tr>
+<tr><td style="text-align: left">60 minutes</td><td style="text-align: center"><code>[X][X][\\][ ][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">&quot;</td></tr>
+<tr><td style="text-align: left">80 minutes</td><td style="text-align: center"><code>[\\][\\][\\][\\][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">&quot;</td></tr>
+<tr><td style="text-align: left">1 day</td><td style="text-align: center"><code>[~~\\~~][\\][ ][ ][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">Heal 2 <code>[\\]</code>, add 1 <code>[-]</code></td></tr>
+<tr><td style="text-align: left">2 days</td><td style="text-align: center"><code>[-][-][ ][ ][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">&quot;</td></tr>
+<tr><td style="text-align: left">5 days</td><td style="text-align: center"><code>[-][ ][ ][ ][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">Heal only 1 <code>[-]</code></td></tr>
+<tr><td style="text-align: left">8 days</td><td style="text-align: center"><code>[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]</code></td><td style="text-align: left">Finally fully healthy</td></tr>
+</tbody></table>
+<h3 id="dying-and-stabilization"><a class="header" href="#dying-and-stabilization">Dying and Stabilization</a></h3>
+<p>When a character is in a Dying state, the condition must be removed in time (&quot;stabilizing&quot; their condition) or they die.</p>
+<ul>
+<li>The character can spend an Edge to automatically stabilize.</li>
+<li>The character without Edge still gets to roll a Healing Test to stabilize.</li>
+<li>Someone else can apply First Aid to stabilize the character.</li>
+</ul>
+<p>When a Healing Test or First Aid is involved, a result of 1 or 2 hits increases the timer on the Dying condition by either 20 minutes or 1 hour respectively. This allows time for the character to potentially be moved to a place with a better shot at a final test before they die. A result of 3 hits or more causes the character to stabilize right away.</p>
+<p>Characters with a Terminal Wound will normally die within 5 minutes. This is not normally enough time to allow for a Healing Test. However, Dying characters are always allowed to make at least one final Healing Test before their Dying timer runs out.</p>
+<p>A character who is already Dying can also have their death hastened with further injury. Once the character's rightmost wound box is filled with a Lethal or Aggravated mark, additional wounds accumulate towards a threshold of outright killing the target.</p>
+<ul>
+<li>Incapacitating or Terminal wounds add 2 towards a character's Death Threshold.</li>
+<li>Any other wound adds 1.</li>
+</ul>
+<p>A character's Death Threshold limit is equal to their Willpower, though this can be increased by knowing Lure of Destruction magic. Yes, this all means that once someone is already on death's door, it takes quite a few extra bullets to push them through it - it's not like they are going to go <em>into</em> shock at that point.</p>
+<h3 id="the-healing-test"><a class="header" href="#the-healing-test">The Healing Test</a></h3>
+<p>When a character is Healing they will often need to make a Healing Test. This can be called for as either a part of natural healing to prevent wound marks from festering, or when trying to prevent the Dying condition from ending the character's life.</p>
+<p>A Healing Test is Edge + Survival, modified by the local conditions. If another character is on hand to provide medical care their Logic + Medicine works as a Teamwork Test with the character's own roll (whoever has the smaller dice pool counts as the assistant).</p>
+<table><thead><tr><th style="text-align: left">Conditions are...</th><th style="text-align: center">Healing Modifier</th></tr></thead><tbody>
+<tr><td style="text-align: left">Dangerous</td><td style="text-align: center">-2</td></tr>
+<tr><td style="text-align: left">Distressing</td><td style="text-align: center">+0</td></tr>
+<tr><td style="text-align: left">Restful</td><td style="text-align: center">+1</td></tr>
+<tr><td style="text-align: left">Sanitary</td><td style="text-align: center">+2</td></tr>
+<tr><td style="text-align: left">Awesome</td><td style="text-align: center">+4</td></tr>
+</tbody></table>
+<h3 id="first-aid"><a class="header" href="#first-aid">First Aid</a></h3>
+<p>When a character is trained in first aid, they can reduce the amount of damage to someone substantially. This is pretty much a one-time deal and has to be performed within the &quot;golden hour&quot; of the injury (an hour from when the patient was injured, not an hour from first medical contact). First aid is a Logic + Medicine test. 1 hit removes 2 forward slashes, 2 hits remove1 2 backslashes, 3 hits remove 2 dashes, and any additional hits remove 1 mark of each type. So, a 5 hit First Aid test would remove 4 marks of each type.</p>
+<p>If the victim is currently Dying you must first put a stop to that. This is a Threshold 3 test. Any Net Hits will also remove 1 wound mark of each type.</p>
+<p>Perhaps the biggest advantage of First Aid is the <em>time</em> it takes to make the first healing test during medical treatment: one-time frame shorter than usual for the left-most injury type in the wound track. So it's only 1 minute to rouse someone from Normal Damage, 5 minutes to treat Lethal Damage, and 20 minutes to treat Aggravated damage.</p>
+<h3 id="being-dead"><a class="header" href="#being-dead">Being Dead</a></h3>
+<p><em>&quot;Okay, <strong>now</strong> we go through the pockets looking for loose change.&quot;</em></p>
+<p>Characters in horror die from time to time. Sometimes a character will end up dying several times, because After Sundown posits ghastly life after death and even has magical ways to restore life. When a character dies, all of their powers that cost Magic Points to activate or which otherwise last for a scene end. Also, anything they have going that could be dispelled is dispelled with their death. A character's Power Pool is also emptied at the moment the character actually dies. Very importantly, a character's power schedule (if any) does not change just because they are dead. A Strigoi can still be fed blood to regain Magic Points and a Frankenstein can still be recharged while a corpse. This usually only matters if they have the Restoration Power, but there are other ways to raise the dead, and it might be important that they rise up with a power reserve on hand.</p>
+<p>The dead may also come back as Ghosts, whether they are Luminaries or Extras. In After Sundown, no one becomes a Ghost until they've been dead for three settings of the sun. There are movies in which the spirit is left standing there as the body hits the floor, and there are movies in which the spirit wakes up having been dead and buried for a couple days. After Sundown's assumed setting is the latter.</p>
+<p>Sometimes a player may want to continue their character as a Wraith rather than start a new character or have their character restored to life. This is a workable storyline, but it is fraught with peril because Wraiths are not normally considered playable (being constantly insubstantial while outside the Gloom). If the players agree, the character can be converted into a Wraith, with their powers traded out for the basic Wraith abilities, starting what is in essence a new Origin Story. Being a Wraith should not be a license to print superpowers, so the new powers that Wraiths get should replace some of the abilities they already had rather than piling on.</p>
+<h2 id="stress-trauma-and-recovery"><a class="header" href="#stress-trauma-and-recovery">Stress, Trauma, and Recovery</a></h2>
+<p><em>&quot;Call of Cthulhu has an endearing and heartwarming faith in the capabilities of the 1920s psychiatric establishment to heal trauma.&quot; --thingofthings</em></p>
+<p>When mortal characters accumulate Stress they get closer and closer to panic, the closest they get to the Fury and Despondency of actual monsters. Trauma is not something that necessarily gets better on its own. Without treatment, the character will tend to accumulate additional Stress that makes them more unstable in much the same way that wounds can fester. Of course, many people consciously or unconsciously try to treat themselves with various means including prayer, meditation, distraction, and drug and alcohol abuse, and sometimes it might even help a little, or at least turn a potential source of panic into a mental illness that's only debilitating in the course of normal life, not surviving horror scenarios, where paranoia, rage, and obsession might be survival traits.</p>
+<p>Psychological treatment does not work well for monsters. For one thing, almost no one will believe them about what their actual problems are, and their psychology has aspects that are truly inhuman and that psychological science has not studied. Master Passions do not respond well to conventional treatment short of giving someone enough drugs to induce catatonia.</p>
+<p>Similar to the Healing Test, the psychological recovery test is Edge + TK(not Survival).</p>
+<table><thead><tr><th style="text-align: left">Character is...</th><th style="text-align: center">Recovery Modifier</th></tr></thead><tbody>
+<tr><td style="text-align: left">ignoring the problem</td><td style="text-align: center">-2</td></tr>
+<tr><td style="text-align: left">self-medicating</td><td style="text-align: center">+0</td></tr>
+<tr><td style="text-align: left">talking to friends</td><td style="text-align: center">+1</td></tr>
+<tr><td style="text-align: left">getting professional help</td><td style="text-align: center">+2</td></tr>
+<tr><td style="text-align: left">getting psychic help</td><td style="text-align: center">+4</td></tr>
+</tbody></table>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../4-danger-and-conflict/5-wind-and-water.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../4-danger-and-conflict/7-temporary-conditions.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../4-danger-and-conflict/5-wind-and-water.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../4-danger-and-conflict/7-temporary-conditions.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

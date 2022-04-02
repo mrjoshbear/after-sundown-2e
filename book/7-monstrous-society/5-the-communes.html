@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Cauchemar Communes - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html" class="active"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3 id="the-cauchemar-communes"><a class="header" href="#the-cauchemar-communes">The Cauchemar Communes</a></h3>
+<p><em>&quot;Tradition is but the illusion of permanence. Change is not just inevitable, it is good.&quot;</em></p>
+<p><strong>Probably Established:</strong> 18th century CE, Pyrenees Mountains.</p>
+<p>Supernatural societies have with necessity been extremely conservative over the generations. And such it was that when the age of enlightenment hit the human world, the supernatural world found itself falling behind. The Cauchemar Communes were founded as a reform movement for the supernatural world to take advantage of the new ideas and opportunities found in human science. The term is French for the common people of the nightmares - which was how non-elder supernatural creatures were thought of in 18th century France. Originally arranged in a &quot;cell structure&quot;, the Communes nominally hold that all of their membership is equal, save for the Revolutionary Committee members themselves who are substantially more equal.</p>
+<p>The Cauchemar hold that advancements in human strength and society are, or at least can be, for the good of the supernaturals. Rather than viewing the world as shrinking, leaving them with less and less space in which to hide, the Communes view the world as growing with more and more humans and cities with which to obscure themselves. The Communes' understanding of the Vow of Silence is one based largely upon anonymity rather than invisibility.</p>
+<p>As a reformist, &quot;bottom up&quot; movement, the Communes have been able to make great inroads in areas that were previously outside Syndicates, and toppled several minor ones (such as the Puppeteers, the Laibon, and the Kingdom of Yomi). Most impressive of their feats was the dismantling and absorption of the Bumin Horde of Ergenekon. The Cauchemar Communes hold a great deal of power in China and many former Soviet Republics, and also in much of the American Midwest, Canada, and France. The Communes hold territory easily containing more human population than any other Syndicate, a fact that is truly frightening to many other Syndicates considering their newness. Despite their European origins, or perhaps because of the proximity of their founding to the capital of the Covenant, the Communes have made little progress in Western Europe. In 1798 it seemed that the Communes were on the brink of sacking the Heresiarch Council and ending the Covenant Church altogether. However, in the coming years the Covenant made a number of reforms and concessions to various bishops and interest groups and held onto their European holdings all the way to the Alps. The Cauchemar ended up signing onto peace and expanding instead into the lands of those Syndicates that refused to adapt.</p>
+<p>The Cauchemar message appeals to the young (which in supernatural terms means those born or made in the last 400 years or so), and campaigns for the removal of traditional privileges for the ancient and established monsters of the world. The Communes favor change and a new way of doing things modeled upon human reforms, but that's about as far as they go in agreeing with one another. It is easy to get the distributed Communes apparatus to help tear down something or turn upon a criminal, but relatively difficult to pass effective resolutions. The ideological divides amongst the Revolutionary Committee are fierce and hard drawn, so the group as a whole acts rarely and with much debate on matters of anything but immediate survival.</p>
+<p>It's important to note that of the Syndicates (and for that matter, most Cults) the Communes are the only ones that show much interest in any developments in human political theory in the last 1,000 years. </p>
+<h3 id="power-and-office-in-the-cauchemar-communes"><a class="header" href="#power-and-office-in-the-cauchemar-communes">Power and Office in the Cauchemar Communes</a></h3>
+<p><em>None of us is as dangerous as all of us.</em></p>
+<p>The Cauchemar Communes is at its core a concerted attempt to harness the power of the unruly mob to recreate the most powerful of human institutions encountered by supernatural society: the unruly mob. The Communes value collective action, and disdain hierarchy. But for all their talk of egalitarianism, universality, and brotherhood, the Communes <em>do</em> have a structure. The eternal revolution is not televised, but it <em>is</em> planned. </p>
+<p>Communes structure is difficult for outsiders to discern precisely because they eschew titles, ornamentation, and rank. Members of the the Revolutionary Committee are simply called &quot;Citizen [Name]&quot; which is <em>technically</em> the title of <em>every</em> member of the Communes. The only difference is that members who have authority have the title &quot;Citizen&quot; appended to their name every time someone wants to address them, while the appellation is generally informally left off when addressing members of lesser standing. You might think that with no officially acknowledged hierarchy that conflicts over position would be few in number. And you'd be wrong. Jealousy, scheming, and plain old <em>confusion</em> run rampant.</p>
+<p>Power is addicting in any society, but in The Communes even more so, because power literally has to be used to be retained. As soon as the mob forgets that they are supposed to follow someone, they'll seriously stop doing it. </p>
+<ul>
+<li><strong>Revolutionary Committee:</strong> This group is analogous to the Makhzen's Inner Circle. The Committee meets in various places in Paris, and the only requirement to joining it is the acknowledgment of the other members that the character belongs. Creatures get invited to be temporary members of the committee all the time when they have something important to talk about, and some of these creatures stay on.</li>
+<li><strong>The Committee of Public Safety:</strong> Many Cauchemar cities have a Committee of Public Safety, which is a group that gets together to deliberate what is to be done about threats to public order and enforcement of the rules of the Syndicate. Since they can (and occasionally do) decide that what needs to be done is to send Vanguards out to murder someone - essentially trying them in absentia for capital crimes, they can be thought of as a court of law combined with a military planning session.</li>
+<li><strong>Committee Seats:</strong> To the extent that the Communes have any other formal operations they are handled by a bewildering array of other committees that nominally report to either the Revolutionary Committee or the local Committee of Public Safety. These vary a great deal between localities, but often include some pretty minor affairs. Chairing your city's Social Committee may not sound like a major coup, but it does mean that you are generally granted the first chance to invite people to events and thus determine who meets with whom. Committees are often quite small and many are composed of the effective minimum of three members. Committees of Finance, Foreign Affairs, Justice, and Public Assistance are common in most domains.</li>
+<li><strong>Commissioner:</strong> Anyone that any committee assigns to do something is technically a Commissioner. In practice, it's usually whoever is conscripted to be held responsible for something. It matters a great deal whether your a Commissioner for the Committee of Public Assistance (which largely means getting bitched out by everyone that thinks they should be getting more) or for the Committee for Public Safety, which is practically being a military officer with the authority to kill anyone in the way of getting your mission done.</li>
+<li><strong>Demagogue:</strong> Any member of The Communes that others follow is called a &quot;Demagogue&quot; in recognition of that fact. This unofficial rank carries roughly the weight of a Covenant Priest, but if most of the city follows the lead of a member then it's kind of the same as a Makhzen Princeps. One <em>becomes</em> a Demagogue simply by telling other members that they should do something and having them do it. As such, pretty much anyone can claim the title of Demagogue from another by holding a debate about policy and winning decisively. Refusing to debate another is a dangerous path, since a character only retains their Demagogue status by continuing to get members to do stuff. In practice Demagogues can be much more powerful than any formal committee membership would indicate since the Mob will tend to follow them and the committees follow the Mob in turn.</li>
+<li><strong>Authority:</strong> Any member of the Communes who is regarded as knowing something and being valuable to consult with on a topic gradually gets the informal title of Authority with the long form being &quot;Authority on XXX&quot; where XXX is whatever members are advised to go ask the character about. The title of Authority is bestowed through acclimation and is achieved through being publicly correct several times. It can be lost by being apparently wrong on something humiliating or important, and if the Authority doesn't pitch in from time to time, other members will gradually forget that they have it - and then they won't anymore.</li>
+<li><strong>Vanguard:</strong> Cauchemars who fight bravely and well - or at least <em>apparently</em> impressively successfully - on the behalf of Communes goals are acknowledged as being members of The Vanguard. Rewards for being in the Vanguard are many in that other members will shower them with praise and favors, but Vanguard are also called upon to fight more battles on behalf of the Communes. Senior members of the Vanguard are often chosen as members or Commissioners of the Committees for Public Safety.</li>
+<li><strong>Active Citizen:</strong> The basic level of membership in the Communes is to be recognized as a Citizen, but Active Citizenship is the kind that actually matters. Active Citizens are generally entitled attend Communes meetings and to receive public benefits, but are also expected to pay the Contribution, a general tax of 10-20% or if unable to provide a significant monetary Contribution to deliver other services in kind.</li>
+<li><strong>Passive Citizens:</strong> Spawn and provisional members of the Communes are technically classified as &quot;Passive Citizens&quot;, meaning that they have no formal rights to participate in Communes politics but do receive the protection of the Communes. Luminary Cauchemar are rapidly promoted to Active Citizen status with the administration of an Oath of Citizenship, while non-Luminaries are never given the privilege.</li>
+</ul>
+<h4 id="communes-status"><a class="header" href="#communes-status">Communes Status</a></h4>
+<ol>
+<li>Associate: Passive Citizen</li>
+<li>Member: Active Citizen</li>
+<li>Established: Authority, Vanguard, Commissioner or minor Demagogue</li>
+<li>Powerful: Major Authority, Demagogue, or Commissioner of Public Safety</li>
+<li>Local Leader: Member of the Committee of Public Safety or City-wide Demagogue</li>
+<li>Senior Leader: Member of the Revolutionary Committee</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../7-monstrous-society/4-the-league.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../7-monstrous-society/6-cults.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../7-monstrous-society/4-the-league.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../7-monstrous-society/6-cults.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
