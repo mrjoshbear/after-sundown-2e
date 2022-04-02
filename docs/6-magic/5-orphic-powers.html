@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Orphic Powers - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html" class="active"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="orphic-disciplines"><a class="header" href="#orphic-disciplines">Orphic Disciplines</a></h1>
+<p>Orphic Disciplines are collections of spells and occult knowledge that draw their arcane power from Mictlan. The Gloom provides power that is dark, timeless, destructive, and really very frightening to the living. And for good reason, it truly does act as a window into one's mortality. The land of the dead calls inexorably to all living creatures, and sooner or later it will claim them all, and when Orphic powers are used, the draw of death becomes even stronger. This effect is not particularly noticeable for large creatures like humans or even dogs - the cells on the outside of your body are in a constant state of death and rebirth anyway, and even the heaviest exposure to the Gloom is unlikely to give you more than a mild frost burn. But for the very tiny and ephemeral creatures whose lives are over in a day anyway, death magic signals the end. A skilled occultist can use a bag of mayflies or the like to spot the moment that death magic is used, and to gauge the strength, distance, and direction towards the source of the Gloom.</p>
+<p>Magic of Mictlan is highly antithetical to seeds, and you can counter Orphic Sorceries by throwing grains at them. Rice, wheat, barley, or maize kernels work equally well, but they have to be live grains. Remember that many commercial food products are neutralized with radiation or flash heating to keep them from going bad.</p>
+<h2 id="gates-of-death"><a class="header" href="#gates-of-death">Gates of Death</a></h2>
+<p><em>&quot;Everything ends and everything dies. That is not a good thing or a bad thing. It's simply inevitable. More than any other truth, the end cannot be eternally avoided.&quot;</em></p>
+<p>Gates of Death is the incredibly creepy discipline of handling the dead. Practitioners can see Ghosts and things that are in Mictlan without actually putting themselves into those areas and the potential harm's way that could entail.</p>
+<h3 id="basic-gates-of-death"><a class="header" href="#basic-gates-of-death">Basic Gates of Death</a></h3>
+<h4 id="exorcism"><a class="header" href="#exorcism">Exorcism</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Willpower + Empathy or Logic + Bureaucracy vs. target Willpower</p>
+<p>The character can send Ghosts from Mictlan into the material world or vice versa. An affected Ghost can be forced into the Material or Gloom worlds at the character's discretion. If the ghost has been bottled or is possessing a person or object its host must be touched for this power to take effect, but the ghost is additionally forced out.</p>
+<h4 id="locking-the-gates"><a class="header" href="#locking-the-gates">Locking the Gates</a></h4>
+<p><em>Passive</em></p>
+<p>The character's soul is bound closely to their current life (or unlife). Their death threshold is increased by 4 and they gain a +4 bonus on healing tests made to stabilize themselves while dying.</p>
+<h4 id="summon-spirit"><a class="header" href="#summon-spirit">Summon Spirit</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Extended (1 hour), Logic + Medicine or Logic + Operations, threshold special, net hits to timeframe</p>
+<p>By naming a dead person or holding up a part of their body, the character can draw their Ghost to themselves unless it has been bottled, destroyed, or subsumed into a Poltergeist. The character makes a  check, with a difficulty of how exactly they can describe the Ghost they are looking for.</p>
+<table><thead><tr><th style="text-align: center">Threshold</th><th style="text-align: left">Description</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left">&quot;My brother Mike.&quot;</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left">&quot;My friend Todd.&quot;</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left">&quot;The owner of this body.&quot;</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left">&quot;That missing girl Karen.&quot;</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left">&quot;The guy who was killed last night.&quot;</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left">Any dead person known only from books.</td></tr>
+</tbody></table>
+<h3 id="advanced-gates-of-death"><a class="header" href="#advanced-gates-of-death">Advanced Gates of Death</a></h3>
+<h4 id="nightcry"><a class="header" href="#nightcry">Nightcry</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> 4 Magic Points</p>
+<p><strong>Action:</strong> Complex, Willpower + Empathy or Logic + Bureaucracy vs. Willpower</p>
+<p>The character screams a wail of pain and despair into the deepest portions of Mictlan, and draws a Poltergeist to their position. Actually summoning the Poltergeist is automatic, but character can the character can compel it to begin its rain of destruction upon a target of their choice for 1 round per net hit. After that, what the Poltergeist does from being in the material world is totally up to it.</p>
+<h4 id="soul-tearing"><a class="header" href="#soul-tearing">Soul Tearing</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> 2 Magic Points</p>
+<p><strong>Action:</strong> Extended (1 hour), Logic + Medicine or Willpower + Empathy vs. Willpower, net hits to timeframe</p>
+<p>One of the more cruel necromantic processes, Soul Tearing rips the soul from a living (or unliving) host and turns it directly into a Ghost, leaving a barely living body (or suddenly inanimate husk, in the case of Animates and undead) behind. Soul Tearing requires continuous contact with the target, who must generally be willing, unconscious, or restrained. Generally, Extras become Wisps and Luminaries become Wraiths when subject to this power. The body or other husk is ripe for occupation with the Elder power Possession and offers no resistance.</p>
+<h4 id="reanimate"><a class="header" href="#reanimate">Reanimate</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point per Zombie</p>
+<p><strong>Action:</strong> Extended (1 day), Logic + Medicine or Logic + Operations, threshold 4, net hits to timeframe</p>
+<p>The character makes a body into a Zombie. A Shambler comes into existence under the control of the necromancer, and a Soulless does not. If the body was once a Luminary, their spirit is drawn back into their body, and they become a(n uncontrolled) Revenant. A necromancer can only maintain control of 2 Shamblers per point of Willpower they have. If they make more Shamblers than that, they lose control of some of their Shamblers at random at some inconvenient time in the next day or so. Remember that Shamblers don't have the capacity to follow complex orders. Reanimate can only be dispelled before the Zombie has actually risen. After that, the Zombie will have to be dealt with normally.</p>
+<h4 id="zombie-mastery"><a class="header" href="#zombie-mastery">Zombie Mastery</a></h4>
+<p><em>Passive</em></p>
+<p>The character may exert control over zombies; as many Shamblers as twice their Willpower times their Potency, or Soulless counting them as two Shamblers each. To establish control over a Zombie that the character did not create with Reanimation (or one they have previously lost control of) the character can use a Simple action to test Logic + Drive or Willpower + Empathy vs. Willpower to exert their power over a single Zombie. As with Reanimate, if a character takes control of too many Zombies they will lose control of some of them at random over the following day, with Soulless breaking free before any Shamblers do.</p>
+<h2 id="lure-of-destruction"><a class="header" href="#lure-of-destruction">Lure of Destruction</a></h2>
+<p><em>Lately just gazing into the Abyss has lost its thrill. I'm pissing into it.</em></p>
+<p>There is something distinctly alluring about the end. Not just that we cannot help but eventually reach the conclusion, but that indeed there is always a part of us that <em>wants</em> to. Practitioners of the Lure of Destruction are very well acquainted with doom in all its forms.</p>
+<h3 id="basic-lure-of-destruction"><a class="header" href="#basic-lure-of-destruction">Basic Lure of Destruction</a></h3>
+<h4 id="chill-of-the-grave"><a class="header" href="#chill-of-the-grave">Chill of the Grave</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Strength + Artisan or Willpower + Survival vs. Strength</p>
+<p>The character sharply reduces the temperature in an area, creature, or object. Affecting an area, the temperature falls by 5 °C (or 40 °F) per hit. When focused on a living creature, this can be quite damaging. Cold-blooded creatures pass out, and warm-blooded creatures resist one Normal Damage per hit. This has no adverse effect on undead or inanimate creatures like Vampires and Animates. Temperature dropped in this way returns to normal when exposed to heat sources (such as those contained inside a mammal), but the character can maintain the chill round to round with a Simple action to keep the temperature low (continuing to damage living creatures). Multiple applications of Chill of the Grave do not stack. Chill of the Grave can be focused out to line of sight and cannot be dodged.</p>
+<h4 id="bite-of-the-serpent"><a class="header" href="#bite-of-the-serpent">Bite of the Serpent</a></h4>
+<p><em>Passive</em></p>
+<p>The character's bite is toxic. Upon gaining this ability, the character must choose whether their poison is continuous or optional. A character whose poison is optional will have some kind of clear and potentially Vow of Silence breaking physical manifestation of their poison &quot;turning on&quot; while a character whose poison is continuous has no outward sign that their bite carries unusual properties. For example: a Strigoi has retractable serpent fangs, and they are perfectly capable of retracting them and kissing people without anything special happening; while a Soulless has a mouth that appears to just be a normal human mouth but their saliva is a deadly venom. A character with Bite of the Serpent is immune to poisons. A character who takes Bite of the Serpent multiple times may change the poison they secrete at will between available choices. The poison can be countered as if it had 4 hits, but the character's immunity to poison is covert, passive, and cannot be dispelled.</p>
+<table><thead><tr><th style="text-align: left">Poison</th><th style="text-align: left">Effect</th><th style="text-align: left">Notes</th></tr></thead><tbody>
+<tr><td style="text-align: left">Algesic</td><td style="text-align: left">Victim in agony</td><td style="text-align: left">This is the poison that Mi Go get</td></tr>
+<tr><td style="text-align: left">Euphoric</td><td style="text-align: left">Victim dazed and anesthetized, addictive</td><td style="text-align: left">This is the poison that Strigoi get</td></tr>
+<tr><td style="text-align: left">Hallucinogenic</td><td style="text-align: left">Victim delusional, addictive</td><td style="text-align: left">This is a poison that Creepers usually get</td></tr>
+<tr><td style="text-align: left">Hypnotic</td><td style="text-align: left">Victim dazed and suggestible</td><td style="text-align: left">This is the poison that Dryads get</td></tr>
+<tr><td style="text-align: left">Paralytic</td><td style="text-align: left">Victim immobilized</td><td style="text-align: left">This is the poison that Triffids and Basilisks get</td></tr>
+<tr><td style="text-align: left">Soporific</td><td style="text-align: left">Victim fatigued and sleepy</td><td style="text-align: left">This is a poison that Creepers usually get</td></tr>
+<tr><td style="text-align: left">Necrotic</td><td style="text-align: left">Victim suffers damage</td><td style="text-align: left">This is the poison that Shamblers get</td></tr>
+</tbody></table>
+<h4 id="touch-of-darkness"><a class="header" href="#touch-of-darkness">Touch of Darkness</a></h4>
+<p><em>Passive</em></p>
+<p>The character's unarmed physical attacks inflict aggravated damage. The character can also scratch and bite into metal without hurting themselves and with at least as much effect as if using suitable hand tools (although this is still quite slow; it's at best like using bolt cutters or a hack saw unless the character already has Strength comparable to the jaws of life).</p>
+<h3 id="advanced-lure-of-destruction"><a class="header" href="#advanced-lure-of-destruction">Advanced Lure of Destruction</a></h3>
+<h4 id="aura-of-decay"><a class="header" href="#aura-of-decay">Aura of Decay</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Simple, Strength + Artisan or Charisma + Medicine vs. 0 or target Intuition</p>
+<p>In time all is ashes and dust. When the character decides to focus on it, it happens practically instantaneously. Objects literally held by or on another character are resisted with Intuition, otherwise the threshold to affect objects is 0. Disposing of an incoming thrown piece of wood is easy (threshold 2), stopping bullets is hard (threshold 4), and corroding one's self a path through being otherwise run over by a truck is crazy extreme (threshold 6). The character doesn't have to actually touch objects to destroy them, but they are still limited to affecting things Adjacent to them. Aura of Decay can be used reflexively at a cost of a Simple action on the character's next turn just like the Dodge action.</p>
+<h4 id="withering"><a class="header" href="#withering">Withering</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Simple, Agility + Athletics or Charisma + Medicine vs. target Strength</p>
+<p>The character can accelerate the rush to death of those around them. By spending a Simple Action, the character can weaken a foe until they cannot even stand. The target's Strength is reduced by the net hits for one scene. Multiple Witherings do not stack, but a victim whose Strength is reduced to zero collapses.</p>
+<h2 id="play-of-shadows"><a class="header" href="#play-of-shadows">Play of Shadows</a></h2>
+<p><em>&quot;Spooky. Seriously.&quot;</em></p>
+<p>Play of Shadows is a sorcerous discipline that governs and depends upon shadows. Darkness is in no short supply in something called &quot;After Sundown&quot; and areas with no light at all can be thought of as being like some singular giant shadow. Even extremely bright lights cause objects to cast shadows that are really quite noticeable. As such, in a general sort of way, the fact that Play of Shadows requires shadows to function is pretty much a formality. However, if characters are in the process of skydiving or are in the areas of exceptional <em>ambient</em> light, the powers of Play of Shadows can seriously be neutralized.</p>
+<h3 id="basic-play-of-shadows"><a class="header" href="#basic-play-of-shadows">Basic Play of Shadows</a></h3>
+<h4 id="eyes-of-the-night"><a class="header" href="#eyes-of-the-night">Eyes of the Night</a></h4>
+<p><em>Enchantment, Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, Intuition + Empathy or Intuition + Perception</p>
+<p>The character can see and hear out of distant shadows. They can draw their senses from a pool of darkness that is within 100 meters per Potency. The threshold is based on how accurately they can describe the shadow they wish to peer out of and the ability lasts until the character wishes it to end and returns their senses to their own person. The character can see in darkness at any time (this ability is Passive and, unlike Supernatural Senses, does not render the character susceptible to glare).</p>
+<h4 id="shadow-casting"><a class="header" href="#shadow-casting">Shadow Casting</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Free, automatic</p>
+<p>The character's lighting appears to have been done by professional special effects technicians. They can manipulate shadows and to a lesser extent light as well. This gives a +3 bonus to any attempt to become the center of attention, escape unnoticed, or just fuck with someone in an intimidating way. The Shadow Casting can be dismissed with a free action or dispelled as if it had 4 hits.</p>
+<h4 id="smothering-darkness"><a class="header" href="#smothering-darkness">Smothering Darkness</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Intuition + Larceny or Intuition + Sabotage</p>
+<p>The character can snuff out lights and fires around them. Each hit allows the character to target one distinct light source (counting clusters of bulbs or candelabras as a single source so long as they're within Adjacent range of one another) and put it out completely, extinguishing any fire and ruining electric lights. Alternatively, the character can direct the Smothering Darkness to eliminate a single larger flame in which case the effect, while <em>Blatant</em>, is at least as good as deploying an appropriate fire extinguisher.</p>
+<h3 id="advanced-play-of-shadows"><a class="header" href="#advanced-play-of-shadows">Advanced Play of Shadows</a></h3>
+<h4 id="cloak-of-darkness"><a class="header" href="#cloak-of-darkness">Cloak of Darkness</a></h4>
+<p><em>Blatant, Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Complex, Intuition + Empathy or Intuition + Stealth</p>
+<p>The character can wrap light around themselves completely, becoming completely transparent along with everything they are carrying. The character still casts a normal shadow and cannot alter their own shadow while the cloak is in place. Invoking the Cloak of Shadow lasts 5 minutes, and net hits increase the timeframe. The cloak works on anything that uses light - including cameras - but has no effect on sounds or smells. The character can dismiss their own Cloak of Darkness at any time as a Free action.</p>
+<h4 id="shadow-walk"><a class="header" href="#shadow-walk">Shadow Walk</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Simple, Intuition + Stealth or Intuition + Sabotage</p>
+<p>The character may reach or move into one shadow and out of another. The character must be able to perceive both shadows (Eyes of the Night works for this), but no intervening space is used, and nothing can block the movement other than dispelling. The character may take anything and anyone they or their shadow tendrils can carry, or make a single attack or grab out through the shadows.</p>
+<h4 id="solid-darkness"><a class="header" href="#solid-darkness">Solid Darkness</a></h4>
+<p><em>Blatant, Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Complex, automatic</p>
+<p>The character can spend a Magic Point to fashion steel hard tendrils of solid shadow and use them to grasp, carry and tear. The darkness can extend out to a meter per Potency from its source Shadow, and has Strength equal to the Character's Intuition. The source shadow must be within line of sight of the character and the origin of the shadows can move along continuously shadowed paths at the rate of a careful walk. Solid Darkness is completely silent, and can rather easily grab someone by complete surprise. Directing the tendrils of shadow is a Simple Action. Solid Darkness can be dispelled as if it had 4 hits. Solid Darkness vanishes the next time the sun rises. The Solid Darkness can grab or disarm using its own Strength and the Character's Combat skill.</p>
+<h2 id="path-of-blood"><a class="header" href="#path-of-blood">Path of Blood</a></h2>
+<p><em>Given time, blood does become thicker than water.</em></p>
+<p>The Path of Blood delves into the intricacies of life and death from a very liquid and visceral standpoint. Deep familiarity of this sort with blood gives advantages. It is important to note that not everything creeping in the night <em>has</em> any blood. A character or object without any blood cannot <em>use</em> Gift of Health or Blood of Acid, and cannot have Theft of Vitae or Blood Puppets used against them. Golems and Androids generally do not have blood, nor do any kind of Ghosts. However, even really gross blood like that found in Zombies or gooey sap like the stuff that oozes from cuts in Dryads or Evil Plants totally counts.</p>
+<h3 id="basic-path-of-blood"><a class="header" href="#basic-path-of-blood">Basic Path of Blood</a></h3>
+<h4 id="the-blood-is-the-life"><a class="header" href="#the-blood-is-the-life">The Blood is the Life</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> 1 Magic Point</p>
+<p><strong>Action:</strong> Complex, automatic</p>
+<p>The character can invest a Magic Point into a sample of their own blood, allowing them to transfer Magic Points to others - even to characters who cannot normally have Magic Points or who are at their limit of Magic Points (overcharging is dangerous and each Magic Point over the normal maximum increases the threshold of resisting Frenzy by 1 and can cause Frenzy even in those without a Master Passion). The gift comes at a price, for the character's blood is also horrendously addictive like freebase cocaine. A character who has The Blood is the Life and Vigor or Revive the Flesh may use these transferred Magic Points to strengthen or heal the subject. The power transfer of Gift of Health can be dispelled as if it had been created with 4 hits, but the addictive properties of having drunk power in that manner does not go away no matter how many rice grains a character might be struck with. Enchanted blood lasts indefinitely if not dispelled. The character may also re-absorb their own blood and the power stored within at a later time, although they are subject to the same addiction.</p>
+<h4 id="thaumaturgical-forensics"><a class="header" href="#thaumaturgical-forensics">Thaumaturgical Forensics</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Extended (1 hour), Logic + Medicine or Logic + Research</p>
+<p>The character can make accurate pronouncements about biological samples and give weird CSI tirades given access to creepy magical equipment. The character may reduce the timeframe by increasing the threshold from a base of 0. The kinds of information gained varies by the number of net hits. Examples follow of investigating the origin of a lock of hair and investigating the source of a lethal wound:</p>
+<table><thead><tr><th style="text-align: center">Hits</th><th style="text-align: left">The Hair Sample</th><th style="text-align: left">The Wound</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left">&quot;Human Woman. Blond.&quot;</td><td style="text-align: left">&quot;Burns. Nasty Ones.&quot;</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left">&quot;She's still alive.&quot;</td><td style="text-align: left">&quot;These fires burned by magic.&quot;</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left">&quot;She's a Luminary.&quot;</td><td style="text-align: left">&quot;A Firestarter did this at short range.&quot;</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left">&quot;Her name is Susan.&quot;</td><td style="text-align: left">&quot;The Firestarter was a Baali Witch.&quot;</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left">&quot;She is currently in Dresden.&quot;</td><td style="text-align: left">&quot;His name was Karlov.&quot;</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left">&quot;She is thinking about betraying her friend Elizabeth.&quot;</td><td style="text-align: left">&quot;This was a fight over money.&quot;</td></tr>
+</tbody></table>
+<h3 id="advanced-path-of-blood"><a class="header" href="#advanced-path-of-blood">Advanced Path of Blood</a></h3>
+<h4 id="blood-of-acid"><a class="header" href="#blood-of-acid">Blood of Acid</a></h4>
+<p><em>Enchantment, Mutation, Talent</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, automatic (to activate or end)</p>
+<p><strong>Action:</strong> Reflexive,  Strength + Survival or Strength + Combat (to direct the blood as an attack when wounded)</p>
+<p>The character can bleed like one of the xenomorphs from Aliens. Anyone who is within melee range when something inflicts damage on the character is subject to being sprayed with black caustic fluid. Little droplets of the stuff sent in such a circumstance are sufficient to constitute a damage 3 attack. If the character is conscious, they can actively attempt to get their blood to go onto a specific person as a reflexive attack. The character can also use their blood in more controlled fashions - that stuff will burn through the lock or hinges on a fire door in a few minutes. If not a Mutation, Blood of Acid may be dispelled with 4 hits.</p>
+<h4 id="theft-of-vitality"><a class="header" href="#theft-of-vitality">Theft of Vitality</a></h4>
+<p><em>Blatant, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Agility + Larceny or Logic + Medicine vs. Strength</p>
+<p>The character draws blood and power directly out of a victim. Little spheres of blood fly out of the victim towards the character, who thence absorbs the droplets in some suitably dramatic fashion such as having them pop into the character's mouth or outstretched hand. Every net hit causes the victim an unsoaked Lethal damage level and if they have any Magic Points they lose one of them per net hit. This power does not cost Magic Points, and indeed the character <em>gains</em> one Magic Point per Magic Point stolen (up to their normal maximum). If the character has a Feeding Power Schedule, they may gain Magic Points even from victims that don't have any. </p>
+<h2 id="symphony-of-silence"><a class="header" href="#symphony-of-silence">Symphony of Silence</a></h2>
+<p><em>Silence is Deafening.</em></p>
+<p>The Symphony of Silence is a set of magical music that brings things to a frozen stop. Supposedly it constitutes portions of the inevitable music that ends existence. In order to use any ability from the Symphony of Silence, the character must be capable of making music - although whether through playing a musical instrument or singing is irrelevant. Learning the Symphony of Silence gives you perfect pitch and rhythm. The other complication is that the Symphony of Silence is in fact a Symphony and characters may use teamwork to enhance their tests on any powers all the characters share, up to a limit of the conductor's Expression. The character is explicitly allowed to maintain multiple Symphony of Silence powers with a single Free Action each round.</p>
+<h3 id="basic-symphony-of-silence"><a class="header" href="#basic-symphony-of-silence">Basic Symphony of Silence</a></h3>
+<h4 id="banshee-wail"><a class="header" href="#banshee-wail">Banshee Wail</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Simple, Logic + Artisan or Charisma + Expression vs. Strength</p>
+<p>The harmonics of the character's voice or instrument converge to damage a particular target. When focused on a living creature this does normal damage equal to the character's Charisma that cannot be dodged, although this only works out to Short range. Against objects, the character can do the classic opera diva trick of shattering a wine glass (or any other fairly resonant object) but can't do much against most other things. The voice of a character with Banshee Wail is impressively powerful, able to hit 120 decibels, equivalent to an Ambulance siren (this aspect is Passive and cannot be dispelled).</p>
+<h4 id="missing-note"><a class="header" href="#missing-note">Missing Note</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Logic + Artisan or Charisma + Expression</p>
+<p>The character can move the apparent origins of sounds. The required music appears to eerily come from empty space, and the character can decide the origin of any other sounds as well. The character gains control of the apparent origin of every sound they are aware of within a number of meters equal to the numbers of hits times their Potency for as long as they play. So long as the character continues to make the music, the use of Missing Voice is a free action that can be used once per round and does not interfere with other Symphony of Silence powers.</p>
+<h4 id="silent-toll"><a class="header" href="#silent-toll">Silent Toll</a></h4>
+<p><em>Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, automatic</p>
+<p>The character can suppress all sound up to the volume of the music generated, including the music itself. The noise suppressed equals to local peak amplitude, you don't have to keep track of potential spaces between notes and the like. So long as the character continues to make the music, the use of Silent Toll is a free action that can be used once per round and does not interfere with other Symphony of Silence powers. Silent Toll can be dispelled as if it had 3 hits.</p>
+<h3 id="advanced-symphony-of-silence"><a class="header" href="#advanced-symphony-of-silence">Advanced Symphony of Silence</a></h3>
+<h4 id="death-note"><a class="header" href="#death-note">Death Note</a></h4>
+<p><em>Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Complex, Logic + Artisan or Charisma + Expression vs. Intuition</p>
+<p>The character plays the song that ends a man. The character makes a ranged attack and inflicts lethal damage equal to the character's Charisma attribute. Death Note is resisted with Intuition rather than Strength and ignores armor or its equivalent and cannot be dodged. Unlike Banshee Wail there is no apparent source or explanation for the damage, as if the target died of natural causes. This ability can only be used if the character has already been playing for a minute or more.</p>
+<h4 id="planar-discord"><a class="header" href="#planar-discord">Planar Discord</a></h4>
+<p><em>Sorcery, Subtle</em></p>
+<p><strong>Cost:</strong> 1+ Magic Points</p>
+<p><strong>Action:</strong> Free, Logic + Artisan or Charisma + Expression</p>
+<p>Travel between the worlds becomes terribly difficult while the song is played and for some amount of time afterward. The threshold to activate any power that allows travel between worlds is increased by the number of Magic Points the character spends to activate Planar Discord (with automatic powers being treated as having 3 hits and thus stopped with 3 Points). The area covered can be any size centered on the character up to 100 m per Potency. The base duration is 1 hour, with net hits going to either increase duration or reduce the timeframe of the action. Continuing Planar Discord is a Free action that can be used once per round that does not interfere with other Symphony of Silence powers, and the duration does not begin until the character stops playing. This ability can only be used if the character has already been playing for a minute or more.</p>
+<h4 id="theft-of-voice"><a class="header" href="#theft-of-voice">Theft of Voice</a></h4>
+<p><em>Enchantment, Sorcery</em></p>
+<p><strong>Cost:</strong> -</p>
+<p><strong>Action:</strong> Extended (1 minute), Charisma + Artisan or Charisma + Expression vs. Intuition</p>
+<p>The character steals away the voice, and in fact all ability to create sound whatsoever, from another. The base duration for the Theft is 1 Day with net hits going to duration. So long as the Voice is stolen, the character may perfectly mimic it. Theft of Voice may be dispelled at either the character or their victim. The character may also use Theft of Voice on themselves to become utterly silent. Theft of Voice may be ended at will in any case.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../6-magic/4-infernal-powers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../6-magic/6-mighty-rituals-of-vast-power.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../6-magic/4-infernal-powers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../6-magic/6-mighty-rituals-of-vast-power.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

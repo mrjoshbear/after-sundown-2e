@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Moving, Evading, and Escaping - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html" class="active"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="moving-evading-and-escaping"><a class="header" href="#moving-evading-and-escaping">Moving, Evading, and Escaping</a></h2>
+<p><em>&quot;There are places I want to be, places I want to see, far away from here, nowhere that is near.&quot;</em></p>
+<p>The second most defining action in combat (after attacking) is people endeavoring to not be part of the combat. And while that often involves <em>hiding</em> the other possibility is <em>running</em>. 12 seconds is a long time in a dangerous situation, and characters can move quite substantial distances in those periods. It's long enough for someone who is very good at that sort of thing to run a hundred meters and then change the magazine on an M-16 (seriously). But if you watch horror movies (or even documentaries, not that they are better source material for After Sundown), you'll note that people spend many 12 second periods without covering that much ground. In part, this is because the high end of speeds that people are capable of frequently take a fair amount of time to get started, and partly this is because running off at full speed without knowing where you are going is often suicidal.</p>
+<table><thead><tr><th style="text-align: left">Pace</th><th style="text-align: right">/Round</th><th style="text-align: right">/Hour</th><th style="text-align: center">Penalty</th><th style="text-align: left">Notes/Ref</th></tr></thead><tbody>
+<tr><td style="text-align: left">Crawl</td><td style="text-align: right">4 m</td><td style="text-align: right">1 km</td><td style="text-align: center">-0</td><td style="text-align: left">Can move while supine</td></tr>
+<tr><td style="text-align: left">Careful</td><td style="text-align: right">10 m</td><td style="text-align: right">2 km</td><td style="text-align: center">-0</td><td style="text-align: left">A slow, careful walking pace keeping alert to surroundings</td></tr>
+<tr><td style="text-align: left">Walk</td><td style="text-align: right">15 m</td><td style="text-align: right">5 km</td><td style="text-align: center">-1</td><td style="text-align: left">Ordinary walking/hiking pace</td></tr>
+<tr><td style="text-align: left">Jog</td><td style="text-align: right">25 m</td><td style="text-align: right">8 km</td><td style="text-align: center">-3</td><td style="text-align: left">Charge attack possible</td></tr>
+<tr><td style="text-align: left">Run</td><td style="text-align: right">50 m</td><td style="text-align: right">15 km</td><td style="text-align: center">-4</td><td style="text-align: left">Charge attack possible</td></tr>
+<tr><td style="text-align: left">Sprint</td><td style="text-align: right">120 m</td><td style="text-align: right">40 km</td><td style="text-align: center">-6</td><td style="text-align: left">Max human pace; only sustainable with Indomitability</td></tr>
+<tr><td style="text-align: left">Gallop</td><td style="text-align: right">250 m</td><td style="text-align: right">80 km</td><td style="text-align: center">-7</td><td style="text-align: left">Inhuman speed, comparable to an American Quarterhorse gallop, easy for a cheetah</td></tr>
+<tr><td style="text-align: left">Motor</td><td style="text-align: right">500 m</td><td style="text-align: right">160 km</td><td style="text-align: center">-8</td><td style="text-align: left">Inhuman speed, comparable to a sport motorcycle on a straight</td></tr>
+</tbody></table>
+<p>In general, a character declares their intention to move before any actions are taken, and characters can take their actions as if they or their targets were where they were at any point during the turn. 12 seconds is a long time, so if someone is moving around a corner or into view it is reasonable that some number of bullets went towards them while they were in the open. For exceptions to this, see Taking One For the Team and Diving For Cover. Often it won't matter, but characters with the lowest Initiative Score declare their movement first.</p>
+<h4 id="movement-penalties"><a class="header" href="#movement-penalties">Movement Penalties</a></h4>
+<p>Doing anything precision based while moving faster than a Careful Walk is actually pretty difficult. On most actions, characters receive a -2 penalty for an Ordinary Walk, a -3 penalty for a Rapid Jog, a -4 penalty for an Exhausting Run, and a -6 penalty for a Draining Sprint. Most people can't do much of anything while sprinting. Close Combat is actually something of an exception, in that momentum is also helpful, so characters receive no penalty for a Rapid Jog or Exhausting Run to their melee attacks.</p>
+<h4 id="going-faster"><a class="header" href="#going-faster">Going Faster</a></h4>
+<p>If a character is just concentrating on moving, which is to say that they spend a Complex Action on moving fast, they may make a Strength + Agility test to increase their speed by 10% per hit. And yes, this means that a character who gets 6 hits can sprint at nearly 50 KPH (30MPH). That's very fast, but it's also a lot of hits.</p>
+<h3 id="escaping-from-harm"><a class="header" href="#escaping-from-harm">Escaping from Harm</a></h3>
+<p><em>&quot;Slashers know shortcuts.&quot;</em></p>
+<h4 id="disengaging"><a class="header" href="#disengaging">Disengaging</a></h4>
+<p>A character can move out of close combat just as they can move into close combat. However, turning your back on a lunatic with a meat cleaver is <em>dangerous</em>. To represent this, a character moving out of Adjacent range with an opponent is not only treated as being adjacent with that opponent for the rest of the round, they are no longer actively resisting, so the threshold to hit them is just <em>zero</em> (modified of course by circumstances such as visibility and dodging).</p>
+<h4 id="taking-one-for-the-team"><a class="header" href="#taking-one-for-the-team">Taking One for the Team</a></h4>
+<p>If a character disengages from close combat, <em>another</em> character still engaged in close combat with the same opponent can choose to throw themselves into harm's way. This redirects a parting attack to the brave character playing bodyguard (or sacrificial lamb). The threshold to strike the new target is unchanged.</p>
+<h4 id="dodging"><a class="header" href="#dodging">Dodging</a></h4>
+<p>If a character is aware of attacks being made against them, they can attempt to move out of the way of those attacks. Heck, even if they don't know where the attacks might come from, they can still move erratically and hopefully throw off potential attacks. Dodging is a Complex Action that is not penalized for any movement short of a full Sprint. The character makes an Agility + Combat or Agility + Athletics test, the character increases the threshold to hit them with attacks they are aware of by 1 less than their number of hits, and increases the threshold against even attacks they cannot predict by 2 less than their number of hits. The defensive benefits of the Dodge last for one round.</p>
+<h4 id="diving-for-cover"><a class="header" href="#diving-for-cover">Diving For Cover</a></h4>
+<p>With special urgency, a character can attempt to get behind something solid <em>before</em> they get hit with bullets or shrapnel. The character makes an Agility + Athletics or Agility + Stealth check, and if they get more hits than the initiative count of their attackers, they get behind cover before the attacks are resolved. Diving for Cover can be announced out of turn, and uses up a Simple Action. Diving for Cover is not penalized for movement speeds at all.</p>
+<h4 id="untangling"><a class="header" href="#untangling">Untangling</a></h4>
+<p>If a character is trapped in a net, a set of handcuffs, or the grip of a monster they can attempt to escape by untangling themselves. This is generally a Complex Action. The character makes a Strength + Larceny or Agility + Larceny test, and if they succeed they have escaped. Untangling can't be tried an unlimited number of times. If the character tries and fails to escape, they are stuck until they get help or the next longer timeframe passes. The threshold to escape a net is generally 2, the threshold to escape a set of handcuffs is generally 3. The threshold to escape a character having abducted them is equal to the number of hits the abductor achieved when grabbing them in the first place.</p>
+<h3 id="chases"><a class="header" href="#chases">Chases</a></h3>
+<p><em>&quot;Man vs. horse races are interesting. The man wins the six-second sprint and the three-day ultramarathon and loses everything in between.&quot;</em></p>
+<p>Normally in After Sundown we don't keep track of where each character exactly is at any precise point in a 12 second period. Twelve seconds is not long enough to decide that someone isn't going to answer the phone or go to the bathroom or anything, but in terms of climbing stairs or running around a room in a house it's a fairly long time, and we can assume that people are getting shots off opportunistically. However, it is also true that it is very frequently desirable to model one character running <em>away</em> from another. In that case, the simultaneity of the two characters moving makes the granularity of the turn sequence problematic.</p>
+<h4 id="short-chases"><a class="header" href="#short-chases">Short Chases</a></h4>
+<p>During a single combat round, it is often important to know whether a character can get away from another in time to not get struck in the back with a meat cleaver. When combat is occurring and one character is attempting to get away from another, a Short Chase may be called for. If the chasing character wins initiative, they catch the target. If the chasing character is moving faster, they catch the target. If neither of those things are true, the target gets away. If the character who would be losing the chase is unhappy with this result (as they may well be), they may attempt Stunt of some level of awesomeness to change their defeat into victory. Most Stunts are Agility + Athletics, although depending on the terrain Agility + Stealth based Stunts may also work. A chase stunt uses a Simple Action. If the stunt is successful, the other character is then forced to lose the chase or replicate the stunt with a similar level of awesomeness; if the stunt is unsuccessful they are caught, and if it misses its mark by more than one hit the character also falls down or wipes out. If the chasing character attempts to duplicate the stunt and they get the same number of hits, they still win the chase but also must use a Simple Action doing it. If they get more hits than required, they use only a Free Action and still win the chase. If the target of the chase gets away, the chasing character can elect to let them go or go on to a Long Chase.</p>
+<h4 id="long-chases"><a class="header" href="#long-chases">Long Chases</a></h4>
+<p>When characters are performing parkour across the city or driving across town the chase can drag on for quite a while. There are concrete examples of chases that have gone on for hours or days. Even a relatively fast-paced and action-packed sequence like the pulse-pounding muscle car expo up and down the hills of San Francisco in <a href="http://www.imdb.com/title/tt0062765/">Bullit</a> takes ten minutes or so and is quite tedious to attempt to replicate in 12-second combat rounds (48 die rolls <em>each?</em> No thanks).</p>
+<p>A Long Chase is conducted in turns of arbitrary length. That is to say, the game does not specify how long it is between stunts as cars continue to roll down the street or people race across rooftops. Honestly, it's hard to even tell, because most of this will get edited out of the movie anyway. What happens is that each round the chased character has the option of performing a Stunt. If they do so, the pursuer must attempt a stunt of equal challenge, or the fleeing character escapes. If the retreating character declines to do a stunt to try to get away, the pursuing character can perform a stunt to catch up. If the stunt succeeds, the chased character has to match the stunt or be caught.</p>
+<p>When a character in a long chase performs a Stunt, they can choose any level of awesomeness they want from the Pedestrian &quot;weaving through traffic&quot; (threshold 1) to the Extreme &quot;pulling a U-turn through the grass to run the other way on a frontage road&quot; (threshold 4) to the Super Human &quot;flipping the car over the median and driving off the onramp through oncoming traffic&quot; (threshold 6). If they fail their stunt, then they wipe out and are no longer involved in the chase. If both characters succeed at the stunt, then the lead grows if the quarry got more net hits, and it shrinks if the pursuer gets more net hits. If neither character gets more hits, the chase continues. If neither character commits to a stunt, then the lead grows if the quarry is physically moving faster and shrinks if the chasing character is.</p>
+<ul>
+<li><strong>Caught:</strong> If the chasing character narrows the lead below a narrow lead they have caught up to the chased character. This may not be the end of the chase, as it merely means that the chasing and chased characters are close enough to affect each other directly. The pursuing character may have limited options if they are both in vehicles (though they take the opportunity to perform a PIT maneuver if they were confident in their driving skills and didn't mind replacing the front end of their car). Once the quarry has been caught there is at least one round to perform close-range maneuvers, but if they take their action to attempt to escape again it can go directly back to a Long Chase.</li>
+<li><strong>Narrow Lead:</strong> Most Chases begin at a narrow lead. The pursuing character can perceive the chased character or vehicle with ease. If the target turns or performs a stunt, the pursuing character can see that happen. At this range, the stunts are normally Strength or Agility + Athletics on foot or Intuition + Driving in a car.</li>
+<li><strong>Wide Lead:</strong> If the chased character widens their lead then their path is not always visible to their pursuer, and they can plausibly make an unwitnessed turn and throw their pursuer entirely. At this range, stunts are usually performed with Intuition + Stealth, but may be done with other attribute/skill combinations if the circumstances warrant.</li>
+<li><strong>Escaped:</strong> A chased character who pushes their lead past a wide lead has escaped altogether. They aren't even in a chase scene anymore, and if the pursuer wants to catch up to them they'll have to scout them out anew.</li>
+</ul>
+<h4 id="hide-and-seek"><a class="header" href="#hide-and-seek">Hide and Seek</a></h4>
+<p>People cower under stairs and hide in closets from approaching slashers in horror movies all the time, and sometimes this even works. When you grab yourself a hiding place, you are putting yourself in a position where anyone who looks hard enough for you <em>will</em> find you. There are only so many places for a person to be hiding in the basement, so if the man in the hockey mask or the reanimated Nazis spend long enough searching that basement, they <em>will</em> find any person hiding there, and it will go poorly for someone. The gamble with hiding is that in fact, ax-wielding psychopaths are busy people and they have shit to do. So if they search the basement for some amount of time without finding anyone, they'll give up and try the garage. The way this works is that the seeker announces how long they are going to look in an area and makes an Intuition + Perception test. The hider makes an Intuition + Stealth test to determine how long the base time to find them would be, and that time is divided by the hits on the Seeker's Perception test to determine how long it would actually take them to find the hiding character. If they do spend enough time looking, the hiding place is uncovered, and if they don't, they don't.</p>
+<p>The base amount of time needed to search an area depends on how large it is and how much stuff there is in it. It is important to note that it is entirely intentional that people who are more with-it and stealthy are harder to find even if they are huddling in the same place. That is how it works in the horror genre. Note also that if more than one character is hiding together, that the character with the <em>best</em> Stealth check gets to set the threshold to find them. In the horror genre, it is importantly true that masked men find you <em>faster</em> when you split up and hide separately than when you stay together. The hide and seek table assumes that the seeker is looking in the right place. If the hider is in the closet but the seeker doesn't know that, they may be searching the whole house.</p>
+<table><thead><tr><th style="text-align: left">Base Time</th><th style="text-align: left">Seeker is looking for a person in....</th></tr></thead><tbody>
+<tr><td style="text-align: left">3 Days</td><td style="text-align: left">The Woods</td></tr>
+<tr><td style="text-align: left">1 Day</td><td style="text-align: left">The Mountain</td></tr>
+<tr><td style="text-align: left">5 Hours</td><td style="text-align: left">The Mall</td></tr>
+<tr><td style="text-align: left">1 Hour</td><td style="text-align: left">The Library</td></tr>
+<tr><td style="text-align: left">20 minutes</td><td style="text-align: left">The House</td></tr>
+<tr><td style="text-align: left">5 Minutes</td><td style="text-align: left">The Basement</td></tr>
+<tr><td style="text-align: left">1 Minute</td><td style="text-align: left">The Bedroom</td></tr>
+<tr><td style="text-align: left">1 Round</td><td style="text-align: left">The Closet</td></tr>
+</tbody></table>
+<p>The table assumes that the seeker is looking for something human-sized. Very small things can be very difficult to find and can have longer base hide-and-seek times with similar hiding places. Finding an unsorted book in a library or a literal needle in a haystack could easily take all day. Characters who are hiding can also panic and run (or sneak) from cover if they think that the seeker is dedicated enough. This goes to Chases, though the option often exists to make a Stealth stunt to sneak out while the seeker has their attention elsewhere.</p>
+<h3 id="driving-like-a-maniac"><a class="header" href="#driving-like-a-maniac">Driving like a Maniac</a></h3>
+<p>Even if you're driving a clunker of a VW Bus from the 1960s that goes 0-60 in 12 seconds, you <em>still</em> hit 60 in the first round. During that round, your clunky car will have cleared more than 160 meters, and the next round it will go more than twice that distance. Any car that is already moving is practically unreachable by pedestrians unless they have super speed or are already ahead of the vehicle and willing to do an extreme (or even crazy extreme) stunt to get one chance at jumping on like an action cop. Cars start in a variable amount of time, but you may have to turn the key several times to start even a well-oiled machine if you're panicking or the plot requires it. What this means is that if a vehicle hasn't started already at the beginning of the round, it won't start until every character who is moving to the car's location has done so had the opportunity to act.</p>
+<p>Vehicles have a convenient system on them called a speedometer which tells you how many kilometers per hour they are traveling, and the conversion rate to meters per round is three and a third meters per round per KPH (or 5.36 meters per MPH if your speedometer reads in Imperial). As such, even a modest town speed will move a car more than a normal person makes with a Sprint. Generally speaking, speed limits are there for a reason, which is that if you go more than 10 KPH faster than that, things become <em>unsafe</em>. If you're driving at safe speeds, driving is &quot;not awesome&quot; and generally threshold 0. Characters who are culturally familiar with cars do not need to make Driving tests under those circumstances. However, if characters drive at unsafe speeds or in really terrible conditions, tests need to be made. This is why characters in movies will often say that they &quot;can't go out in this storm&quot; even when there is a monster loose in town, because if they don't have a Driving Skill they literally can't.</p>
+<p>As a general rule of thumb, driving over 10 KPH faster than the safe speed is has a threshold of 1, 20 KPH faster has a threshold of 2, 40 KPH faster has a threshold of 3, 80 KPH faster has a threshold of 4, and so on. Safe speeds are generally marked on roads. Poor visibility and hazardous driving conditions reduce the safe speed, as mentioned in the driver's manual you theoretically had to read to get a driver's license. Terrible conditions may reduce the safe speed to zero. A character needs to make one driving test between each &quot;place&quot; which is a rather fluid concept of topology. Routes that have more important locations on them to potentially crash or break down at require more rolls. Because it's narrative driving, and that's seriously how it works. People sometimes blow a tire in the middle of nowhere, but no one ever loses a tire in the east of nowhere.</p>
+<p>| Vehicle | Speed | Handling | Capacity | Notes |</p>
+<p>TK damage from car wrecks</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../4-danger-and-conflict/1-danger-overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../4-danger-and-conflict/3-attacking.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../4-danger-and-conflict/1-danger-overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../4-danger-and-conflict/3-attacking.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

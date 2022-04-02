@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Master Passions - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html" class="active"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="master-passions-losing-control"><a class="header" href="#master-passions-losing-control">Master Passions: Losing Control</a></h2>
+<p><em>&quot;Rar!&quot;</em></p>
+<p>Characters in the realm of horror are often the carriers of some pretty hefty psychological baggage. Burdened by curses and sustained by dark magic, most supernaturals have a pretty tenuous grip on their sanity and even their composure. The beast lurks rather shallowly beneath the surface, and when a supernatural creature transforms into their War Form, it does not even do that. </p>
+<p>When subject to strong stimuli, a supernatural character may completely fly off the handle and start doing crazy crap. Players are encouraged to roleplay their loss of control to the hilt. While often as not being fairly useless or even detrimental to their own life goals, the erratic and extreme actions of such a character are quite a spotlight hog. Such rampages can make or break a story, and Frenzy tests should be made sparingly.</p>
+<p>To control Frenzy a character makes a Willpower test plus an appropriate skill. What skills can be used to add to that test vary depending upon the Passion. For example, a character subject to Fear Frenzy may attempt to control it with a Willpower + Combat, a Willpower + Tactics, or a Willpower + Sabotage test. When a character has already entered frenzy they will <em>eventually</em> calm down. The trigger for potentially calming down is usually related to the trigger that set them off in the first place (for example, a character in hunger frenzy would have a chance to come out of it when they sated the hunger, though of course if they failed to end it at that point they'd just continue to fruitlessly feed), but a character can attempt to end a frenzy at any time by spending an Edge. The test to end a frenzy uses the same dicepool as the test to prevent one in the first place. The threshold to keep one's self from flipping out is based on the severity of the stimulus, and the threshold to end it once it has begun is the same. All frenzies <em>eventually</em> end, and if a character is provided multiple opportunities to end a frenzy each subsequent attempt is made against a threshold one lower. Characters with a higher Potency are more emotionally unstable and less human, and their thresholds for avoiding/ending a frenzy are increased by half their Potency (rounded down).</p>
+<p>Staying around people is emotionally destabilizing for supernatural creatures. There are a lot of stimuli to deal with and there are a lot of disappointments and frustrations. Every month that a supernatural creature attempts to live within mortal society, they should make a frenzy test. The threshold for the first month is 1, but it increases by 1 each additional month. A supernatural character who stays long in society <em>will</em> hulk out eventually. The only ways around this are to run off and meditate or periodically freak out under hopefully controlled circumstances.</p>
+<p>Each supernatural type has a most common Master Passion (Despair for Transhumans, Fear for Leviathans, Greed for Witches, Hunger for Vampires, Loneliness for Animates, and Rage for Lycanthropes). But individual characters are by definition individuals, and may choose any Master Passion as befits their character's story and idiom. Some non-playable types can have multiple Master Passions or none at all. Others have special rules governing their use of passions. The Soulless are in a constant state of rage frenzy that never ends; Akuma are subject to frenzies of rage, hunger, <em>and</em> fear; while the Pods have no passions at all (Master or otherwise).</p>
+<p>Frenzy is not completely useless. Whilst in Frenzy, a character's Strength and Willpower are increased by 1. Although they are usually not of much use socially even so.</p>
+<blockquote>
+<h4 id="a-note-on-mental-illness"><a class="header" href="#a-note-on-mental-illness">A Note on Mental Illness</a></h4>
+<p>This is an important and ultimately simple point that many people (but not, we trust, you, dear reader) will nonetheless misunderstand: After Sundown is not making the statement that mental illness makes you a monster. If anything, it's the other way around. Master Passions and Distinctive Flaws are supernatural afflictions that represent the downside of being a monster and are sometimes mistaken for mental illnesses, but are not meant to represent them.</p>
+</blockquote>
+<h3 id="master-passion-despair"><a class="header" href="#master-passion-despair">Master Passion Despair</a></h3>
+<p><em>Shinj [ʃɪndʒ]<br />
+-Verb (used without object)
+to absolutely flip out in existential uncertainty and despair to the point of being unable to accomplish life goals.</em></p>
+<p>A character with a Master Passion of Despair is prone to fits of despondency that render them unpredictable, both destructive and self-destructive. Characters subject to despair frenzy may withdraw for long periods and show signs that a mortal would diagnose as clinical depression. But while actually in a despair frenzy the character's actions are often terrifying to behold. Alternately comatose and prone to massive destruction, a despairing character withdraws from or pushes away the entire world. Their work may be destroyed, as might anything nearby. A despairing rampage is born out of a combination of fear and frustration, and usually tends more to the &quot;simplicity&quot; of mass destruction.</p>
+<p>Characters dominated by Master Passion Despair are affected the rest of the time in one of two main ways. Some characters seem to &quot;make up&quot; for their black moods by being relentlessly upbeat the rest of the time. The precipice that such a character falls off as the pendulum swings from their ability to maintain cheerfulness and completely giving up to bitterness and regret is frightening to behold. Other characters run the razor's edge of melancholy all the time. These characters wander through life wearing black eyeliner and noting all glasses as being at least half empty and possibly contaminated by spider eggs. It is important to note that whether the character is characterized better as Eeyore or Stimpy in their normal interactions with the world, that the actual frustrations required to push the character into madness are the same. The manic characters may <em>seem</em> happier on a moment to moment basis, but that joy is fragile - as close to the void as the permanently depressed. </p>
+<p>Triggers for a despair frenzy usually take the form of setbacks of some form or another. Triggers to end a despair frenzy are either things that would cheer them up, or the galvanizing action of seeing something that mattered to them destroyed during their frenzy (often as not <em>by</em> their frenzy). Key skills are Survival, Persuasion, and Operations. Master Passion Despair is the usual drive of Transhumans.</p>
+<h3 id="master-passion-fear"><a class="header" href="#master-passion-fear">Master Passion Fear</a></h3>
+<p><em>&quot;All motivations are merely a subset of fear. A fear of irrelevance.&quot;</em></p>
+<p>A character with Master Passion Fear lives in absolute terror every day of their existence. Harried constantly by the need for a feeling of security that eludes them eternally, they find firsthand that Fear is a cruel and unforgiving mistress. Not a few mastered by fear dig themselves into a figurative (or even literal) hole and become virtually paralyzed with binding paranoia and a crushing fear of the unknown that limits their movements and holds them fast within some real or imaginary fortress, but this is by no means universal. Fear can be a motivator that is easily mistaken for positive, because while it can easily prevent someone from doing needful things, it can also force the fearful hand into action. When <em>not</em> acting is more feared even than venturing into the unknown, the terrorized act with hurried finality. It is important to note that virtually all player characters are going to subscribe to the panicked urgency school of crippling disquietude rather than the torporous catatonia school of life-ruining trepidation.</p>
+<p>Those laboring under Master Passion Fear are prone to Frenzy and Despondency, but always one more than the other. Each person's nightmares drive them to different irrational extremes. Triggers to enter a Fear Frenzy include both what Lemony Snicket would call the &quot;rational fears&quot; (such as being threatened or wounded) and the &quot;irrational fears&quot; (which are deeply personal jitters that are difficult, even embarrassing, to explain to others). Each fearful character should pick some of the latter, things which quicken the pulse and dominate their nightmares. Triggers to hopefully end despondency come when and where the character can find comfort, whether this is a warm bed, a dark hiding place, or the arms of a compatriot. Key skills are Combat, Tactics, and Sabotage. Master Passion Fear is the most common motivation of Leviathans, which in some way accounts for how many of them leave society of all types and simply hide in the wilderness.</p>
+<h3 id="master-passion-greed"><a class="header" href="#master-passion-greed">Master Passion Greed</a></h3>
+<p><em>&quot;I feed the mouth that bites me.&quot;</em></p>
+<p>A character with Master Passion Greed is dominated by a need to have things. Not <em>necessarily</em> &quot;valuable&quot; things according to disinterested onlookers, and <em>certainly</em> not all things that have value - even to themselves. Greed is at its heart the irrational feeling of the need to acquire, since we don't even <em>notice</em> it (much less condemn it with such a judgmental word as Greed) when people act upon their desires to acquire things that are necessary for their survival or lifestyle. And those characters who are mastered by their greed become fixated on acquiring specific things. At any given time, a character driven by Greed will have something that they &quot;must-have&quot; and will take special effort to get it on a regular basis. Actual frenzies may occur when a character gets &quot;very close&quot; to their current goal and suffers a setback. Greed is a fickle mistress, and once a character achieves their goal, it will fall to them to find a new goal and pursue that (although in some cases this may be as simple as &quot;get a lot of money&quot; followed by &quot;get even more money&quot;).</p>
+<p>Master Passion Greed can deeply affect a character's life even when they are not in frenzy. The rotating obsessions can lead to a destructive cycle of accumulation and spending. Once the character gains the money they were after, they may well spend it all on boats and other frivolities and then go back to hunting for money.</p>
+<p>Of all the master passions, Master Passion Greed works best in children's literature, and you can find a tremendous number of examples of its placement in stories and cartoons for that reason. Players may be tempted to channel Gromgold or Gargemel, and this is not unreasonable. But it's not just antagonist wizards that are like this in stories. Many anime characters such as Lina Inverse can give a good template for the cycle of desire.</p>
+<p>Actual frenzies from Master Passion Greed usually involve a destructiveness brought out by sheer frustration. Having gotten so close to their goal only to be thwarted, the character hurls themselves in a last-ditch (often obviously futile) attempt to grab on to their desire. Things in the way are blasted with everything at their disposal and clear dangers and social conventions are completely ignored. Think the end of Indiana Jones and the Last Crusade. Key skills are Stealth, Empathy, and Rigging. Master Passion Greed is the most common motivation of Witches.</p>
+<h3 id="master-passion-hunger"><a class="header" href="#master-passion-hunger">Master Passion Hunger</a></h3>
+<p><em>&quot;I want to suck your blood.&quot;</em></p>
+<p>A character with Master Passion Hunger is prone to harsh and painful pangs of emptiness, which slowly eat away at their sense of self when their power reserves are low. These fires of hunger can burn out of control and turn them into desperate, destructive beasts unless or until quenched by sapient flesh, blood, or pain. While this is obviously most commonly an affliction of those who get their power from an actual Feeding schedule or who otherwise prey on sapients, even those who don't rely on power for it can potentially have this passion. It is dangerous in such characters because unless the character's power schedule is Feeding they will remain low in power reserves (and thus potentially subject to more frenzy) even after chewing on a dude.</p>
+<p>The hunger manifests continually in a manner that is just barely noticeable, and the unnerving awareness of the flesh and blood of those around them can easily be mistaken for simple sexual arousal. While actually in a hunger frenzy, the character's actions are more terrifying than simply unnerving. Moving with wild abandon, a hungering character dives upon others to consume what their pangs drive them to. A hunger rampage is born out of desires both to sate themselves and to cause great pain, and often results in a bloody rending of the victim's flesh.</p>
+<p>Triggers for a hunger frenzy usually take the form of depleted Power. Triggers to end a hunger frenzy are either something which makes them lethargic (including simply being full of other foods), or having drained a victim dry. Key skills are Stealth, Animal Ken, and Medicine. Master Passion Hunger is the usual drive of Vampires.</p>
+<h3 id="master-passion-loneliness"><a class="header" href="#master-passion-loneliness">Master Passion Loneliness</a></h3>
+<p><em>&quot;We were meant to be together. If I wasn't made for you, why do I exist?!&quot;</em></p>
+<p>A character with Master Passion Loneliness is prone to excruciating, almost, <em>paralyzing</em>, pain. The pain of feeling incomplete, cut off, and alone. These feelings come rapidly when they are alone, and even creep up when they are surrounded by other people. Alienation is exacerbated by Master Passion Loneliness to the point of clear instability. They end up doing things to draw attention to themselves out of desperation, stunts that often as not actively push others away. Many with Master Passion Loneliness feel that what is missing from their life is a lover, but friendship or even just <em>acknowledgment</em> is a frequently cited lack as well.</p>
+<p>A Loneliness Frenzy usually takes the form of a series of drastic and poorly conceived cries for help and attention. These can be incredibly destructive to things around them and even themselves. Petulant and half-hearted attempts on their own life are not uncommon. While the goal is always to focus the attention of the character and/or to punish others for abandoning them, the logical connection between their rampage and encouraging people to socialize with them can be... hard to explain. Loneliness Frenzies can be triggered by any abandonment, real or imagined. Characters with Master Passion Loneliness are prone to the worst sorts of jealousy on the smallest of provocations, and behave clingy and desperate even when relationships are seemingly normal. Key skills are Larceny, Intimidate, and Artisan. Master Passion Loneliness is the usual state of being for Animates.</p>
+<h3 id="master-passion-rage"><a class="header" href="#master-passion-rage">Master Passion Rage</a></h3>
+<p><em>&quot;You're making me angry. You wouldn't like me when I'm angry.&quot;</em></p>
+<p>A character with Master Passion Rage is short-tempered, and when their temper goes off they completely lose it: attacking their enemies, destroying the scenery, attacking bystanders, and destroying their relationships. Characters subject to rage frenzy will often lash out at others for perceived slights, both verbally and physically, but it is not until they are pushed into frenzy that their true and terrifying potential is unleashed. A raging character uses every power at their disposal to smash everything and everyone they perceive as vexing or hostile. Failing that, they will turn on inanimate objects and even innocent and irrelevant people as their inability to get their hands (or teeth, or balls of fire, or whatever) on something they can readily identify as a threat or a sleight becomes itself a source of anger. A raging rampage is born out of sheer anger, and seeks to remove the source of their anger through the simplest of emotionally-triggered reactions - pure violence.</p>
+<p>Characters with Master Passion Rage are incredibly confrontational. Their &quot;fight or flight&quot; reflex pretty much always defaults to &quot;fight&quot; even in the face of extreme danger. They also don't like losing, being thwarted in even small ways, or being ignored. In supernatural society it is taken as a truism that you shouldn't let lycanthropes drive or play cards if you can arrange to avoid it.</p>
+<p>Triggers for a rage frenzy usually take the form of a threat to the character's person or pride. Anything that would make a human fly into a rage works too. While threats to a person are usually pretty self-explanatory (injuries or threats of violence), injuries to the pride are legitimately different for different people. Players are encouraged to have some &quot;sensitive subjects&quot; that piss them off beyond reason. And we <em>do</em> mean beyond reason. Triggers to end a rage frenzy are either things that would calm them, or the galvanizing action of seeing someone they care about hurt at their own hands (often after the wounds are lethal). Key skills are Athletics, Bureaucracy, and Research.. Master Passion Rage is the usual drive of Lycanthropes.</p>
+<h3 id="emptiness"><a class="header" href="#emptiness">Emptiness</a></h3>
+<p><em>TK</em></p>
+<p>Emptiness is in some ways the opposite of a Master Passion: a total absence of emotion. While it might seem relatively tolerable compared to a Master Passion, humans are actually generally incapable of handling Emptiness and those afflicted with it are effectively in a Despondency all the time and not likely to survive long, being indifferent to stimuli such as pain or hunger.</p>
+<p>Those subject to Emptiness are immune to all forms of emotional appeal. They tend not to have attachments to Ethical Taboos or even Ideologies. Most beings subject to Emptiness would seem to be Aimless (as per the Disadvantage), but some have an isolated motivation subject to no distraction or temptation - as characterizes Thrillers - and can recover Edge just fine. Emptiness is suitable only for unplayable supernatural types such as Evil Plants, Mockeries, Thrillers, and Automata, for whom it can replace the need for a Master Passion.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../5-monsters/9-spawn.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../6-magic/1-magic-overview.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../5-monsters/9-spawn.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../6-magic/1-magic-overview.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

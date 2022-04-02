@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Monsters - After Sundown - Second Edition</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop Role Playing Game of Pulp Horrors and Modern Monsters in the spirit of Nightlife and the World of Darkness.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../0-front-matter/foreword.html">Foreword</a></li><li class="chapter-item expanded "><a href="../1-introduction/1-what-is-after-sundown.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1-introduction/2-terrible-people.html"><strong aria-hidden="true">1.1.</strong> Terrible People</a></li><li class="chapter-item expanded "><a href="../1-introduction/3-terrible-places.html"><strong aria-hidden="true">1.2.</strong> Terrible Places</a></li><li class="chapter-item expanded "><a href="../1-introduction/4-running-the-game.html"><strong aria-hidden="true">1.3.</strong> Running the Game</a></li></ol></li><li class="chapter-item expanded "><a href="../2-characters/1-characters-introduction.html"><strong aria-hidden="true">2.</strong> Characters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2-characters/2-attributes-and-skills.html"><strong aria-hidden="true">2.1.</strong> Attributes and Skills</a></li><li class="chapter-item expanded "><a href="../2-characters/3-motivations-and-ethics.html"><strong aria-hidden="true">2.2.</strong> Motivations and Ethics</a></li><li class="chapter-item expanded "><a href="../2-characters/4-advantages-and-disadvantages.html"><strong aria-hidden="true">2.3.</strong> Advantages and Disadvantages</a></li><li class="chapter-item expanded "><a href="../2-characters/5-resources-and-obligations.html"><strong aria-hidden="true">2.4.</strong> Resources and Obligations</a></li><li class="chapter-item expanded "><a href="../2-characters/6-character-creation.html"><strong aria-hidden="true">2.5.</strong> Character Creation</a></li><li class="chapter-item expanded "><a href="../2-characters/7-character-advancement.html"><strong aria-hidden="true">2.6.</strong> Character Advancement</a></li><li class="chapter-item expanded "><a href="../2-characters/8-character-examples.html"><strong aria-hidden="true">2.7.</strong> Character Creation Examples</a></li></ol></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/1-scenes.html"><strong aria-hidden="true">3.</strong> Scenes and Systems</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3-scenes-and-systems/2-montages.html"><strong aria-hidden="true">3.1.</strong> Montages</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/3-interviews.html"><strong aria-hidden="true">3.2.</strong> Interviews</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/4-influencing-people.html"><strong aria-hidden="true">3.3.</strong> Influencing People</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/5-tradecraft.html"><strong aria-hidden="true">3.4.</strong> Tradecraft</a></li><li class="chapter-item expanded "><a href="../3-scenes-and-systems/6-survival-horror.html"><strong aria-hidden="true">3.5.</strong> Survival Horror</a></li></ol></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/1-danger-overview.html"><strong aria-hidden="true">4.</strong> Danger and Conflict</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4-danger-and-conflict/2-moving-evading-escaping.html"><strong aria-hidden="true">4.1.</strong> Moving, Evading, and Escaping</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/3-attacking.html"><strong aria-hidden="true">4.2.</strong> Attacking</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/4-weaponry-and-hazards.html"><strong aria-hidden="true">4.3.</strong> Weaponry and Hazards</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/5-wind-and-water.html"><strong aria-hidden="true">4.4.</strong> Wind and Water</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/6-wounds-death-dying.html"><strong aria-hidden="true">4.5.</strong> Wounds, Death, and Dying</a></li><li class="chapter-item expanded "><a href="../4-danger-and-conflict/7-temporary-conditions.html"><strong aria-hidden="true">4.6.</strong> Temporary Conditions</a></li></ol></li><li class="chapter-item expanded "><a href="../5-monsters/1-monsters-overview.html" class="active"><strong aria-hidden="true">5.</strong> Monsters</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5-monsters/2-lycanthropes.html"><strong aria-hidden="true">5.1.</strong> Lycanthropes</a></li><li class="chapter-item expanded "><a href="../5-monsters/3-vampires.html"><strong aria-hidden="true">5.2.</strong> Vampies</a></li><li class="chapter-item expanded "><a href="../5-monsters/4-witches.html"><strong aria-hidden="true">5.3.</strong> Witches</a></li><li class="chapter-item expanded "><a href="../5-monsters/5-leviathan.html"><strong aria-hidden="true">5.4.</strong> Leviathan</a></li><li class="chapter-item expanded "><a href="../5-monsters/6-animates.html"><strong aria-hidden="true">5.5.</strong> Animates</a></li><li class="chapter-item expanded "><a href="../5-monsters/7-transhumans.html"><strong aria-hidden="true">5.6.</strong> Transhumans</a></li><li class="chapter-item expanded "><a href="../5-monsters/8-outliers.html"><strong aria-hidden="true">5.7.</strong> Outliers</a></li><li class="chapter-item expanded "><a href="../5-monsters/9-spawn.html"><strong aria-hidden="true">5.8.</strong> Spawn</a></li><li class="chapter-item expanded "><a href="../5-monsters/10-master-passions.html"><strong aria-hidden="true">5.9.</strong> Master Passions</a></li></ol></li><li class="chapter-item expanded "><a href="../6-magic/1-magic-overview.html"><strong aria-hidden="true">6.</strong> Magic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../6-magic/2-universal-powers.html"><strong aria-hidden="true">6.1.</strong> Universal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/3-astral-powers.html"><strong aria-hidden="true">6.2.</strong> Astral Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/4-infernal-powers.html"><strong aria-hidden="true">6.3.</strong> Infernal Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/5-orphic-powers.html"><strong aria-hidden="true">6.4.</strong> Orphic Powers</a></li><li class="chapter-item expanded "><a href="../6-magic/6-mighty-rituals-of-vast-power.html"><strong aria-hidden="true">6.5.</strong> Mighty Rituals of Vast Power</a></li></ol></li><li class="chapter-item expanded "><a href="../7-monstrous-society/1-monstrous-society-overview.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7-monstrous-society/2-the-makhzen.html"><strong aria-hidden="true">7.1.</strong> The Makhzen</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/3-the-covenant.html"><strong aria-hidden="true">7.2.</strong> The Covenant</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/4-the-league.html"><strong aria-hidden="true">7.3.</strong> The World Crime League</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/5-the-communes.html"><strong aria-hidden="true">7.4.</strong> The Cauchemar Communes</a></li><li class="chapter-item expanded "><a href="../7-monstrous-society/6-cults.html"><strong aria-hidden="true">7.5.</strong> Cults</a></li></ol></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/1-maya-overview.html"><strong aria-hidden="true">8.</strong> Maya: the Dreamlands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/2-giant-animals.html"><strong aria-hidden="true">8.1.</strong> Giant Animals</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/3-evil-plants.html"><strong aria-hidden="true">8.2.</strong> Evil Plants</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/4-fae.html"><strong aria-hidden="true">8.3.</strong> Fae</a></li><li class="chapter-item expanded "><a href="../8-maya-the-dreamlands/5-the-marduk-society.html"><strong aria-hidden="true">8.4.</strong> The Marduk Society</a></li></ol></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/1-a-tour-of-hell.html"><strong aria-hidden="true">9.</strong> Limbo: the Dark Reflection</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/2-goblins.html"><strong aria-hidden="true">9.1.</strong> Goblins</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/3-hellspawn.html"><strong aria-hidden="true">9.2.</strong> Hellspawn</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/4-demons.html"><strong aria-hidden="true">9.3.</strong> Demons</a></li><li class="chapter-item expanded "><a href="../9-limbo-the-dark-reflection/5-the-king-with-three-shadows.html"><strong aria-hidden="true">9.4.</strong> The King with Three Shadows</a></li></ol></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/1-a-tour-of-death.html"><strong aria-hidden="true">10.</strong> Mictlan: the Gloom</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/2-zombies.html"><strong aria-hidden="true">10.1.</strong> Zombies</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/3-ghosts.html"><strong aria-hidden="true">10.2.</strong> Ghosts</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/4-mockeries.html"><strong aria-hidden="true">10.3.</strong> Mockeries</a></li><li class="chapter-item expanded "><a href="../10-mictlan-the-gloom/5-the-shattered-empire.html"><strong aria-hidden="true">10.4.</strong> The Shattered Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../11-the-world-at-night/1-mortal-world-overview.html"><strong aria-hidden="true">11.</strong> The World of Night</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-the-world-at-night/2-chicago.html"><strong aria-hidden="true">11.1.</strong> Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="../12-chronicles/1-chronicles-overview.html"><strong aria-hidden="true">12.</strong> Chronicles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-chronicles/2-sandboxes.html"><strong aria-hidden="true">12.1.</strong> Sandboxes</a></li><li class="chapter-item expanded "><a href="../12-chronicles/3-advancing-goals.html"><strong aria-hidden="true">12.2.</strong> Advancing Goals</a></li><li class="chapter-item expanded "><a href="../12-chronicles/4-missions.html"><strong aria-hidden="true">12.3.</strong> Missions</a></li><li class="chapter-item expanded "><a href="../12-chronicles/5-opposition.html"><strong aria-hidden="true">12.4.</strong> Opposition</a></li><li class="chapter-item expanded "><a href="../12-chronicles/6-changing-the-rules.html"><strong aria-hidden="true">12.5.</strong> Changing the Rules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/1-examples-intro.html"><strong aria-hidden="true">13.</strong> Exempli Gratia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-exempli-gratia/2-sample-characters.html"><strong aria-hidden="true">13.1.</strong> Sample Characters</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/3-antagonists.html"><strong aria-hidden="true">13.2.</strong> Antagonists</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/4-places-of-power.html"><strong aria-hidden="true">13.3.</strong> Places of Power</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/5-precious-things.html"><strong aria-hidden="true">13.4.</strong> Precious Things</a></li><li class="chapter-item expanded "><a href="../13-exempli-gratia/6-story-seeds.html"><strong aria-hidden="true">13.5.</strong> Story Seeds</a></li></ol></li><li class="chapter-item expanded "><a href="../14-appendicies/1-appendicies-intro.html"><strong aria-hidden="true">14.</strong> Appedndicies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-appendicies/2-glossary.html"><strong aria-hidden="true">14.1.</strong> Glossary of Game Terms</a></li><li class="chapter-item expanded "><a href="../14-appendicies/3-lexicon.html"><strong aria-hidden="true">14.2.</strong> Monstrous Lexicon</a></li><li class="chapter-item expanded "><a href="../14-appendicies/4-action-summary.html"><strong aria-hidden="true">14.3.</strong> Action Summary</a></li><li class="chapter-item expanded "><a href="../14-appendicies/5-biliography.html"><strong aria-hidden="true">14.4.</strong> Bibliography</a></li></ol></li><li class="chapter-item expanded "><a href="../afterword.html">Afterword</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">After Sundown - Second Edition</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="monsters"><a class="header" href="#monsters">Monsters</a></h1>
+<p>There are mythical sources that will back up pretty much any supernatural creature being weak or immune to pretty much anything you can imagine; for example, vampires who have to count seeds, or who are repulsed by sticky rice. This infinitude must be narrowed down for <em>playable</em> types of monsters so that players can understand the strengths and weaknesses of their own characters.</p>
+<p>Remember that each supernatural character fits into two categories: they are of a broad supernatural type (vampire, lycanthrope, etc.), and they also have a power source (Astral, Infernal, or Orphic). Every <em>playable</em> supernatural creature is available with every power source, and each aspect carries a weakness. The <em>nonplayable</em> monsters also have subtypes, but they come from one of the Otherworlds, so every subtype has the same power source and shared weaknesses.</p>
+<h2 id="slaying-monsters-in-general"><a class="header" href="#slaying-monsters-in-general">Slaying Monsters (in general)</a></h2>
+<p><em>&quot;Bullets! My only weakness!&quot;</em></p>
+<p>You <em>can</em> hurt just about anything by just running it over with a car. However, many monsters have supernatural defenses that make them incredibly tough. There are a couple of universal weapons that cut through crap like regeneration and magic force fields. Each type of creature you are trying to kill has a <em>vulnerability</em> to a particular material. When used on the appropriate foe, these weapons inflict aggravated damage and negate soak bonuses from disciplines. Note that just <em>having</em> a high Strength with the aid of a power like Giant Size would not constitute a soak bonus, but that a specific soak bonus (including bonus armor) such as those provided by Force Field or the passive benefit of Fortitude, is negated by a monster's vulnerability.</p>
+<h3 id="wood"><a class="header" href="#wood">Wood</a></h3>
+<p>In many songs and stories, only special wood counts against the forces of darkness. Maybe it is oak, banyan, or sacred ash. But it doesn't matter. Wood represents life even when it is dead, dry, and laminated.</p>
+<p><strong>Wood</strong> is effective against Animates, Vampires, Mockeries, Zombies, and Ghosts.</p>
+<h3 id="iron"><a class="header" href="#iron">Iron</a></h3>
+<p>Seriously, <em>Iron</em>. Like the stuff that your steel knives are made of. It's a symbol of modernity and industrialization, and it classically drives away the old chthonic stuff.</p>
+<p><strong>Iron</strong> is effective against Leviathan, Transhumans, Evil Plants, Goblins, and Fey.</p>
+<h3 id="silver"><a class="header" href="#silver">Silver</a></h3>
+<p>Shiny and inconstant like the Moon, silver is hard enough to kill a man and easy enough to cast that you can do it before the invention of bronze. Silver is clearly magical, and is lethal to creatures as ephemeral and primal as it is.</p>
+<p><strong>Silver</strong> is effective against Witches, Lycanthropes, Giant Animals, Hellspawn, and Demons.</p>
+<h2 id="weakening-supernatural-creatures"><a class="header" href="#weakening-supernatural-creatures">Weakening Supernatural Creatures</a></h2>
+<p>There are a lot of things that won't burn the flesh of monsters, but <em>will</em> deplete their powers. They can be used to imprison them, or take their powers away long enough to beat them in a fight. When exposed to their particular kryptonite, a supernatural creature's powers are weakened in several ways:</p>
+<ul>
+<li>Their Potency is considered zero, and any of their attributes that are raised past their normal maximum are considered to be their normal maximum (usually 6 for former humans).</li>
+<li>They cannot spend Magic Points, and any powers they activated this scene with Magic Points already have no further effect for as long as the character's powers are suppressed.</li>
+<li>They cannot spend an action required to activate any power.</li>
+</ul>
+<p>Note that Weakening does not remove <strong>all</strong> of a monster's supernatural abilities; in particular, <em>Passive</em> powers keep working just fine.</p>
+<h3 id="alcohol"><a class="header" href="#alcohol">Alcohol</a></h3>
+<p>It has to be very strong beer to count, but in general, if you get some good old-fashioned spirits onto (or into) supernatural creatures they have a hard time using their powers. Consumed alcohol wears off in about an hour, and alcohol spilled on a creature cleans up with club soda. Cheap booze in fragile bottles is usually the preferred application for throwing, but any number of libations can be used to tempt the target into drinking.</p>
+<p><strong>Effective against</strong> Evil Plants, Lycanthropes, Animates, Giant Animals, and Hellspawn</p>
+<h3 id="water"><a class="header" href="#water">Water</a></h3>
+<p>Getting wet is a real problem for some evil beings. Unlike with alcohol, water vulnerabilities don't trigger in any way off of being <em>drunk</em>. The creature's powers are dampened only so long as their exterior is wet. Moderate dampness doesn't count either, a half-liter or more Wicked Witch of the West <em>wet</em> is needed (and they don't even melt, they just can't spend Magic Points and such). In former times &quot;holy water&quot; ampoules blown of thin glass were common materiel for witch-hunting, but modern hunters in the know prefer water balloons.</p>
+<p><strong>Effective against</strong> Demons, Witches, Transhumans, Goblins, and Fey</p>
+<h3 id="sunlight"><a class="header" href="#sunlight">Sunlight</a></h3>
+<p>The harsh light of the day star robs evil creatures of their strength. The sunlight has to be fairly direct; sufficient cloud or fog cover and it won't affect them, nor will the reflected light off of the Moon or mirrors.</p>
+<p><strong>Effective against</strong> Vampires, Ghosts, Mockeries, Zombies, and Leviathan</p>
+<h2 id="neutralizing-monster-powers"><a class="header" href="#neutralizing-monster-powers">Neutralizing Monster Powers</a></h2>
+<p>If you can't directly kill or weaken a monster, you may be able to detect and counter some of its abilities. Further details are in the Magic chapter.</p>
+<h2 id="power-schedules"><a class="header" href="#power-schedules">Power Schedules</a></h2>
+<p><em>&quot;It's five o'clock, time for your ass whupping.&quot;</em></p>
+<p>Magic Points are regained on a <em>schedule</em> that varies depending on the type of supernatural creature. This means that different characters and enemies will need to do different things to restore their powers, which will occasionally come up as a substantial advantage or disadvantage for one character or another, depending upon the circumstances. Sometimes this can be forced against a character due to the needs of the plot, and other times the characters can figure out how to use the intricacies of their power regaining system. The precise details vary by type, but each monster falls under one of the following broad categories:</p>
+<ul>
+<li><strong>Feeding</strong> - The character must feed upon mortals (or other more-or-less sentient supernatural beings) to regain Magic Points. This has obvious advantages and disadvantages. Firstly, they can often schedule their power gains whenever. People are all over the place,and you can take time out of your schedule to devour them whenever you aren't pressed for time. Of course, when you're in polite company or you <em>are</em> pressed for time, that may not be possible. Also, leaving a trail of victims is a dangerous thing to do, even if you can wipe their memories - it angers people. It angers people who are luminaries. A character gains one Magic Point for every lethal wound box inflicted with the character's idiom. You'll note that a mortal always has 10 boxes, and even a starting character's Power Reserve goes up to 13, so a desperately hungry character may need multiple victims. A character Feeding on a human (or supernatural creature with living flesh) can take one Magic Point for every lethal wound box inflicted, but usually characters who want to go from empty to full will want to non-fatally feed on more than one mortal. The actual consumption of Magic Points takes place at the rate of 1 Magic Point every 12 seconds (1 turn during high-resolution action scenes) and requires consumption during the entire period. The wound doesn't have to be inflicted in bite-size pieces - it is entirely possible to cause someone a single Serious wound (6 boxes) and then lick the blood up (or whatever else one does) for 72 seconds to gain 6 Magic Points. Feeding on Vampires (as well as Revenants and Akuma) is <em>relatively</em> non-harmful, as their living blood isn't <em>theirs</em> to begin with. In that case, Magic Points can be drained out at a rate of 1 per 12 seconds without actually injuring the victim.</li>
+<li><strong>Lunar</strong> - The character regains all of their Magic Points when the Moon rises. Such characters may pull fancy time shenanigans where their powers are restored fully in the middle of major scenes. Unfortunately, they also have to wait about an entire day between times when they get their powers back. And yes, that can be a long wait at the North or South Poles. Try not to get imprisoned in those places. On the other hand, whatever weird celestial bodies exist in the other worlds, they do get the job done, and the character doesn't have to <em>see</em> the Moon to get their Magic Points back.</li>
+<li><strong>Ritual</strong> - Characters on the ritual schedule have a specific and time-consuming action they have to perform in order to regain their Magic Points. This takes substantially longer than feeding on a mortal (usually about 2 hours), but hopefully entails less personal risk than actually victimizing someone. The ritual required varies depending upon the type of monster, but usually requires special equipment. For example, a Robot may need to hook themselves up to special equipment to physcially recharge their batteries while one of the Fallen has to bathe in the magical glow from their artifact. Special circumstances may be available to reduce the ritual time below the 2-hour standard. For example, a Galatean or Frankenstein could recharge <em>faster</em> if they were hooked up to a giant hydroelectric dam than they could with their equipment hooked up to the normal power grid in their home.</li>
+</ul>
+<h2 id="tragic-flaws"><a class="header" href="#tragic-flaws">Tragic Flaws</a></h2>
+<p><em>&quot;It's not all turning into a giant homicidal monster; there are also parts of the curse that are genuinely bad.&quot;</em></p>
+<p>Being supernatural is not without its drawbacks. As you can see from watching pretty much any horror movie <em>ever</em>, the life of a monster is filled with unfortunate conditions. The most painful of these are the crushing mental instabilities that come with the territory. Every supernatural being goes at least somewhat crazy and is a danger to themselves and others. In game terms, this is represented by the Master Passions. Each character gets one if they are a monster. The precise way that a character goes mad is a deeply personal one, and players may (and should) select one that feels right for them. The suggested Master Passion for each supernatural creature type is just that - a suggestion. While it may be the most common Master Passion that dominates the lives of that kind of creature, there is nothing inherently weird about a Werewolf or Troglodyte that happens to spiral into madness in some other way. Nothing weirder than the fact that they <em>are</em> a murderous inhuman monster with claws, anyway.</p>
+<p>But other limitations affect supernatural creatures in a more universal and less personal fashion. Every member of a single class of supernatural monster has a Distinctive Flaw, which is a Disadvantage common to their type. The player does not normally get any choice in the matter; <em>every</em> Werewolf has the Temperamental Disadvantage. The character does not gain any compensatory Advantages for this Distinctive Flaw. If someone becomes a monster and already has the Distinctive Flaw for the type they are becoming, then they must either gain a new Disadvantage (chosen to be appropriate to the character) or abandon one of their Advantages. As monsters grow in power, they develop further Disadvantages, generally related to their type or the particular incidents that lead to their increased Potency.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../4-danger-and-conflict/7-temporary-conditions.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../5-monsters/2-lycanthropes.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../4-danger-and-conflict/7-temporary-conditions.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../5-monsters/2-lycanthropes.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
